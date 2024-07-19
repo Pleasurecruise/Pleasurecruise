@@ -8,6 +8,10 @@
 - My Email:Pleasure@yiming1234.cn
 - It's my pleasure to see you follow me!
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Pleasurecruise&layout=compact)
+[Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Pleasurecruise&layout=compact)
 
-![Pleasurecruise's GitHub stats](https://github-readme-stats.vercel.app/api?username=Pleasurecruise&show_icons=true)
+[Pleasurecruise's GitHub stats](https://github-readme-stats.vercel.app/api?username=Pleasurecruise&show_icons=true)
+
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Pleasurecruise&repo=NottinghamWall)](https://github.com/anuraghazra/github-readme-stats)
+
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Pleasurecruise&repo=Pleasurecruise.github.io)](https://github.com/anuraghazra/github-readme-stats)
