@@ -7,3 +7,5 @@
 - My CSDN Blog: https://yiming1234.blog.csdn.net
 - My Email:Pleasure@yiming1234.cn
 - It's my pleasure to see you follow me!
+
+[![Pleasurecruise's GitHub stats](https://github-readme-stats.vercel.app/api?username=Pleasurecruise)](https://github.com/anuraghazra/github-readme-stats)
