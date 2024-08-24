@@ -5,6 +5,7 @@
   - My Blog Website: https://blog.yiming1234.cn
   - My CSDN Blog: https://yiming1234.blog.csdn.net
   - My Email:Pleasure@yiming1234.cn
+  - My QQ mail:pleasurecruise@qq.com
 - It's my pleasure to see you follow me!
   
 ![Pleasurecruise's GitHub stats](https://github-readme-stats.vercel.app/api?username=Pleasurecruise&show_icons=true)
