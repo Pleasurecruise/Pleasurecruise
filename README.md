@@ -11,5 +11,5 @@
 ![Pleasurecruise's GitHub stats](https://github-readme-stats.vercel.app/api?username=Pleasurecruise&show_icons=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Pleasurecruise&layout=compact)
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Pleasurecruise&repo=NottinghamWall)
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Pleasurecruise&repo=Pleasurecruise.github.io)
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=CompPsyUnion&repo=NottinghamWall)
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=CompPsyUnion&repo=wechat_auto_reply)
