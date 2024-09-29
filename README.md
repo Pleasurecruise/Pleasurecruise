@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Pleasurecruise</h1>
 <h2 align="center">A passionate backend developer from China</h3>
-<img align="right" width="300" src="https://github.com/user-attachments/assets/f5d351b2-8f5a-4786-8691-df823670fa9f"></img>
+<img align="right" width="300" src="https://github.com/user-attachments/assets/c51920f2-771b-460f-9329-ca833785a192"></img>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pleasurecruise&label=Profile%20views&color=0e75b6&style=flat" alt="pleasurecruise" /> </p>
 
