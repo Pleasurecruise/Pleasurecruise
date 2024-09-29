@@ -12,7 +12,7 @@
 
 ## Top Language
 
-| <a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Pleasurecruise&show_icons=true&theme=buefy" /></a> | <a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pleasurecruise&layout=compact&theme=buefy" /></a> |
+| <a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Pleasurecruise&show_icons=true&theme=buefy" /></a> | <a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pleasurecruise&hide=php,css&layout=compact&theme=buefy" /></a> |
 | ------------- | ------------- |
 
 ## Top Repositories
