@@ -20,6 +20,15 @@
 
 ## Weekly development
 <!--START_SECTION:waka-->
+
+```txt
+JSON             18 mins         ███████▒░░░░░░░░░░░░░░░░░   29.65 %
+Python           14 mins         █████▓░░░░░░░░░░░░░░░░░░░   22.98 %
+Java             12 mins         █████░░░░░░░░░░░░░░░░░░░░   19.69 %
+C++              10 mins         ████▒░░░░░░░░░░░░░░░░░░░░   16.79 %
+Markdown         3 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.17 %
+```
+
 <!--END_SECTION:waka-->
 
 ## 📕 Blog posts
