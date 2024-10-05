@@ -21,12 +21,19 @@
 ## Weekly development
 <!--START_SECTION:waka-->
 
-```txt
-JSON             18 mins         ███████▒░░░░░░░░░░░░░░░░░   29.65 %
-Python           14 mins         █████▓░░░░░░░░░░░░░░░░░░░   22.98 %
-Java             12 mins         █████░░░░░░░░░░░░░░░░░░░░   19.69 %
-C++              10 mins         ████▒░░░░░░░░░░░░░░░░░░░░   16.79 %
-Markdown         3 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.17 %
+```rust
+From: 18 July 2024 - To: 04 October 2024
+
+Total Time: 200 hrs 5 mins
+
+Java                     72 hrs 3 mins   >>>>>>>>>----------------   35.97 %
+Vue.js                   38 hrs 11 mins  >>>>>--------------------   19.06 %
+JavaScript               29 hrs 24 mins  >>>>---------------------   14.68 %
+C++                      7 hrs 47 mins   >------------------------   03.89 %
+XML                      7 hrs 42 mins   >------------------------   03.85 %
+Python                   7 hrs 22 mins   >------------------------   03.68 %
+TypeScript               6 hrs 52 mins   >------------------------   03.43 %
+Markdown                 3 hrs 21 mins   -------------------------   01.68 %
 ```
 
 <!--END_SECTION:waka-->
