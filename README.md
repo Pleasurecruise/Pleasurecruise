@@ -17,7 +17,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pleasurecruise&label=Profile%20views&color=0e75b6&style=flat" alt="pleasurecruise" /> </p>
 
-<img align="right" width="300" src="https://github.com/user-attachments/assets/c51920f2-771b-460f-9329-ca833785a192"></img>
+<img align="right" width="200" src="https://github.com/user-attachments/assets/c51920f2-771b-460f-9329-ca833785a192"></img>
 
 - 🌱 I’m currently learning Vue.js,SpringBoot,C++
 - 👯 I’m studying in University of Nottingham Ningbo China
