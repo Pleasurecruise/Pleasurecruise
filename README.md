@@ -85,7 +85,3 @@ Markdown                 3 hrs 21 mins   -------------------------   01.67 %
 <a href="https://codeforces.com/profile/pleasure1234" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="pleasure1234" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/pleasure1234" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="pleasure1234" height="30" width="40" /></a>
 </p>
-
-## Buy me a Coffee
-
-<p><a href="https://www.buymeacoffee.com/pleasurecruise"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="pleasurecruise" /></a></p>
