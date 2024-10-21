@@ -11,7 +11,6 @@ jobs:
     permissions:
       contents: write
     steps:
-
       - name: Base
         uses: lowlighter/metrics@latest
         with:
@@ -41,17 +40,18 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          
-      - name: People
+      
+      - name: Recently played games
         uses: lowlighter/metrics@latest
         with:
-          filename: picture/people.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          filename: picture/steam.svg
+          token: NOT_NEEDED
           base: ""
-          plugin_people: yes
-          plugin_people_limit: 24
-          plugin_people_size: 28
-          plugin_people_types: members
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam: yes
+          plugin_steam_user: "0"
+          plugin_steam_sections: recently-played
+          plugin_steam_achievements_limit: 0
 
       - name: Compact display
         uses: lowlighter/metrics@latest
@@ -100,4 +100,51 @@ jobs:
           base: ""
           plugin_followup: yes
           plugin_followup_indepth: yes
-          plugin_followup_archived: yes
+          plugin_followup_archived: yes      
+
+      - name: Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: picture/calendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_calendar: yes
+
+      - name: RSS
+        uses: lowlighter/metrics@latest
+        with:
+          filename: picture/rss.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_rss: yes
+          plugin_rss_source: https://blog.yiming1234.cn/index.php/feed
+          plugin_rss_limit: 4
+
+      - name: WakaTime
+        uses: lowlighter/metrics@latest
+        with:
+          filename: picture/wakatime.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+
+      - name: Icons
+        uses: lowlighter/metrics@latest
+        with:
+          filename: picture/icons.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
+
+      - name: Recently starred
+        uses: lowlighter/metrics@latest
+        with:
+          filename: picture/stars.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_stars: yes
+          plugin_stars_limit: 3
