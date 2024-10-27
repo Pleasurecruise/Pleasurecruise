@@ -69,12 +69,8 @@ TypeScript               6 hrs 52 mins   >------------------------   02.90 %
 
 ## Top Repositories
 
-<a href="https://github.com/CompPsyUnion/NottinghamWall">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=CompPsyUnion&repo=NottinghamWall&theme=buefy" />
-</a>
-<a href="https://github.com/CompPsyUnion/electricCharge">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=CompPsyUnion&repo=electricCharge&theme=buefy" />
-</a>
+| <a href="https://github.com/CompPsyUnion/NottinghamWall"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=CompPsyUnion&repo=NottinghamWall&theme=buefy" /></a> | <a href="https://github.com/CompPsyUnion/electricCharge"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=CompPsyUnion&repo=electricCharge&theme=buefy" /></a> |
+| ------------- | ------------- |
 
 ## 🔗 Connact with me
 
