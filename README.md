@@ -71,13 +71,3 @@ TypeScript               7 hrs 42 mins   >------------------------   03.02 %
 
 | <a href="https://github.com/CompPsyUnion/NottinghamWall"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=CompPsyUnion&repo=NottinghamWall&theme=buefy" /></a> | <a href="https://github.com/CompPsyUnion/electricCharge"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=CompPsyUnion&repo=electricCharge&theme=buefy" /></a> |
 | ------------- | ------------- |
-
-## 🔗 Connact with me
-
-<p align="left">
-<a href="https://linkedin.com/in/yiming wang" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="yiming wang" height="30" width="40" /></a>
-<a href="https://fb.com/wang yiming" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="wang yiming" height="30" width="40" /></a>
-<a href="https://instagram.com/yiming0305" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="yiming0305" height="30" width="40" /></a>
-<a href="https://codeforces.com/profile/pleasure1234" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="pleasure1234" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/pleasure1234" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="pleasure1234" height="30" width="40" /></a>
-</p>
