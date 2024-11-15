@@ -1,10 +1,10 @@
-<p align="center">
+<!--<p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&&section=header&text=HI%20THERE!&fontSize=90&fontAlign=50&fontAlignY=30&desc=I%20am%20Pleasurecruise!&descAlign=50&descSize=30&descAlignY=60&animation=twinkling" />
 </p>
 
 <p align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=25&pause=1000&center=true&vCenter=true&random=false&width=600&lines=Welcome+to+my+GitHub+profile+page!;I+am+super+obsessed+with+programming!" />
-</p>
+</p>-->
 
 ## ✨ About me
 
@@ -19,14 +19,14 @@
 
 <img align="right" width="200" src="https://github.com/user-attachments/assets/c51920f2-771b-460f-9329-ca833785a192"></img>
 
-- 🌱 I’m currently learning Vue.js,SpringBoot,C++
+- 🌱 I’m currently learning Vue, SpringBoot, C 
 - 👯 I’m studying in University of Nottingham Ningbo China
 - 🔭 I'm major in Computer Science Artifical Intelligence 2+2
 - 📫 You can reach me by url below:
+  - My Wegsite: https://yiming1234.cn
   - My Blog Website: https://blog.yiming1234.cn
   - My CSDN Blog: https://yiming1234.blog.csdn.net
-  - My Email:Pleasure@yiming1234.cn
-  - My QQ mail:pleasurecruise@qq.com
+  - My Email: Pleasure@yiming1234.cn
 - It's my pleasure to see you follow me!
 
 ## Weekly development
