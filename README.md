@@ -33,18 +33,18 @@
 <!--START_SECTION:waka-->
 
 ```rust
-From: 18 July 2024 - To: 19 December 2024
+From: 18 July 2024 - To: 21 December 2024
 
-Total Time: 475 hrs 42 mins
+Total Time: 495 hrs 38 mins
 
-Java                     169 hrs 19 mins >>>>>>>>>----------------   35.39 %
-Vue.js                   73 hrs 21 mins  >>>>---------------------   15.33 %
-JavaScript               39 hrs 21 mins  >>-----------------------   08.23 %
-Python                   28 hrs 13 mins  >------------------------   05.90 %
-Text                     21 hrs 48 mins  >------------------------   04.56 %
-Assembly                 19 hrs 24 mins  >------------------------   04.06 %
-XML                      15 hrs 22 mins  >------------------------   03.21 %
-TypeScript               15 hrs 20 mins  >------------------------   03.21 %
+Java                     180 hrs 8 mins  >>>>>>>>>----------------   36.14 %
+Vue.js                   73 hrs 22 mins  >>>>---------------------   14.72 %
+JavaScript               40 hrs 30 mins  >>-----------------------   08.13 %
+Python                   28 hrs 13 mins  >------------------------   05.66 %
+Text                     21 hrs 48 mins  >------------------------   04.37 %
+TypeScript               21 hrs 14 mins  >------------------------   04.26 %
+Assembly                 19 hrs 26 mins  >------------------------   03.90 %
+XML                      15 hrs 48 mins  >------------------------   03.17 %
 ```
 
 <!--END_SECTION:waka-->
