@@ -64,7 +64,7 @@ XML                      17 hrs 18 mins  >------------------------   02.97 %
 
 ## Recent Activity
 
-| <a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Pleasurecruise&show_icons=true&theme=tokyonight" /></a> | <a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pleasurecruise&theme=tokyonight" alt="pleasurecruise" /></a> |
+| <a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Pleasurecruise&show_icons=true&theme=tokyonight" /></a> | <a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pleasurecruise&layout=donut&theme=tokyonight" alt="pleasurecruise" /></a> |
 | ------------- | ------------- |
 
 ## Top Repositories
