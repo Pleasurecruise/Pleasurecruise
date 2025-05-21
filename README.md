@@ -52,8 +52,3 @@ Assembly                           21 hrs 5 mins   >------------------------   0
 
 | <a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Pleasurecruise&show_icons=true&theme=tokyonight" /></a> | <a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pleasurecruise&layout=donut&theme=tokyonight" alt="pleasurecruise" /></a> |
 | ------------- | ------------- |
-
-## Top Repositories
-
-| <a href="https://github.com/Pleasurecruise/git-star-center"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Pleasurecruise&repo=git-star-center&theme=buefy" /></a> | <a href="https://github.com/CompPsyUnion/NottinghamWall"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=CompPsyUnion&repo=NottinghamWall&theme=buefy" /></a> |
-| ------------- | ------------- |
