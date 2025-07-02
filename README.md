@@ -17,15 +17,11 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pleasurecruise&label=Profile%20views&color=0e75b6&style=flat" alt="pleasurecruise" /> </p>
 
-- 🌱 I’m currently learning Vue, SpringBoot, Machine Learning
-- 👯 I’m studying in University of Nottingham
+- 🌱 I’m currently learning React, Golang & Machine Learning ...
+- 👯 I’m studying in the University of Nottingham
 - 🔭 I'm major in Computer Science Artifical Intelligence 2+2
 - 😎 You can know me better by my blog below:
-  - My Tech Blog Website: https://github.yiming1234.cn
-  - My Life Blog Website: https://blog.yiming1234.cn
-- 📫 You can know reach me by email below:
-  - My Personal Email: 3196812536@qq.com (More Often)
-  - My Working Email: pleasure@yiming1234.cn
+  - Tech Blog: https://github.yiming1234.cn
 - Junior year of undergraduate studies (September 2025). Any shortcomings are kindly overlooked.
 
 ## Weekly development
