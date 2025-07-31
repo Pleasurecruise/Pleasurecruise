@@ -17,7 +17,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: picture/base.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
           user: Pleasurecruise
           template: classic
           base: header, activity, repositories, metadata
@@ -27,7 +27,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: picture/mostused.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
           user: Pleasurecruise
           template: classic
           base: ""
@@ -59,7 +59,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: picture/achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
           base: ""
           plugin_achievements: yes
           plugin_achievements_only: >-
@@ -72,7 +72,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: picture/activity.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
           user: Pleasurecruise
           template: classic
           base: ""
@@ -87,7 +87,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: picture/facts.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
           base: ""
           plugin_habits: yes
           plugin_habits_facts: yes
@@ -98,7 +98,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: picture/followup.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
           base: ""
           plugin_followup: yes
           plugin_followup_indepth: yes
@@ -108,7 +108,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: picture/calendar.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
           base: ""
           plugin_calendar: yes
 
@@ -136,7 +136,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: picture/stars.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
           base: ""
           plugin_stars: yes
           plugin_stars_limit: 3
