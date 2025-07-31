@@ -25,7 +25,7 @@ jobs:
     # REQUIRED step
     # Step 2: run the sync action
     - name: Sync upstream changes
-      id: sync
+      id: sync-1
       uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
       with:
         target_sync_branch: main
@@ -36,7 +36,7 @@ jobs:
         test_mode: false
       
     - name: Sync upstream changes
-      id: sync
+      id: sync-2
       uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
       with:
         target_sync_branch: main
@@ -47,7 +47,7 @@ jobs:
         test_mode: false
       
     - name: Sync upstream changes
-      id: sync
+      id: sync-3
       uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
       with:
         target_sync_branch: main
@@ -58,7 +58,7 @@ jobs:
         test_mode: false
 
     - name: Sync upstream changes
-      id: sync
+      id: sync-4
       uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
       with:
         target_sync_branch: main
@@ -69,7 +69,7 @@ jobs:
         test_mode: false
 
     - name: Sync upstream changes
-      id: sync
+      id: sync-5
       uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
       with:
         target_sync_branch: main
@@ -80,7 +80,7 @@ jobs:
         test_mode: false
 
     - name: Sync upstream changes
-      id: sync
+      id: sync-6
       uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
       with:
         target_sync_branch: main
