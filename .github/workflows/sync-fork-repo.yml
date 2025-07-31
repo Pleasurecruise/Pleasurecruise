@@ -65,7 +65,7 @@ jobs:
         # REQUIRED 'target_repo_token' exactly like this!
         target_repo_token: ${{ secrets.PAT_TOKEN }}
         upstream_sync_branch: main
-        upstream_sync_repo: zhayujie/chatgpt-on-wechat, linux-do/cdk, alibaba/spring-ai-alibaba
+        upstream_sync_repo: zhayujie/chatgpt-on-wechat
         test_mode: false
 
     - name: Sync upstream changes
@@ -76,7 +76,7 @@ jobs:
         # REQUIRED 'target_repo_token' exactly like this!
         target_repo_token: ${{ secrets.PAT_TOKEN }}
         upstream_sync_branch: main
-        upstream_sync_repo: linux-do/cdk, alibaba/spring-ai-alibaba
+        upstream_sync_repo: linux-do/cdk
         test_mode: false
 
     - name: Sync upstream changes
