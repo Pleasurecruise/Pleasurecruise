@@ -32,9 +32,64 @@ jobs:
         # REQUIRED 'target_repo_token' exactly like this!
         target_repo_token: ${{ secrets.PAT_TOKEN }}
         upstream_sync_branch: main
-        upstream_sync_repo: codexu/note-gen, CherryHQ/cherry-studio, MirrorChyan/user-frontend, zhayujie/chatgpt-on-wechat, linux-do/cdk, alibaba/spring-ai-alibaba
+        upstream_sync_repo: codexu/note-gen
         test_mode: false
       
+    - name: Sync upstream changes
+      id: sync
+      uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
+      with:
+        target_sync_branch: main
+        # REQUIRED 'target_repo_token' exactly like this!
+        target_repo_token: ${{ secrets.PAT_TOKEN }}
+        upstream_sync_branch: main
+        upstream_sync_repo: CherryHQ/cherry-studio
+        test_mode: false
+      
+    - name: Sync upstream changes
+      id: sync
+      uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
+      with:
+        target_sync_branch: main
+        # REQUIRED 'target_repo_token' exactly like this!
+        target_repo_token: ${{ secrets.PAT_TOKEN }}
+        upstream_sync_branch: main
+        upstream_sync_repo: MirrorChyan/user-frontend
+        test_mode: false
+
+    - name: Sync upstream changes
+      id: sync
+      uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
+      with:
+        target_sync_branch: main
+        # REQUIRED 'target_repo_token' exactly like this!
+        target_repo_token: ${{ secrets.PAT_TOKEN }}
+        upstream_sync_branch: main
+        upstream_sync_repo: zhayujie/chatgpt-on-wechat, linux-do/cdk, alibaba/spring-ai-alibaba
+        test_mode: false
+
+    - name: Sync upstream changes
+      id: sync
+      uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
+      with:
+        target_sync_branch: main
+        # REQUIRED 'target_repo_token' exactly like this!
+        target_repo_token: ${{ secrets.PAT_TOKEN }}
+        upstream_sync_branch: main
+        upstream_sync_repo: linux-do/cdk, alibaba/spring-ai-alibaba
+        test_mode: false
+
+    - name: Sync upstream changes
+      id: sync
+      uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
+      with:
+        target_sync_branch: main
+        # REQUIRED 'target_repo_token' exactly like this!
+        target_repo_token: ${{ secrets.PAT_TOKEN }}
+        upstream_sync_branch: main
+        upstream_sync_repo: alibaba/spring-ai-alibaba
+        test_mode: false
+
     # Step 3: Display a sample message based on the sync output var 'has_new_commits'
     - name: New commits found
       if: steps.sync.outputs.has_new_commits == 'true'
