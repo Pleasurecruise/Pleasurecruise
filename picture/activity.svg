@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="295" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="693" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.warning{color:#d79533}.field.warning svg{fill:#d79533}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .user{font-weight:600}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.added{color:#3fb950}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -22,15 +22,415 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">Pleasurecruise/Pleasurecruise</span>
+                                        Pushed 46 commits in
+                                        <span class="repo">Pleasurecruise/flutter.cn</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#d01623e</div>
-                                        <div class="message">Update metrics_renders.yml</div>
+                                        <div class="sha">#68f24d3</div>
+                                        <div class="message">Update english incorrect grammar for handlings-taps.md (#12128)
+
+_Description of what this PR is changing or adding, and why:_
+
+* update incorrect english grammar in handlings-taps.md file
+
+_Issues fixed by this PR (if any):_
+
+_PRs or commits this PR depends on (if any):_
+
+## Presubmit checklist
+
+- [X] This PR is marked as draft with an explanation if not meant to
+land until a future stable release.
+- [X] This PR doesn’t contain automatically generated corrections
+(Grammarly or similar).
+- [X] This PR follows the [Google Developer Documentation Style
+Guidelines](https://developers.google.com/style) — for example, it
+doesn’t use _i.e._ or _e.g._, and it avoids _I_ and _we_ (first person).
+- [X] This PR uses [semantic line
+breaks](https://github.com/dart-lang/site-shared/blob/main/doc/writing-for-dart-and-flutter-websites.md#semantic-line-breaks)
+of 80 characters or fewer.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#9c2ec47</div>
+                                        <div class="message">Update Homepage with Google I/O 2025 videos (#12135)
+
+_Description of what this PR is changing or adding, and why:_ Chatted
+with Andrew a few months ago about refreshing the homepage videos, so
+this PR replaces the old videos with our 3 Google I/O sessions - led by
+What's New In Flutter!
+
+_Issues fixed by this PR (if any):_
+
+_PRs or commits this PR depends on (if any):_
+
+## Presubmit checklist
+
+- [x] This PR is marked as draft with an explanation if not meant to
+land until a future stable release.
+- [x] This PR doesn’t contain automatically generated corrections
+(Grammarly or similar).
+- [x] This PR follows the [Google Developer Documentation Style
+Guidelines](https://developers.google.com/style) — for example, it
+doesn’t use _i.e._ or _e.g._, and it avoids _I_ and _we_ (first person).
+- [x] This PR uses [semantic line
+breaks](https://github.com/dart-lang/site-shared/blob/main/doc/writing-for-dart-and-flutter-websites.md#semantic-line-breaks)
+of 80 characters or fewer.
+
+---------
+
+Co-authored-by: Shams Zakhour (ignore Sfshaza) &lt;44418985+sfshaza2@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#30940e3</div>
+                                        <div class="message">Add go link to "Web Development Proxy Server" design doc (#12133)
+
+This PR modifies website/firebase.json to add a new go/link to the "Web
+Development Proxy Server" design doc that @sydneybao and @salemiranloye
+are presenting on the next dash forum, following the design doc
+instructions.
+
+## Presubmit checklist
+
+- [ ] This PR is marked as draft with an explanation if not meant to
+land until a future stable release.
+- [x] This PR doesn’t contain automatically generated corrections
+(Grammarly or similar).
+- [x] This PR follows the [Google Developer Documentation Style
+Guidelines](https://developers.google.com/style) — for example, it
+doesn’t use _i.e._ or _e.g._, and it avoids _I_ and _we_ (first person).
+- [x] This PR uses [semantic line
+breaks](https://github.com/dart-lang/site-shared/blob/main/doc/writing-for-dart-and-flutter-websites.md#semantic-line-breaks)
+of 80 characters or fewer.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#1bfe552</div>
+                                        <div class="message">Add `flutter.dev/to/feature-flags` (#12136)
+
+... to point to
+https://github.com/flutter/flutter/blob/main/docs/contributing/Feature-flags.md</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#1982c14</div>
+                                        <div class="message">Fix typo List&lt;TripSummary&gt; to List&lt;BookingSummary&gt; in ui-layer.md (#12127)
+
+_Description of what this PR is changing or adding, and why:_ Fixed a
+simple typo of view model exposed data is a `User` Object, as well as
+the user's saved itineraries which are exposed as an object of type
+List&lt;BookingSummary&gt;
+
+## Presubmit checklist
+
+- [ ] This PR is marked as draft with an explanation if not meant to
+land until a future stable release.
+- [x] This PR doesn’t contain automatically generated corrections
+(Grammarly or similar).
+- [x] This PR follows the [Google Developer Documentation Style
+Guidelines](https://developers.google.com/style) — for example, it
+doesn’t use _i.e._ or _e.g._, and it avoids _I_ and _we_ (first person).
+- [x] This PR uses [semantic line
+breaks](https://github.com/dart-lang/site-shared/blob/main/doc/writing-for-dart-and-flutter-websites.md#semantic-line-breaks)
+of 80 characters or fewer.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#41aaf6b</div>
+                                        <div class="message">Fixed typo in get-started/fundamentals/state-management page (#12130)
+
+_Description of what this PR is changing or adding, and why:_
+Fixed typo in get-started/fundamentals/state-management page
+
+_Issues fixed by this PR (if any):_
+
+_PRs or commits this PR depends on (if any):_
+
+## Presubmit checklist
+
+- [x] This PR is marked as draft with an explanation if not meant to
+land until a future stable release.
+- [x] This PR doesn’t contain automatically generated corrections
+(Grammarly or similar).
+- [x] This PR follows the [Google Developer Documentation Style
+Guidelines](https://developers.google.com/style) — for example, it
+doesn’t use _i.e._ or _e.g._, and it avoids _I_ and _we_ (first person).
+- [x] This PR uses [semantic line
+breaks](https://github.com/dart-lang/site-shared/blob/main/doc/writing-for-dart-and-flutter-websites.md#semantic-line-breaks)
+of 80 characters or fewer.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#739faf1</div>
+                                        <div class="message">Added section on FlutterLaunchEngine and GeneratedPluginRegistrant to UISceneDelegate breaking change notice (#12111)
+
+_Description of what this PR is changing or adding, and why:_
+
+This addition was made in response to @vashworth 's request in
+https://github.com/flutter/flutter/pull/170156#issuecomment-2950193929
+
+This explicitly lists what to do about the GeneratedPluginRegistrant and
+mentions the FlutterLaunchEngine to provide extra context to future
+runtime warnings.
+
+_Issues fixed by this PR (if any):_
+
+_PRs or commits this PR depends on (if any):_
+
+## Presubmit checklist
+
+- [x] This PR is marked as draft with an explanation if not meant to
+land until a future stable release.
+- [x] This PR doesn’t contain automatically generated corrections
+(Grammarly or similar).
+- [x] This PR follows the [Google Developer Documentation Style
+Guidelines](https://developers.google.com/style) — for example, it
+doesn’t use _i.e._ or _e.g._, and it avoids _I_ and _we_ (first person).
+- [x] This PR uses [semantic line
+breaks](https://github.com/dart-lang/site-shared/blob/main/doc/writing-for-dart-and-flutter-websites.md#semantic-line-breaks)
+of 80 characters or fewer.
+
+---------
+
+Co-authored-by: Shams Zakhour (ignore Sfshaza) &lt;44418985+sfshaza2@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#3a826fb</div>
+                                        <div class="message">(fix) - the class GrowTransition compilation (#12126)
+
+In this Flutter animation
+[tutorial](https://docs.flutter.dev/ui/animations/tutorial#refactoring-with-animatedbuilder),
+the class `GrowTransition` extends `StatelessWidget` and doesn't have
+the field `listenable`, so this code doesn't compile:
+
+
+![image](https://github.com/user-attachments/assets/f3023975-af08-4a87-b8b5-6495955dde75)
+
+
+## Presubmit checklist
+
+- [ X] This PR is marked as draft with an explanation if not meant to
+land until a future stable release.
+- [ X] This PR doesn’t contain automatically generated corrections
+(Grammarly or similar).
+- [ X] This PR follows the [Google Developer Documentation Style
+Guidelines](https://developers.google.com/style) — for example, it
+doesn’t use _i.e._ or _e.g._, and it avoids _I_ and _we_ (first person).
+- [ X] This PR uses [semantic line
+breaks](https://github.com/dart-lang/site-shared/blob/main/doc/writing-for-dart-and-flutter-websites.md#semantic-line-breaks)
+of 80 characters or fewer.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#37e5e77</div>
+                                        <div class="message">Fix typo about Windows path conditions (#12117)
+
+[The text](https://docs.flutter.dev/get-started/install/windows/web)
+says that you should not use a directory "or path" that _meets_ one or
+both of these conditions. To use the same term, `C:\Program Files`
+_meets_ these conditions, not "fails" them.
+
+## Presubmit checklist
+
+- [ ] This PR is marked as draft with an explanation if not meant to
+land until a future stable release.
+- [x] This PR doesn’t contain automatically generated corrections
+(Grammarly or similar).
+- [x] This PR follows the [Google Developer Documentation Style
+Guidelines](https://developers.google.com/style) — for example, it
+doesn’t use _i.e._ or _e.g._, and it avoids _I_ and _we_ (first person).
+- [x] This PR uses [semantic line
+breaks](https://github.com/dart-lang/site-shared/blob/main/doc/writing-for-dart-and-flutter-websites.md#semantic-line-breaks)
+of 80 characters or fewer.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#79c690a</div>
+                                        <div class="message">Add explanation for edge-to-edge Google Play Console warning (#12118)
+
+Adds explanation about warnings that users may see in the Google Play
+Console related to edge-to-edge mode. Added the explanation to
+[this](https://github.com/flutter/website/blob/449f33220f4d95d05c4f942be6e21e1036cadf38/src/content/release/breaking-changes/default-systemuimode-edge-to-edge.md)
+page because Android added the warning to the console as part of
+edge-to-edge mode becoming the default on Android 15+.
+
+This addition was prompted by
+https://github.com/flutter/flutter/issues/169810, which a user reported
+because they were seeing such warning.
+
+## Presubmit checklist
+
+- [x] This PR is marked as draft with an explanation if not meant to
+land until a future stable release.
+- [x] This PR doesn’t contain automatically generated corrections
+(Grammarly or similar).
+- [ ] This PR follows the [Google Developer Documentation Style
+Guidelines](https://developers.google.com/style) — for example, it
+doesn’t use _i.e._ or _e.g._, and it avoids _I_ and _we_ (first person).
+- [x] This PR uses [semantic line
+breaks](https://github.com/dart-lang/site-shared/blob/main/doc/writing-for-dart-and-flutter-websites.md#semantic-line-breaks)
+of 80 characters or fewer.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#61e3422</div>
+                                        <div class="message">Update SDK documentation with IDE support policy (#12119)
+
+We want to have an explicit ongoing policy of sunsetting support for
+older versions of the Flutter/Dart SDKs as new IDE plugin/extensions are
+released.
+
+## Presubmit checklist
+
+- [ ] This PR is marked as draft with an explanation if not meant to
+land until a future stable release.
+- [x] This PR doesn’t contain automatically generated corrections
+(Grammarly or similar).
+- [x] This PR follows the [Google Developer Documentation Style
+Guidelines](https://developers.google.com/style) — for example, it
+doesn’t use _i.e._ or _e.g._, and it avoids _I_ and _we_ (first person).
+- [x] This PR uses [semantic line
+breaks](https://github.com/dart-lang/site-shared/blob/main/doc/writing-for-dart-and-flutter-websites.md#semantic-line-breaks)
+of 80 characters or fewer.
+
+---------
+
+Co-authored-by: Shams Zakhour (ignore Sfshaza) &lt;44418985+sfshaza2@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#7dbceac</div>
+                                        <div class="message">Update to UISceneDelegate adoption breaking change (#12120)
+
+We decided this breaking change needs more evaluation so it has been
+rolled back.
+
+## Presubmit checklist
+
+- [ ] This PR is marked as draft with an explanation if not meant to
+land until a future stable release.
+- [x] This PR doesn’t contain automatically generated corrections
+(Grammarly or similar).
+- [x] This PR follows the [Google Developer Documentation Style
+Guidelines](https://developers.google.com/style) — for example, it
+doesn’t use _i.e._ or _e.g._, and it avoids _I_ and _we_ (first person).
+- [x] This PR uses [semantic line
+breaks](https://github.com/dart-lang/site-shared/blob/main/doc/writing-for-dart-and-flutter-websites.md#semantic-line-breaks)
+of 80 characters or fewer.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#3810214</div>
+                                        <div class="message">Fix build failure due to tsx changes (#12123)
+
+Limit `tsx` to the previous release and upgrade other npm deps.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#ae3410b</div>
+                                        <div class="message">Revert "Bump subosito/flutter-action from 2.19.0 to 2.20.0" (#12122)
+
+Reverts flutter/website#12115</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#e84cd0e</div>
+                                        <div class="message">New design doc: Render Squircles on Web with a Cache (#12114)
+
+_Description of what this PR is changing or adding, and why:_
+
+_Issues fixed by this PR (if any):_
+
+_PRs or commits this PR depends on (if any):_
+
+## Presubmit checklist
+
+- [ ] This PR is marked as draft with an explanation if not meant to
+land until a future stable release.
+- [ ] This PR doesn’t contain automatically generated corrections
+(Grammarly or similar).
+- [ ] This PR follows the [Google Developer Documentation Style
+Guidelines](https://developers.google.com/style) — for example, it
+doesn’t use _i.e._ or _e.g._, and it avoids _I_ and _we_ (first person).
+- [ ] This PR uses [semantic line
+breaks](https://github.com/dart-lang/site-shared/blob/main/doc/writing-for-dart-and-flutter-websites.md#semantic-line-breaks)
+of 80 characters or fewer.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#31c05cf</div>
+                                        <div class="message">Bump github/codeql-action from 3.28.19 to 3.29.0 (#12121)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#4791661</div>
+                                        <div class="message">Updates component theme normalization breaking changes (#12057)
+
+Add `BottomAppBarTheme` normalization update to align with Flutter
+Material's component theme conventions.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#449f332</div>
+                                        <div class="message">Bump subosito/flutter-action from 2.19.0 to 2.20.0 (#12115)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#3190877</div>
+                                        <div class="message">Fixed swift code (#12110)
+
+_Description of what this PR is changing or adding, and why:_
+
+Updated the swift example code to match the compiled swift example:
+https://github.com/flutter/flutter/blob/1b9502b007d01e1cc79dd86fc3300061522803a5/examples/platform_channel_swift/ios/Runner/AppDelegate.swift#L33
+
+There were syntactic errors in the swift code which isn't checked like
+the dart code.
+
+_Issues fixed by this PR (if any):_
+
+_PRs or commits this PR depends on (if any):_
+
+## Presubmit checklist
+
+- [x] This PR is marked as draft with an explanation if not meant to
+land until a future stable release.
+- [x] This PR doesn’t contain automatically generated corrections
+(Grammarly or similar).
+- [x] This PR follows the [Google Developer Documentation Style
+Guidelines](https://developers.google.com/style) — for example, it
+doesn’t use _i.e._ or _e.g._, and it avoids _I_ and _we_ (first person).
+- [x] This PR uses [semantic line
+breaks](https://github.com/dart-lang/site-shared/blob/main/doc/writing-for-dart-and-flutter-websites.md#semantic-line-breaks)
+of 80 characters or fewer.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#a8f0a43</div>
+                                        <div class="message">Add iOS 26 beta warnings (#12112)
+
+The lastest iOS beta is broken in the same way as described in
+https://github.com/flutter/website/pull/11740.
+Update warnings back to the wording in that PR, but updated iOS 18.4 to
+iOS 26.
+
+These docs were refactored in #12026, put the physical device warning in
+the new place.
+
+Part of https://github.com/flutter/flutter/issues/163984
+
+## Screenshots
+
+https://flutter-docs-prod--pr12112-26-warning-jxoxrcy1.web.app/platform-integration/ios/setup
+![Screenshot 2025-06-09 at 7 30
+30 PM](https://github.com/user-attachments/assets/d5e09536-761e-4351-b2d1-403ca07c3ba6)
+
+__________
+
+
+https://flutter-docs-prod--pr12112-26-warning-jxoxrcy1.web.app/platform-integration/ios/ios-latest
+![Screenshot 2025-06-09 at 7 31
+03 PM](https://github.com/user-attachments/assets/00697c1e-f0ec-41c3-9729-6d8d48228243)
+
+
+## Presubmit checklist
+
+- [x] This PR is marked as draft with an explanation if not meant to
+land until a future stable release.
+- [x] This PR doesn’t contain automatically generated corrections
+(Grammarly or similar).
+- [x] This PR follows the [Google Developer Documentation Style
+Guidelines](https://developers.google.com/style) — for example, it
+doesn’t use _i.e._ or _e.g._, and it avoids _I_ and _we_ (first person).
+- [x] This PR uses [semantic line
+breaks](https://github.com/dart-lang/site-shared/blob/main/doc/writing-for-dart-and-flutter-websites.md#semantic-line-breaks)
+of 80 characters or fewer.</div>
                                     </div>
                                 </div>
                             </section>
@@ -43,14 +443,18 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">Pleasurecruise/Pleasurecruise</span>
+                                        <span class="repo">CherryHQ/cherry-studio</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#539fcb7</div>
-                                        <div class="message">generated</div>
+                                        <div class="sha">#0de9e5e</div>
+                                        <div class="message">refactor: update new zhipu ai dev docs website link (#8713)
+
+update new zhipu ai docs website link
+
+Co-authored-by: gongchao &lt;chao.gong@aminer.cn&gt;</div>
                                     </div>
                                 </div>
                             </section>
@@ -59,45 +463,49 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+                                        <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
                                     </svg>
                                     <div class="content">
-                                        Starred
-                                        <span class="repo">HelloGitHub-Team/geese</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Starred
-                                        <span class="repo">magicuidesign/magicui</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">Pleasurecruise/Pleasurecruise</span>
+                                        Merged
+                                        <span class="issue">#8713 refactor: update new zhipu ai dev docs website link</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#5c59dc3</div>
-                                        <div class="message">Updated waka-readme graph with new metrics</div>
+                                    <div>opened by tomsun28 in <span class="repo">CherryHQ/cherry-studio</span></div>
+                                    <div>1 file changed <span class="code">++1 --1</span></div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Reviewed
+                                        <span class="issue">#8713 refactor: update new zhipu ai dev docs website link</span>
                                     </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by tomsun28 in <span class="repo">CherryHQ/cherry-studio</span></div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#8639 [错误]: 备份到坚果云的问题</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by cgheaven in <span class="repo">CherryHQ/cherry-studio</span></div>
+                                    <div class="comment">我测试用的是一百多个zip包 都没有上述的情况... 看情况再观察一下吧 或者能提供相关的日志也行</div>
                                 </div>
                             </section>
                         </div>
