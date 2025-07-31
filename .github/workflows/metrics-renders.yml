@@ -2,7 +2,7 @@ name: Metrics Renders
 
 on:
   schedule:
-    - cron: '0 0 1 * *' 
+    - cron: '0 0 * * 1'
   workflow_dispatch:
 
 jobs:
@@ -36,6 +36,7 @@ jobs:
           plugin_languages_analysis_timeout_repositories: 7.5
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
+          plugin_languages_ignored: jupyter, html
           plugin_languages_limit: 8
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
