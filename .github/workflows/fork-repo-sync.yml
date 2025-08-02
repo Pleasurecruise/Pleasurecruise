@@ -17,5 +17,5 @@ jobs:
 
       - name: Sync repo1
         run: |
-          gh repo sync Pleasurecruise/note-gen --remote upstream --pull
+          gh repo sync Pleasurecruise/note-gen --source https://github.com/codexu/note-gen --branch dev --force
 
