@@ -1,0 +1,21 @@
+name: Sync Fork Repository
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  update-readme-with-blog:
+    name: Sync Fork Repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up GitHub CLI
+        run: |
+          sudo apt-get install gh
+          gh auth login --with-token < ${{ secrets.PAT_TOKEN }}
+
+      - name: Sync repo1
+        run: |
+          gh repo sync Pleasurecruise/note-gen --remote upstream --pull
+
