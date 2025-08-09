@@ -1,0 +1,25 @@
+name: Latest blog post workflow
+
+on:
+  # schedule:
+  #   - cron: '0 0 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Pull in dev.to posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          max_post_count: 5
+          committer_username: "pleasurecruise"
+          committer_email: "pleasure@yiming1234.cn"
+          feed_list: "https://blog.yiming1234.cn/index.php/feed"
+          template: "$newline- [$title]($url) $newline"
