@@ -48,3 +48,6 @@ Assembly                           21 hrs 5 mins   -------------------------   0
 
 | <a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Pleasurecruise&show_icons=true&theme=tokyonight" /></a> | <a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pleasurecruise&layout=donut&theme=tokyonight" alt="pleasurecruise" /></a> |
 | ------------- | ------------- |
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
