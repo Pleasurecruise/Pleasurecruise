@@ -50,9 +50,9 @@ Assembly                           21 hrs 5 mins   -------------------------   0
 | ------------- | ------------- |
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#8234](https://github.com/CherryHQ/cherry-studio/pull/8234#issuecomment-3194548200) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
-2. 💪 Opened PR [#1748](https://github.com/reactjs/zh-hans.react.dev/pull/1748) in [reactjs/zh-hans.react.dev](https://github.com/reactjs/zh-hans.react.dev)
-3. ❌ Closed PR [#1747](https://github.com/reactjs/zh-hans.react.dev/pull/1747) in [reactjs/zh-hans.react.dev](https://github.com/reactjs/zh-hans.react.dev)
-4. 💪 Opened PR [#1747](https://github.com/reactjs/zh-hans.react.dev/pull/1747) in [reactjs/zh-hans.react.dev](https://github.com/reactjs/zh-hans.react.dev)
-5. 🗣 Commented on [#9223](https://github.com/CherryHQ/cherry-studio/pull/9223#issuecomment-3193496104) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
+1. 🗣 Commented on [#9391](https://github.com/CherryHQ/cherry-studio/issues/9391#issuecomment-3215306018) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
+2. 🗣 Commented on [#9377](https://github.com/CherryHQ/cherry-studio/issues/9377#issuecomment-3215304786) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
+3. 🗣 Commented on [#9409](https://github.com/CherryHQ/cherry-studio/pull/9409#issuecomment-3215296158) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
+4. 🗣 Commented on [#9422](https://github.com/CherryHQ/cherry-studio/issues/9422#issuecomment-3215283341) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
+5. 🗣 Commented on [#9431](https://github.com/CherryHQ/cherry-studio/issues/9431#issuecomment-3215271884) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
 <!--END_SECTION:activity-->
