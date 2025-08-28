@@ -33,4 +33,4 @@ jobs:
 
       - name: Sync repo5
         run: |
-          gh repo sync Pleasurecruise/blinko --source https://github.com/blinkospace/blinko --branch dev --force
+          gh repo sync Pleasurecruise/blinko --source https://github.com/blinkospace/blinko --branch main --force
