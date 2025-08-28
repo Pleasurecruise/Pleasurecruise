@@ -30,3 +30,7 @@ jobs:
       - name: Sync repo4
         run: |
           gh repo sync Pleasurecruise/chatgpt-on-wechat --source https://github.com/zhayujie/chatgpt-on-wechat --branch master --force    
+
+      - name: Sync repo5
+        run: |
+          gh repo sync Pleasurecruise/blinko --source https://github.com/blinkospace/blinko --branch dev --force
