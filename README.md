@@ -50,9 +50,9 @@ Assembly                           21 hrs 5 mins   -------------------------   0
 | ------------- | ------------- |
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#9391](https://github.com/CherryHQ/cherry-studio/issues/9391#issuecomment-3215306018) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
-2. 🗣 Commented on [#9377](https://github.com/CherryHQ/cherry-studio/issues/9377#issuecomment-3215304786) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
-3. 🗣 Commented on [#9409](https://github.com/CherryHQ/cherry-studio/pull/9409#issuecomment-3215296158) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
-4. 🗣 Commented on [#9422](https://github.com/CherryHQ/cherry-studio/issues/9422#issuecomment-3215283341) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
-5. 🗣 Commented on [#9431](https://github.com/CherryHQ/cherry-studio/issues/9431#issuecomment-3215271884) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
+1. 🗣 Commented on [#9065](https://github.com/CherryHQ/cherry-studio/issues/9065#issuecomment-3228646418) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
+2. 🗣 Commented on [#9613](https://github.com/CherryHQ/cherry-studio/issues/9613#issuecomment-3228630005) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
+3. 🎉 Merged PR [#9593](https://github.com/CherryHQ/cherry-studio/pull/9593) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
+4. 🗣 Commented on [#9611](https://github.com/CherryHQ/cherry-studio/issues/9611#issuecomment-3228233660) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
+5. 🗣 Commented on [#9593](https://github.com/CherryHQ/cherry-studio/pull/9593#issuecomment-3227434606) in [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
 <!--END_SECTION:activity-->
