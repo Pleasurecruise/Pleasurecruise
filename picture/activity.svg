@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="324" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1054" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .user{font-weight:600}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.markdown a{color:#58a6ff;text-decoration:none}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -19,15 +19,626 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/>
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Reviewed
-                                        <span class="issue">#9725 feat: enhance note saving functionality with immediate cache invalidation</span>
+                                        Pushed 2 commits in
+                                        <span class="repo">Pleasurecruise/blinko</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by DeJeune in <span class="repo">CherryHQ/cherry-studio</span></div>
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#1eecaab</div>
+                                        <div class="message">Merge pull request #853 from Pleasurecruise/fix-deleteUser
+
+fix: #802</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#9aaf22c</div>
+                                        <div class="message">fix: #802</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 29 commits in
+                                        <span class="repo">Pleasurecruise/cherry-studio</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#0187f17</div>
+                                        <div class="message">Refactor/migrate zod v4 (#10002)
+
+* build: 更新 zod 依赖至 v4.1.5
+
+* refactor: 将zod导入从'zod/v4'更新为'zod'
+
+统一使用zod主包而非v4子路径，简化依赖管理
+
+* refactor: 统一使用命名导入方式导入zod库
+
+* refactor(mcpServers): 更新RequestPayloadSchema的url和headers类型定义
+
+* refactor(mcp): 将默认值从pipe移动到string以简化schema
+
+默认值'stdio'从pipe操作中移动到string操作，使schema定义更清晰
+
+* refactor(Markdown): 简化 CitationSchema 中 url 的验证方式
+
+* refactor: 将类型断言改为使用 satisfies 操作符
+
+* build: 更新 aiCore 的 zod 依赖至 v4.1.5
+
+* refactor: 更新zod导入方式并简化基础provider类型定义
+
+将zod从'zod/v4'更新为'zod'导入
+将baseProviderSchema替换为更简洁的接口类型定义
+
+* fix(providers): 优化provider配置的schema定义并添加注释
+
+调整creator函数的类型定义，增加输入输出类型约束</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#4a5f374</div>
+                                        <div class="message">refactor(Messages): remove clean up clearTopic function (#9993)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#c4e22a2</div>
+                                        <div class="message">fix: add responsive design for sidebar tabs to prevent content cutoff (#9913)
+
+* fix: add responsive design for sidebar tabs to prevent content cutoff at minimum width
+
+- Add responsive CSS variables and media queries for narrow screens
+- Update Container, AssistantItem, and TopicListItem to use responsive widths
+- Ensures settings tab content remains visible at minimum window width (520px)
+- Addresses issue where right sidebar content gets cut off on smaller screens
+
+Fixes #9894
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Pleasure1234 &lt;Pleasurecruise@users.noreply.github.com&gt;
+
+* fix(i18n): Auto update translations for PR #9913
+
+* feat(样式): 添加响应式断点配置和媒体查询工具
+
+添加 breakpoints.scss 文件定义断点变量和 CSS 变量
+在 style.ts 中新增 breakpoints 配置和 media 工具函数，用于生成响应式媒体查询
+
+* style: 添加 breakpoints.scss 到主样式文件
+
+* style(styles): 添加响应式断点变量并更新引用
+
+将 breakpoints.scss 重命名为 responsive.scss 并添加断点变量定义
+更新 index.scss 中的引用以使用新的文件名
+
+* style(color.scss): 移除未使用的窄屏幕助手宽度变量
+
+* refactor(styles): 将布局变量从color.scss移动到responsive.scss并添加响应式设计
+
+将布局相关的CSS变量从color.scss迁移到responsive.scss以更好地组织代码
+添加针对大屏幕的响应式布局调整
+
+* refactor(布局): 简化容器宽度设置并添加过渡动画
+
+移除响应式宽度媒体查询，统一使用变量控制宽度
+为容器和标签内容添加宽度过渡动画效果
+调整导航栏图标顺序和样式
+
+* style: 移除响应式宽度媒体查询以简化样式
+
+* fix(style): 将媒体查询条件从min-width改为max-width
+
+* refactor(style): 移除未使用的响应式样式工具代码
+
+清理不再使用的断点常量和媒体查询工具函数，这些代码当前未被项目使用
+
+---------
+
+Co-authored-by: claude[bot] &lt;209825114+claude[bot]@users.noreply.github.com&gt;
+Co-authored-by: Pleasure1234 &lt;Pleasurecruise@users.noreply.github.com&gt;
+Co-authored-by: GitHub Action &lt;action@github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#8b7776b</div>
+                                        <div class="message">CI: launch claude translate for all comments (#9983)
+
+* ci(claude-translator): 临时禁用issues触发并更新条件
+
+暂时禁用issues触发以解决上游bug
+更新issue_comment的触发条件，简化claude_args参数
+修改翻译结果的原始内容标题格式
+
+* ci: 更新Claude翻译器工作流的名称和并发组配置
+
+* fix(workflow): 修正Claude翻译工作流中的拼写错误
+
+* ci(workflow): 更新claude-translator触发条件
+
+添加对评论发送者类型的检查，避免机器人触发工作流</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#f3787be</div>
+                                        <div class="message">ci(workflow): remove code review on sync &amp; add more env info (#9985)
+
+ci(workflow): 简化claude代码审查工作流的触发条件
+
+移除synchronize事件触发，仅保留pull_request opened事件
+添加PR编号和仓库信息到审查提示中</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#3607341</div>
+                                        <div class="message">fix: limit titlebar-area-* in mac (#9974)
+
+* fix: limit titlebar-area-* in mac
+
+* fix: unused padding-right</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#b33b14b</div>
+                                        <div class="message">fix(parameter-builder): avoid enabling built-in web search when external provider is configured (#9995)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d09743d</div>
+                                        <div class="message">fix: improve note sorting behavior for drag and drop operations (#9971)
+
+* fix: improve note sorting behavior for drag and drop operations
+
+- Skip automatic sorting when performing same-level drag reordering
+- Preserve treePath during same-level moves to maintain manual ordering
+- Return special indicator for manual reorder operations to prevent conflicts
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;
+
+* fix: type safety issue
+
+---------
+
+Co-authored-by: Claude &lt;noreply@anthropic.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#2361c1b</div>
+                                        <div class="message">fix: implement Anthropic thinking budget calculation in reasoning logic (#9991)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#ff74e90</div>
+                                        <div class="message">fix: add message processing status check to Message component (#9982)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#cb4b26c</div>
+                                        <div class="message">fix: add YAML front matter support in markdown processing (#9963)
+
+* feat: add YAML front matter support in markdown processing
+
+- Introduced a new plugin to parse and render YAML front matter in markdown documents.
+- Updated the markdown converter to handle YAML front matter, preserving its structure during conversion.
+- Added corresponding tests to ensure YAML front matter is retained correctly in markdown to HTML and vice versa.
+- Enhanced i18n files with new translations for front matter properties in English, Chinese (Simplified and Traditional).
+- Included the 'yaml' package as a dependency in package.json.
+
+* feat(i18n): add new translations for editing properties in Traditional Chinese
+
+* chore: fix</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#1640ba2</div>
+                                        <div class="message">CI: update translator workflow (#9972)
+
+* Create translator.yml
+
+* update
+
+* try with cc
+
+* ci: 修改文件名translator为claude-translator
+
+* ci(workflow): 更新Claude翻译工作流的配置和提示词
+
+重构工作流配置，简化权限设置并优化翻译逻辑。更新提示词以提供更清晰的翻译指令和格式要求，确保翻译结果的一致性。
+
+* ci(workflows): 更新Claude工作流配置
+
+添加track_progress选项以跟踪代码审查进度
+补充环境信息变量和注释说明
+
+* ci(workflow): 更新翻译工作流的触发条件和gh命令参数
+
+修改工作流触发条件，仅当issue或comment不含翻译内容时执行
+更新gh命令参数以使用正确的环境变量
+
+* Revert "ci(workflows): 更新Claude工作流配置"
+
+This reverts commit 29f6a1dc8bf6682d735f4dfd6dac5f7fb9f9f079.
+
+* fix(ci): 修复GitHub Actions工作流中的条件判断和变量引用
+
+修复工作流文件中的条件判断逻辑，添加括号确保正确执行
+修复comment处理中的变量引用，使用正确的环境变量
+添加注释说明Comment ID可能未定义的情况
+
+* ci(workflow): 为翻译工作流添加并发控制
+
+* ci(workflow): 仅协作者的issue或评论触发翻译工作流
+
+* ci: 更新Claude翻译工具的allowed-tools和输出格式
+
+更新Claude翻译工具的配置，添加mcp__github_comment__update_claude_comment到allowed-tools中
+优化翻译输出的格式，使用Markdown的NOTE提示和折叠面板展示原始内容
+
+* ci(workflow): 更新Claude翻译器的触发条件
+
+将检测翻译标记从'**English Translation:**'改为'&gt; [!NOTE]\n&gt; This issue/comment was translated by Claude.'
+
+* fix(workflow): 简化Claude翻译器的触发条件检测
+
+移除翻译标记中的Markdown注释格式，使检测更直接
+
+* ci(workflow): 简化issues触发条件，仅响应opened事件
+
+---------
+
+Co-authored-by: 自由的世界人 &lt;3196812536@qq.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#ca00394</div>
+                                        <div class="message">feat: add qwen3-max-preview model support for DashScope provider (#9969)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#71783ae</div>
+                                        <div class="message">Create translator.yml (#9955)
+
+* Create translator.yml
+
+* update
+
+* try with cc
+
+* ci: 修改文件名translator为claude-translator
+
+* ci(workflow): 更新Claude翻译工作流的配置和提示词
+
+重构工作流配置，简化权限设置并优化翻译逻辑。更新提示词以提供更清晰的翻译指令和格式要求，确保翻译结果的一致性。
+
+* ci(workflows): 更新Claude工作流配置
+
+添加track_progress选项以跟踪代码审查进度
+补充环境信息变量和注释说明
+
+* ci(workflow): 更新翻译工作流的触发条件和gh命令参数
+
+修改工作流触发条件，仅当issue或comment不含翻译内容时执行
+更新gh命令参数以使用正确的环境变量
+
+* Revert "ci(workflows): 更新Claude工作流配置"
+
+This reverts commit 29f6a1dc8bf6682d735f4dfd6dac5f7fb9f9f079.
+
+* fix(ci): 修复GitHub Actions工作流中的条件判断和变量引用
+
+修复工作流文件中的条件判断逻辑，添加括号确保正确执行
+修复comment处理中的变量引用，使用正确的环境变量
+添加注释说明Comment ID可能未定义的情况
+
+* ci(workflow): 为翻译工作流添加并发控制
+
+* ci(workflow): 仅协作者的issue或评论触发翻译工作流
+
+---------
+
+Co-authored-by: icarus &lt;eurfelux@gmail.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#b5632b0</div>
+                                        <div class="message">fix: refine Qwen model reasoning checks in isQwenReasoningModel and isSupportedThinkingTokenQwenModel functions (#9966)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#c506ff6</div>
+                                        <div class="message">ci: add format check to PR workflow and documentation (#9810)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#fd83834</div>
+                                        <div class="message">Feat: more error blocks (#9960)
+
+* refactor(utils): 提取 API 调用错误序列化逻辑到独立函数
+
+将 serializeError 中的 API 调用错误处理逻辑提取为独立的 serializeAPICallError 函数，提高代码可维护性
+
+* feat(错误处理): 添加下载错误的序列化支持
+
+新增 SerializedAiSdkDownloadError 接口用于表示下载错误
+实现 serializeDownloadError 方法处理 DownloadError 的序列化
+在 serializeError 中添加对 DownloadError 的判断处理
+
+* feat(错误类型): 添加序列化AI SDK错误类型检查函数
+
+修改 isSerializedAiSdkAPICallError
+新增 isSerializedAiSdkDownloadError
+新增 SerializedAiSdkInvalidArgumentError
+
+* feat(错误处理): 添加对InvalidArgumentError的序列化支持
+
+添加对InvalidArgumentError类型的序列化处理，包括定义序列化接口和实现序列化函数
+
+* feat(错误处理): 添加对InvalidDataContentError的序列化支持
+
+* feat(错误处理): 添加对InvalidMessageRoleError的序列化支持
+
+新增对InvalidMessageRoleError错误的序列化处理，包括类型定义和序列化函数
+
+* feat(错误处理): 添加对无效提示错误的序列化支持
+
+新增 SerializedAiSdkInvalidPromptError 接口及序列化函数
+在 serializeError 中添加对 InvalidPromptError 的处理逻辑
+
+* feat(错误处理): 添加对无效工具输入错误的序列化支持
+
+* feat(错误处理): 添加对JSON解析错误的序列化支持
+
+* feat(错误处理): 添加消息转换错误的序列化支持
+
+添加 SerializedAiSdkMessageConversionError 接口及序列化函数，用于处理消息转换错误的序列化
+
+* feat(types): 添加 SerializedAiSdkNoAudioGeneratedError 类型及校验函数
+
+* feat(错误处理): 添加对NoObjectGeneratedError的序列化支持
+
+新增SerializedAiSdkNoObjectGeneratedError接口及序列化函数，用于处理AI SDK中对象未生成的错误情况
+
+* feat(错误处理): 添加对NoSuchModelError的序列化支持
+
+添加对AI SDK中NoSuchModelError类型的序列化支持，包括类型定义和序列化函数
+
+* feat(错误处理): 添加对NoSuchProviderError的序列化支持
+
+* feat(错误处理): 添加对NoSuchToolError的序列化支持
+
+新增SerializedAiSdkNoSuchToolError接口及序列化函数，用于处理工具不存在错误
+简化isSerializedAiSdkNoSuchProviderError的校验逻辑
+
+* feat(错误处理): 添加序列化重试错误类型和函数
+
+添加 SerializedAiSdkRetryError 接口和序列化函数，用于处理重试错误的序列化
+
+* feat(types): 添加SerializedAiSdkTooManyEmbeddingValuesForCallError类型
+
+添加未由aisdk导出的SerializedAiSdkTooManyEmbeddingValuesForCallError类型及其类型守卫，用于处理嵌入值过多错误
+
+* feat(错误处理): 添加工具调用修复错误的序列化支持
+
+* feat(错误处理): 添加类型验证错误的序列化支持
+
+* feat(错误处理): 添加对不支持功能的错误序列化支持
+
+* feat(types): 添加 AiSdkErrorUnion 类型用于聚合所有 AI SDK 错误类型
+
+* refactor(types): 移除未使用的AiSdkErrorUnion类型并清理导入
+
+* refactor(error): 重构错误处理逻辑，统一序列化方法
+
+简化错误序列化逻辑，使用统一的方法处理所有可能的错误类型
+移除重复的序列化函数，提高代码可维护性
+更新错误类型定义，添加缺失的错误类型
+
+* feat(error): 添加对InvalidToolInputError和NoSuchToolError的序列化支持
+
+新增对AI SDK中InvalidToolInputError和NoSuchToolError错误的序列化处理，完善错误处理逻辑
+
+* feat(错误处理): 完善AI SDK错误类型和错误详情展示
+
+添加SerializedAiSdkNoSpeechGeneratedError类型并重命名相关函数
+实现isSerializedAiSdkErrorUnion函数统一检查所有AI SDK错误类型
+在ErrorBlock中扩展错误详情展示逻辑，支持所有AI SDK错误类型
+
+* feat(i18n): 添加缺失的翻译字段
+
+* docs(i18n): 添加待翻译的多语言文本字段
+
+* fix(ErrorBlock): 修复重复的错误类型检查条件
+
+* feat(types): 添加AISDKError到AiSdkErrorUnion类型中
+
+* refactor(ErrorBlock): 移除未使用的类型验证错误显示逻辑
+
+* fix(i18n): Auto update translations for PR #9960
+
+* docs(i18n): 更新多语言翻译文件中的缺失翻译
+
+* fix(i18n): 修正多语言文件中的翻译错误
+
+更新法语、葡萄牙语、日语和俄语翻译文件，将中文词汇替换为正确的目标语言词汇
+
+* fix(类型): 修正SerializedError和SerializedAiSdkJSONParseError的类型判断
+
+移除SerializedAiSdkJSONParseError类型判断中冗余的'message'检查，因为父类型SerializedAiSdkError已包含此检查
+
+* fix(错误处理): 修复类型验证错误判断并添加缺失的错误类型
+
+修复 isSerializedAiSdkTypeValidationError 判断逻辑，排除包含 parameter 属性的情况
+在 SerializedAiSdkErrorUnion 联合类型中添加缺失的 SerializedAiSdkNoSpeechGeneratedError 类型
+
+---------
+
+Co-authored-by: GitHub Action &lt;action@github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#973cab5</div>
+                                        <div class="message">Fix: Traffic light safe area in css (#9925)
+
+* feat: add CSS Environment Variables
+
+* fix: lint
+
+* fix: import</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d1535e1</div>
+                                        <div class="message">feat: add ByteDance and Ideogram model provider logos (#9950)
+
+Add SVG logos for ByteDance and Ideogram AI model providers to improve visual identification in the model selection UI.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-authored-by: Claude &lt;noreply@anthropic.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#60e1f15</div>
+                                        <div class="message">feat: add shortcuts to rename topic and edit last user message (#9466)
+
+* feat: add rename topic shortcut (Ctrl/Cmd+T)
+
+* fix: add migration for rename topic shortcut
+
+* feat: add shortcut to edit last user message (Ctrl/Cmd+Shift+E)
+- 用于在用户提示词生成的响应不符合预期时，便捷地激活提示词编辑，从而配合编辑器编辑支持的Enter键提交绑定来生成新的模型响应
+- messages：绑定 useShortcut('edit_last_user_message')，定位最后一条非 clear 的用户消息并发出 EDIT_MESSAGE
+- message：监听 EDIT_MESSAGE，调用 startEditing(message.id) 激活内联编辑（沿用现有自动滚动）
+
+* fix: lint errors and sync i18n
+
+* fix(i18n): complete missing translations in ES, PT, EL and FR locales
+
+* disable new shortcuts by default
+
+* show topic tab on rename shortcut
+
+* refactor: use findLast to simplify find last user message
+
+* add esc key to cancel message editing (discard changes)
+
+* fix missing comma
+
+* remove extra linebreak
+
+* fix: version
+
+---------
+
+Co-authored-by: suyao &lt;sy20010504@gmail.com&gt;</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 10 commits in
+                                        <span class="repo">Pleasurecruise/cdk</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#151e259</div>
+                                        <div class="message">Merge pull request #122 from yyg-max/master
+
+feat: Add ClickHouse</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#cb7f7dd</div>
+                                        <div class="message">feat(config): enable database and redis configurations</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d0b52aa</div>
+                                        <div class="message">fix(middleware):
+Expected indentation of 10 spaces but found 8.
+'ProjectData' is defined but never used.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#edd6c4b</div>
+                                        <div class="message">refactor(middleware): remove unused project time validation function</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#98c4422</div>
+                                        <div class="message">fix(middleware): improve request validation and add missing headers</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#8c6ccb2</div>
+                                        <div class="message">Merge branch 'linux-do:master' into master</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#853ee8a</div>
+                                        <div class="message">fix: Replace timestamp with origin in client info logging</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#8decdb0</div>
+                                        <div class="message">Merge branch 'linux-do:master' into dev</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#26a0954</div>
+                                        <div class="message">fix: Rename timestamp to request_time in err_receive_logs and add user_id and project_id indexes</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#7243079</div>
+                                        <div class="message">feat: Add ClickHouse</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 9 commits in
+                                        <span class="repo">Pleasurecruise/note-gen</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">dev</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#27f12e5</div>
+                                        <div class="message">feat(#596): 图床配置支持 S3</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#c748c4a</div>
+                                        <div class="message">fix(#604): 修复 MacOS 全屏模式下关闭软件导致黑屏</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d9ad799</div>
+                                        <div class="message">feat(#608): 图像识别后可更改描述</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#8e8a6b3</div>
+                                        <div class="message">feat(#560): 新建文件增加默认名称，支持自增序号</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#340d14d</div>
+                                        <div class="message">release: v0.20.3</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#dc923d0</div>
+                                        <div class="message">feat: 更新 vditor 至 v3.11.2</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#e1b5539</div>
+                                        <div class="message">fix: 写作编辑器 floatBar AI 相关操作导致页面错乱</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#7b0680e</div>
+                                        <div class="message">fix(#594): 写作 AI 功能在切换页面时会导致页面错乱</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#e6d451d</div>
+                                        <div class="message">feat(#191): 常规设置中增加缩放界面功能</div>
+                                    </div>
                                 </div>
                             </section>
                         </div>
@@ -39,65 +650,12 @@
                                     </svg>
                                     <div class="content">
                                         Commented on
-                                        <span class="issue">#9706 [错误]: 绘图功能 AiHubMix 选择生图模式报错</span>
+                                        <span class="issue">#10020 [Bug]: Note data is not syncing when using Nutstore backup</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by tommyzhang100504 in <span class="repo">CherryHQ/cherry-studio</span></div>
-                                    <div class="comment">没有这个版本号...</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">CherryHQ/cherry-studio</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">fix-taborder</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#0dfab08</div>
-                                        <div class="message">Update tabs.ts</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Opened
-                                        <span class="issue">#9700 fix: NavigationService initialization timing issue and add tab drag reordering</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div> in <span class="repo">CherryHQ/cherry-studio</span></div>
-                                    <div>4 files changed <span class="code">++96 --17</span></div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Created new
-                      branch
-                                        <span class="code">fix-taborder</span>
-                                        in
-                                        <span class="repo">CherryHQ/cherry-studio</span>
-                                    </div>
+                                    <div>opened by zshmbbs in <span class="repo">CherryHQ/cherry-studio</span></div>
+                                    <div class="comment">Currently, files in Notes will only synchronize when using the default folder position. This may be improved in future versions.</div>
                                 </div>
                             </section>
                         </div>
