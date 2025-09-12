@@ -8,21 +8,19 @@
 
 ## ✨ About me
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=pleasurecruise&label=Profile%20views&color=0e75b6&style=flat" alt="pleasurecruise" /> </p>
+
 <details>
-<summary>Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="5%">, I'm Pleasurecruise</summary>
+<summary>Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="5%">, I'm Pleasurecruise A year 3 undergraduate student in the University of Nottingham</summary> 
 
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
 </details>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=pleasurecruise&label=Profile%20views&color=0e75b6&style=flat" alt="pleasurecruise" /> </p>
-
 - 🌱 I’m currently learning React, Golang & Machine Learning ...
-- 👯 I’m an undergraduate student in the University of Nottingham
 - 🔭 I'm major in Computer Science Artifical Intelligence
-- 😎 You can know me better by my blog below:
-  - Tech Blog: https://github.yiming1234.cn
-- Junior year of undergraduate studies. Any shortcomings are kindly overlooked.
+- 😎 You can know me better by my profile page: https://yiming1234.cn
+- 🙏 Any shortcomings are kindly overlooked
 
 ## Weekly development
 <!--START_SECTION:waka-->
@@ -44,7 +42,7 @@ Assembly                           21 hrs 5 mins   -------------------------   0
 
 <!--END_SECTION:waka-->
 
-## Recent Activity
+<!--## Recent Activity
 
 | <a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Pleasurecruise&show_icons=true&theme=tokyonight" /></a> | <a href="https://blog.yiming1234.cn"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pleasurecruise&layout=donut&theme=tokyonight" alt="pleasurecruise" /></a> |
-| ------------- | ------------- |
+| ------------- | ------------- |-->
