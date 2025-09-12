@@ -6,15 +6,12 @@
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=25&pause=1000&center=true&vCenter=true&random=false&width=600&lines=Welcome+to+my+GitHub+profile+page!;I+am+super+obsessed+with+programming!" />
 </p>-->
 
-## ✨ About me
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=pleasurecruise&label=Profile%20views&color=0e75b6&style=flat" alt="pleasurecruise" /> </p>
-
+<div align="left" style="display: flex; align-items: center; gap: 10px;">
+  <h2 style="margin: 0;">✨ About me &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://komarev.com/ghpvc/?username=pleasurecruise&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" width="130" /></h2>
+</div>
 <details>
 <summary>Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="5%">, I'm Pleasurecruise A year 3 undergraduate student in the University of Nottingham</summary> 
-
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
-
 </details>
 
 - 🌱 I’m currently learning React, Golang & Machine Learning ...
