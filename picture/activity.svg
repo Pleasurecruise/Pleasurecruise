@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1118" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1516" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.field.warning{color:#d79533}.field.warning svg{fill:#d79533}.row{display:flex}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.track{display:flex;align-items:center;justify-content:center;margin-bottom:4px}.repository{display:flex;flex-direction:column;width:100%;margin:6px 0}.repository .description{display:block;width:440px;white-space:normal;color:#666;margin-left:38px;font-size:13px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .user{font-weight:600}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment,.project .description{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.activity .details&gt;.comment{margin-top:6px;border-left:3px solid #777777b2;padding-left:6px}.project .description{margin-left:37px;max-height:38px;font-size:12px;white-space:normal}.markdown a{color:#58a6ff;text-decoration:none}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}#metrics-end,.fill-width{width:100%}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details&gt;*,.row section{flex:1 1 0}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .user{font-weight:600}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.project .items{padding-left:11px}.field.license.details{display:flex;justify-content:space-between}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}.token.string{color:#2777aa}.blue{color:#58a6ff}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -22,14 +22,14 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 8 commits in
+                                        Pushed 3 commits in
                                         <span class="repo">Pleasurecruise/docmost</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#a60dc2f</div>
+                                        <div class="sha">#cee53ff</div>
                                         <div class="message">Merge branch 'docmost:main' into main</div>
                                     </div>
                                 </div>
@@ -42,197 +42,140 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 59 commits in
+                                        Pushed 25 commits in
                                         <span class="repo">Pleasurecruise/blinko</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#b1bb1c8</div>
-                                        <div class="message">🐛fix: eliminate duplicate file storage for S3 configurations
+                                        <div class="sha">#422051e</div>
+                                        <div class="message">✨feat: add image copy to clipboard functionality
 
-- Refactor FileService.getFile() to return structured result with cleanup
-- Add FileService.getFileBuffer() for direct content access without temp files
-- Update all file access points to use new API with proper temp file cleanup
-- Fix AI embedding service to properly handle S3 temporary files
-- Update Memos import to async cleanup and remove duplicate file operations
-- Remove unused fs import from file.ts
-- Add automatic cleanup for S3 temporary files in temp/ directory
-
-This fixes the issue where S3-stored files were unnecessarily downloaded
-to local storage during file access operations, causing duplicate storage.
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;</div>
+- Add CopyIcon component with PNG format clipboard support
+- Position copy button next to download button on hover
+- Include fallback to copy image URL if clipboard API fails
+- Support both direct image copy and URL fallback for better compatibility</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#63a3dba</div>
+                                        <div class="sha">#7ebb6ab</div>
+                                        <div class="message">📝docs: add docker pulls badge and reorder badges in readme files
+
+Add Docker Hub pulls statistics badge in red color and position it first for better visibility in both English and Chinese README files.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#fe5f51f</div>
+                                        <div class="message">🐛fix: update AI feature visibility conditions in right-click menu
+
+Replace deprecated isUseAI config check with mainModelId for more accurate detection of available AI features in context menus.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#4c3abe4</div>
                                         <div class="message">Merge branch 'main' of https://github.com/blinkospace/blinko</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#23f019d</div>
-                                        <div class="message">♻️refactor: clean up OAuth configuration and user API
-
-- Remove debug console logs from OAuth provider initialization
-- Remove window state loading debug output in Tauri app
-- Fix public user list API to include all users regardless of login type
-- Update Claude settings to allow GitHub API access permissions
-- Improve code formatting and consistency in user router
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;</div>
+                                        <div class="sha">#b9c3d1f</div>
+                                        <div class="message">chore: update workflows</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#11aad81</div>
-                                        <div class="message">fix: prevent empty string being sent to embeddings API</div>
+                                        <div class="sha">#e6a0910</div>
+                                        <div class="message">[ci skip] Update version to 1.6.1</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#60c33b4</div>
-                                        <div class="message">chore: Update version to 1.4.1</div>
+                                        <div class="sha">#2b2a929</div>
+                                        <div class="message">chore: Update version to 1.5.1</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#bad1744</div>
-                                        <div class="message">fix: build</div>
+                                        <div class="sha">#a2a59ca</div>
+                                        <div class="message">💄style: add version information explanation to AboutSetting</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#663f13f</div>
-                                        <div class="message">✨feat: add GitHub plugin installation feature
-
-Add ability to install plugins directly from GitHub repositories with automatic repository info fetching, fallback handling for API rate limits, and comprehensive error handling.
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;</div>
+                                        <div class="sha">#14fc4ee</div>
+                                        <div class="message">chore: update package.json</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#7042197</div>
-                                        <div class="message">fix: tauri android and ios issues</div>
+                                        <div class="sha">#29d56c6</div>
+                                        <div class="message">chore: Update version to 1.5.0</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#00b44d6</div>
-                                        <div class="message">💄style: hide hotkey settings on mobile platforms
-
-Hide hotkey configuration from settings menu on Android and iOS platforms where hotkeys are not applicable, keeping them visible only on desktop platforms (Windows, macOS, Linux).
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;</div>
+                                        <div class="sha">#5769ecb</div>
+                                        <div class="message">[ci skip] Update version to 1.6.0</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#077db21</div>
-                                        <div class="message">🐛fix: code block formatting when only contains single line content
+                                        <div class="sha">#1ca0c7e</div>
+                                        <div class="message">Merge pull request #900 from blinkospace/refactor-ai-setting
 
-- Fix Code component logic to properly detect code blocks wrapped in triple backticks
-- Previously only multi-line content was treated as code blocks (checked for \n)
-- Now also checks for language- className which indicates triple backtick wrapping
-- Ensures single-line code blocks get proper styling and syntax highlighting
-- Maintains backward compatibility with existing multi-line code blocks
-
-Resolves #869
-
-🤖 Generated with [Blinko](https://github.com/blinkospace/blinko)
-
-Co-Authored-By: Blinko &lt;noreply@blinko.app&gt;</div>
+Refactor ai setting</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#b5956cb</div>
-                                        <div class="message">🐛fix: resolve output validation failed error for numeric config fields
-
-- Fix Zod validation schema to handle null values for numeric configuration fields
-- Update httpProxyPort and other numeric fields to use z.number().nullable().optional()
-- Resolves "Output validation failed" error when accessing settings with proxy configuration
-- Fixes issue where null values from database were rejected by validation schema
-
-Resolves #873
-
-🤖 Generated with [Blinko](https://github.com/blinkospace/blinko)
-
-Co-Authored-By: Blinko &lt;noreply@blinko.app&gt;</div>
+                                        <div class="sha">#f6ee475</div>
+                                        <div class="message">chore: cleanup some icon files</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#913e0d3</div>
-                                        <div class="message">✨feat: implement unlimited multi-level nested comments with proper deletion support
-
-- Add recursive comment rendering system supporting unlimited nesting depth
-- Implement backend recursive query function for nested comment retrieval
-- Fix delete button visibility for nested comments (resolves #848)
-- Add reply functionality to any comment at any nesting level (resolves #862)
-- Include visual depth indicators and maximum depth limiting for UI stability
-- Update tRPC schema to support recursive comment structure validation
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;</div>
+                                        <div class="sha">#7e58493</div>
+                                        <div class="message">🐛fix: resolve android startup blue flash issue with theme persistence</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#439528e</div>
-                                        <div class="message">✨feat: add desktop update progress dialog with real-time download tracking
+                                        <div class="sha">#d38f5a7</div>
+                                        <div class="message">💄style: enhance tool call UI with flat design and dialog details
 
-- Create UpdateProgressDialog component with internal state management
-- Display download progress, file size, speed, and status animations
-- Support multiple update states: checking, downloading, installing, completed, error
-- Integrate with AboutSetting component to replace simple update logic
-- Fix Tauri updater API usage for proper progress event handling
-- Add retry functionality and error handling with user-friendly messages
-- Prevent dialog closure during critical operations (download/install)
-- Include restart button after successful update completion
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;</div>
+- Add Cherry Studio-style tool call bubbles with compact design
+- Implement flat design: remove borders, shadows, increase border radius
+- Add click-to-view details in dialog with JSON syntax highlighting
+- Support real-time tool execution status with animated indicators
+- Display tools in single-line layout instead of inline
+- Add internationalization support for dialog content
+- Improve tool icon mapping and display name formatting</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#9ce3179</div>
-                                        <div class="message">Merge branch 'main' of https://github.com/blinkospace/blinko</div>
+                                        <div class="sha">#e5b3a81</div>
+                                        <div class="message">♻️refactor: implement robust embedding rebuild with auto-resume functionality
+
+- Add resumable rebuild mechanism with note ID tracking
+- Implement incremental update strategy to skip processed notes
+- Add retry mechanism with exponential backoff for failed embeddings
+- Enable automatic resume detection on backend startup
+- Add database status check before starting new rebuild tasks
+- Improve progress tracking with detailed state persistence
+- Update UI to handle interrupted tasks gracefully
+- Remove manual resume buttons in favor of automatic detection</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#2f5e488</div>
-                                        <div class="message">🐛fix: resolve plugin loading failures in Tauri with auto-reinstall mechanism
+                                        <div class="sha">#3a4f100</div>
+                                        <div class="message">♻️refactor: simplify MCP integration and AI tool parameters
 
-- Add plugin 404 detection and auto-reinstall logic for SystemJS Error#3
-- Implement retry limit (max 2 attempts) to prevent infinite loops
-- Add forceReinstall parameter to backend plugin installation
-- Improve retry count management with unique keys per plugin path
-- Remove recursive plugin loading to avoid installation loops
-- Clear retry counters on successful load and plugin destruction
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;</div>
+- Replace globalUser with globalToken in MCP route for cleaner token-based auth
+- Simplify updateBlinko tool to accept single note instead of array for better AI comprehension
+- Remove nested note wrapper from updateBlinko parameters
+- Add comprehensive MCP integration UI with endpoint, token, and configuration examples</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#8af5b0d</div>
-                                        <div class="message">[ci skip] Update version to 1.5.1</div>
+                                        <div class="sha">#0b6b3ce</div>
+                                        <div class="message">✨feat: enhance AI model testing with capability-based validation
+
+- Add dynamic model testing based on capabilities (inference, embedding, audio)
+- Implement provider-specific test connection API with detailed feedback
+- Create reusable formatTestResults utility for consistent UI responses
+- Update ModelDialogContent and ProviderCard with enhanced test functionality
+- Support comprehensive audio metadata pipeline for voice recordings
+- Refactor AI settings architecture with dedicated AiSettingStore
+- Improve model capability inference from DEFAULT_MODEL_TEMPLATES</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#5a7cc3b</div>
-                                        <div class="message">Merge branch 'main' of https://github.com/blinkospace/blinko</div>
+                                        <div class="sha">#7aacaa4</div>
+                                        <div class="message">♻️refactor: restructure AI provider architecture with new base classes
+
+- Replace individual provider files with abstract base classes
+- Add BaseProvider, LLMProvider, EmbeddingProvider, AudioProvider
+- Refactor AI settings UI with new provider configuration
+- Update database schema for provider configuration
+- Add new AI settings components and internationalization
+- Remove legacy provider implementations
+- Update AI factory and store management</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#21578a1</div>
-                                        <div class="message">Merge pull request #880 from BryceWG/main
-
-feat(app): optimize AI query processing for global search</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#81053d9</div>
-                                        <div class="message">fix: prevent saving zero window dimensions when minimized
-
-- Add minimum window size validation (600x300)
-- Skip state saving when window is minimized
-- Ensure window state is only saved for valid dimensions
-- Only monitor main window for state changes
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#9d57330</div>
-                                        <div class="message">feat(app): optimize AI query processing for global search</div>
+                                        <div class="sha">#926e74b</div>
+                                        <div class="message">chore: update doc</div>
                                     </div>
                                 </div>
                             </section>
@@ -244,441 +187,206 @@ Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;</div>
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 40 commits in
+                                        Pushed 47 commits in
                                         <span class="repo">Pleasurecruise/cherry-studio</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#6afaf62</div>
-                                        <div class="message">Fix Anthropic API URL and add endpoint path handling (#10229)
+                                        <div class="sha">#0f8cbee</div>
+                                        <div class="message">fix(translate): remove unused effect for clearing translation contenton mount (#10349)
 
-* Fix Anthropic API URL and add endpoint path handling
+* fix(translate): remove unused effect for clearing translation content on mount
 
-- Remove trailing slash from Anthropic API base URL
-- Add isAnthropicProvider utility function
-- Update provider settings to show full endpoint URL for Anthropic
-- Add migration to clean up existing Anthropic provider URLs
+* format code</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#2ed99c0</div>
+                                        <div class="message">ci(workflow): only trigger PR CI on non-draft PRs (#10338)
 
-* Update src/renderer/src/pages/settings/ProviderSettings/ProviderSetting.tsx
+ci(workflow): only trigger PR CI on non-draft PRs and specific events
 
+Add trigger conditions for PR CI workflow to run on non-draft PRs and specific event types</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#0a149e3</div>
+                                        <div class="message">chore: release v1.6.0</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#a3a26c6</div>
+                                        <div class="message">fix: seed think (#10322)
+
+* fix: 添加 seedThink 标签以支持新的模型识别
+
+* Enable reasoning for SEED-OSS models
+
+- Add SEED-OSS model ID check to reasoning exclusion logic
+- Include SEED-OSS models in reasoning model detection
+
+* fix: 更新 reasoning-end 事件处理以使用最终推理内容</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#2bafc53</div>
+                                        <div class="message">Show loading icon when chat is in streaming (#10319)
+
+* support chat stream loading rendering
+
+* support chat stream loading rendering
+
+* update loading icon to dots
+
+* fix format
+
+---------
+
+Co-authored-by: suyao &lt;sy20010504@gmail.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#09e9b95</div>
+                                        <div class="message">fix(reasoning): thinking control for ds v3.1 of tencent platform (#10333)
+
+* feat(reasoning): add Hunyuan and Tencent TI thinking config
+
+* fix: style
+
+* fix(reasoning): merge same type providers</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#bf2ffb7</div>
+                                        <div class="message">chore: bump version to v1.6.0-rc.5 and update release notes</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#287c96e</div>
+                                        <div class="message">feat: implement isNewApiProvider utility for provider identification
+
+- Added isNewApiProvider function to streamline checks for 'new-api' and 'cherryin' providers.
+- Updated ApiClientFactory, providerConfig, and various components to utilize isNewApiProvider for improved readability and maintainability.
+- Refactored conditional checks across multiple files to replace direct string comparisons with the new utility function.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#adacb8c</div>
+                                        <div class="message">style: update padding and width in various components for improved layout
+
+- Adjusted padding in TabsBar and Navbar components to enhance spacing.
+- Updated ItemRenderer and Sortable components to accept itemStyle prop for custom styling.
+- Changed NotesSidebar scroll behavior from 'smooth' to 'instant'.
+- Modified MCP server card width to 100% for better responsiveness.
+- Set wrapperStyle and itemStyle to 100% width in McpServersList for consistent item display.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#7a3d086</div>
+                                        <div class="message">feat: add workflow to delete merged branch (#10314)
+
+* Create delete-branch.yml
+
+* Update delete-branch.yml
+
+* Update delete-branch.yml</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#ec4d106</div>
+                                        <div class="message">fix(minapps): openMinApp function doesn't work properly (#10308)
+
+* feat(minapps): support temporary minapps
+
+* feat(settings): use openSmartMinApp with app logo to open docs sites
+
+* refactor(icons): replace styled img with tailwind
+
+* feat(tab): tighten types
+
+* feat(tab): use minapps cache and log missing entries
+
+* test(icons): update MinAppIcon snapshot to reflect class and attrs</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#fe0c0fa</div>
+                                        <div class="message">fix(assistant): enforce id requirement when updating assistant (#10321)
+
+* fix(assistant): enforce id requirement when updating assistant
+
+Ensure assistant id is always provided when updating assistant properties by making it a required field in the update payload. This prevents potential bugs where updates might be applied to wrong assistants.
+
+* refactor(useAssistant): simplify updateAssistant callback by removing redundant id
+
+Update InputbarTools to use simplified callback signature</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#4a4a168</div>
+                                        <div class="message">chore: bump version to 1.6.0-rc.4
+
+- Update version in package.json
+- Update release notes in electron-builder.yml</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#37218ee</div>
+                                        <div class="message">feat: enable cherryin provider</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#3b34efd</div>
+                                        <div class="message">feat(settings): update MCP server card layout and styling
+
+- Adjusted the width of the CardContainer to dynamically calculate based on viewport width.
+- Changed the layout of the McpServersList from grid to list, with a vertical orientation and updated styling for list items.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#cc650b5</div>
+                                        <div class="message">feat(privacy): add English and Chinese privacy policy pages and popup component
+
+- Introduced new HTML files for the privacy policy in English and Chinese.
+- Implemented a PrivacyPopup component to display the privacy policy within the application.
+- The popup dynamically loads the appropriate language based on user settings and includes options to accept or decline the policy.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#183b46b</div>
+                                        <div class="message">feat(ipc): add App_Quit channel and update related handlers
+
+- Introduced a new IPC channel for quitting the application.
+- Updated ipc.ts to handle the App_Quit channel, allowing the app to quit when invoked.
+- Added corresponding quit method in the preload API for client-side access.
+- Fixed a minor URL check in WindowService to ensure proper navigation handling.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#a847b74</div>
+                                        <div class="message">feat: add new provider aionly (#10179)
+
+* feat: add new provider aionly
+
+* fix(store): update migration to properly add 'aionly' provider in v156
+
+Move 'aionly' provider addition from v155 to v156 migration to ensure proper state initialization
+
+---------
+
+Co-authored-by: fengjunhao &lt;765838796@qq.com&gt;
 Co-authored-by: Phantom &lt;59059173+EurFelux@users.noreply.github.com&gt;
-
----------
-
-Co-authored-by: Phantom &lt;59059173+EurFelux@users.noreply.github.com&gt;</div>
+Co-authored-by: icarus &lt;eurfelux@gmail.com&gt;
+Co-authored-by: 亢奋猫 &lt;kangfenmao@qq.com&gt;</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#77535b0</div>
-                                        <div class="message">feat(Inputbar): cache mentioned models state between renders (#10197)
+                                        <div class="sha">#25c5d67</div>
+                                        <div class="message">fix(assistant): update translate assistant content handling for QwenMT model (#10306)
 
-Use a ref to track mentioned models state and cache it in a module-level variable when component unmounts to preserve state between renders</div>
+* fix(assistant): update translate assistant content handling for QwenMT model
+
+- Adjusted content assignment in getDefaultTranslateAssistant to use store settings only when the model is not a QwenMT model, ensuring correct translation behavior.
+
+* lint err
+
+* refactor(assistant): encapsulate content handling logic for translation
+
+- Introduced a new function, getTranslateContent, to streamline content assignment in getDefaultTranslateAssistant.
+- This change improves readability and maintains correct translation behavior for QwenMT models.
+
+* format code</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#dec68ee</div>
-                                        <div class="message">Fix/ts (#10226)
-
-* chore: ts
-
-* chore: yarn.lock</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#a8bf55a</div>
-                                        <div class="message">refactor: 将网络搜索参数用于模型内置搜索 (#10213)
-
-* Remove local provider option files and use external packages
-
-Replace local implementation of XAI and OpenRouter provider options with
-external packages (@ai-sdk/xai and @openrouter/ai-sdk-provider). Update
-web search plugin to support additional providers including OpenAI Chat
-and OpenRouter, with improved configuration mapping.
-
-* Bump @cherrystudio/ai-core to v1.0.0-alpha.17
-
-fix i18n
-
-* fix(i18n): Auto update translations for PR #10213
-
----------
-
-Co-authored-by: GitHub Action &lt;action@github.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#1481149</div>
-                                        <div class="message">fix: wrap MessageEditor with QuickPanelProvider (#10223)
-
-* fix: wrap MessageEditor with QuickPanelProvider
-
-* style: revert formatting</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#4f91a32</div>
-                                        <div class="message">chore: update dependencies and VSCode settings (#10206)
-
-* chore: update dependencies and VSCode settings
-
-* chore
-
-* chore: ts</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7319fc5</div>
-                                        <div class="message">chore: bump version to v1.6.0-rc.1</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#cc860e4</div>
-                                        <div class="message">fix: update navbar position handling in useAppInit hook
-
-- Added isLeftNavbar to the useNavbarPosition hook for improved layout management.
-- Adjusted background style logic to use isLeftNavbar instead of isTopNavbar for better compatibility with left-aligned navigation.
-- Simplified condition for transparent window styling on macOS.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#a9093b1</div>
-                                        <div class="message">chore: update biome format command to ignore unmatched files (#10207)
-
-Add --no-errors-on-unmatched flag to biome format commands in lint-staged configuration to prevent errors when no matching files are found</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ee95fad</div>
-                                        <div class="message">feat: add support for iflow cli (#10198)
-
-Signed-off-by: 本x &lt;liyuyun.lyy@alibaba-inc.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#1a5138c</div>
-                                        <div class="message">refactor: quick panel and inputbar tools (#10142)
-
-* refactor: add QuickPanelReservedSymbol
-
-* refactor: pass assistant id instead of assistant object
-
-* refactor: simplify InputbarTools props
-
-* refactor: add root symbol
-
-* refactor: merge file panel to attachment button
-
-* refactor: extract ActionButton for reuse
-
-* chore: update CLAUDE.md
-
-* fix: colors
-
-* refactor: add more reserved symbols
-
-* fix: keep updateAssistant stable
-
-* refactor(components): replace styled-components with cn utility in ActionIconButton
-
-- Replace styled-components with cn utility from @heroui/react for better maintainability
-- Add new --icon and --color-icon CSS variables for consistent icon coloring
-- Simplify button styling using Tailwind CSS classes
-
----------
-
-Co-authored-by: icarus &lt;eurfelux@gmail.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#5451e2f</div>
-                                        <div class="message">Perf/tsgo (#10188)
-
-* feat: update tsgo
-
-* chore: update alpha.15
-
-* feat: add script
-
-* chore: update ai-core version to alpha.16 and add npm registry settings
-
-* chore</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#c641b11</div>
-                                        <div class="message">fix(markdown): broken layout in translate page if rendered as long markdown (#10187)
-
-* style(markdown): improve code block styling and layout
-
-- Add text-wrap to pre elements for better readability
-- Force background color for code blocks with !important
-- Change display to grid in translate page for consistent layout
-- Add overflow hidden to output container
-
-* style(markdown): remove redundant !important from code block styling
-
-Move !important declaration to output container's markdown pre selector where it's actually needed</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#d44654f</div>
-                                        <div class="message">chore: add tailwindcss and vitest extensions to vscode config (#10169)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#85b8724</div>
-                                        <div class="message">chore: add eslint cache to gitignore and enable cache in lint commands (#10167)
-
-Enable eslint cache to improve linting performance and add .eslintcache to gitignore</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#4d1d3e3</div>
-                                        <div class="message">feat: use oxlint to speed up lint (#10168)
-
-* build: add eslint-plugin-oxlint dependency
-
-Add new eslint plugin to enhance linting capabilities with oxlint rules
-
-* build(eslint): add oxlint plugin to eslint config
-
-Add oxlint plugin as recommended in the documentation to enhance linting capabilities
-
-* build: add oxlint v1.15.0 as a dependency
-
-* build: add oxlint to linting commands
-
-Add oxlint alongside eslint in test:lint and lint scripts for enhanced static analysis
-
-* build: add oxlint configuration file
-
-Configure oxlint with a comprehensive set of rules for JavaScript/TypeScript code quality checks
-
-* chore: update oxlint configuration and related settings
-
-- Add oxc to editor code actions on save
-- Update oxlint configs to use eslint, typescript, and unicorn presets
-- Extend ignore patterns in oxlint configuration
-- Simplify oxlint command in package.json scripts
-- Add oxlint-tsgolint dependency
-
-* fix: lint warning
-
-* chore: update oxlintrc from eslint.recommended
-
-* refactor(lint): update eslint and oxlint configurations
-
-- Add src/preload to eslint ignore patterns
-- Update oxlint env to es2022 and add environment overrides
-- Adjust several lint rule severities and configurations
-
-* fix: lint error
-
-* fix(file): replace eslint-disable with oxlint-disable in sanitizeFilename
-
-The linter was changed from ESLint to oxlint, so the directive needs to be updated accordingly.
-
-* fix: enforce stricter linting by failing on warnings in test:lint script
-
-* feat: add recommended ts-eslint rules into exlint
-
-* docs: remove outdated comment in oxlint config file
-
-* style: disable typescript/no-require-imports rule in oxlint config
-
-* docs(utils): fix comment typo from NODE to NOTE
-
-* fix(MessageErrorBoundary): correct error description display condition
-
-The error description was incorrectly showing in production and hiding in development. Fix the logic to show detailed errors only in development mode
-
-* chore: add oxc-vscode extension to recommended list
-
-* ci(workflows): reorder format check step in pr-ci.yml
-
-* chore: update yarn.lock</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#e5ccf68</div>
-                                        <div class="message">feat: use biome to format files (#10170)
-
-* build: add @biomejs/biome as a dependency
-
-* chore: add biome extension to vscode recommendations
-
-* chore: migrate from prettier to biome for code formatting
-
-Update VSCode settings to use Biome as the default formatter for multiple languages
-Add Biome to code actions on save and reorder search exclude patterns
-
-* build: add biome.json configuration file for code formatting
-
-* build: migrate from prettier to biome for formatting
-
-Update package.json scripts and biome.json configuration to use biome instead of prettier for code formatting. Adjust biome formatter includes/excludes patterns for better file matching.
-
-* refactor(eslint): remove unused prettier config and imports
-
-* chore: update biome.json configuration
-
-- Enable linter and set custom rules
-- Change jsxQuoteStyle to single quotes
-- Add json parser configuration
-- Set formatWithErrors to true
-
-* chore: migrate biome config from json to jsonc format
-
-The new jsonc format allows for comments in the configuration file, making it more maintainable and easier to document configuration choices.
-
-* style(biome): update ignore patterns and jsx quote style
-
-Update file ignore patterns from `/*` to `/**` for consistency
-Change jsxQuoteStyle from single to double quotes for alignment with project standards
-
-* refactor: simplify error type annotations from Error | any to any
-
-The change standardizes error handling by using 'any' type instead of union types with Error | any, making the code more consistent and reducing unnecessary type complexity.
-
-* chore: exclude tailwind.css from biome formatting
-
-* style: standardize quote usage and fix JSX formatting
-
-- Replace single quotes with double quotes in CSS imports and selectors
-- Fix JSX element closing bracket alignment and formatting
-- Standardize JSON formatting in package.json files
-
-* Revert "style: standardize quote usage and fix JSX formatting"
-
-This reverts commit 0947f8505db31000dda44a110ebcc3db8b95dd08.
-
-* fix: remove json import assertion for biome compatibility
-
-The import assertion syntax is not supported by biome, so it was replaced with a standard import statement.
-
-* style: change quote styles in biome.jsonc to use single quotes for JSX and double quotes for JS
-
-* style: change quote style from double to single in biome config
-
-* style: change JSX quote style from single to double
-
-* chore: update biome.jsonc to use single quotes for CSS formatting
-
-* chore: update biome config and format commands
-
-- Exclude tailwind.css from linter includes
-- Add biome lint to format commands
-
-* style: format JSX closing brackets for better readability
-
-* style: set bracketSameLine to true in biome config
-
-The change aligns with common JSX formatting preferences where brackets on the same line improve readability for many developers
-
-* Revert "style: format JSX closing brackets for better readability"
-
-This reverts commit d442c934eef26960f1e7ae3b0f60e833dea2d706.
-
-* style: format code and clean up whitespace
-
-- Remove unnecessary whitespace in CSS and TS files
-- Format package.json files to consistent style
-- Reorder tsconfig.json properties alphabetically
-- Improve code formatting in React components
-
-* style(biome): update biome.jsonc config with clearer comment
-
-Add explanation for keeping bracketSameLine as true to minimize changes in current PR while noting false would be better for future
-
-* chore: remove prettier dependency and format package.json files
-
-- Remove prettier from dependencies as it's no longer needed
-- Reformat package.json files for better readability
-
-* chore: replace prettier with biome for code formatting
-
-Remove all prettier-related configuration, dependencies, and references
-Update formatting scripts and documentation to use biome instead
-Adjust electron-builder config to exclude biome.jsonc
-
-* build: replace prettier with biome for formatting
-
-Use biome as the default formatter instead of prettier for better performance and modern tooling support
-
-* ci(i18n): replace prettier with biome for i18n formatting
-
-Update the auto-i18n workflow to use Biome instead of Prettier for formatting translated files. This change simplifies the dependencies by removing multiple Prettier plugins and using a single tool for formatting.
-
-* fix(i18n): Auto update translations for PR #10170
-
-* style: format package.json files by consolidating array formatting
-
-Consolidate multi-line array formatting into single-line format for better readability and consistency across package.json files
-
-* Revert "fix(i18n): Auto update translations for PR #10170"
-
-This reverts commit a7edd32efda396ce5dd8685ec8b50761aa2b58f8.
-
-* ci(workflows): specify biome config path in auto-i18n workflow
-
-* chore: update biome.jsonc to use lexicographic sort order for json keys
-
-* ci(workflows): update biome format command to use --config-path flag
-
-* chore: exclude package.json from biome formatting
-
-* ci: update biome.jsonc linter configuration
-
-Update linter includes to target specific files and modify useSortedClasses rule
-
-* chore: reorder search exclude patterns in vscode settings
-
-* style(OGCard): reorder tailwind classes for consistent styling
-
-* fix(biome): update tailwind classes sorting to safe and warn level
-
-* docs(dev): update ide setup instructions in dev docs
-
-Replace Prettier with Biome as the recommended formatter and clarify editor options
-
-* build(extension-table-plus): replace prettier with biome for formatting
-
-- Add biome.json configuration file
-- Update package.json to use biome instead of prettier
-- Remove prettier from dependencies
-- Update lint script to use biome format
-
-* chore: replace biome.json with biome.jsonc for extended configuration
-
-Update biome configuration file to use JSONC format for comments and more detailed settings
-
-* chore: remove unused biome.jsonc configuration file
-
----------
-
-Co-authored-by: GitHub Action &lt;action@github.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#e3d2bb2</div>
-                                        <div class="message">feat: remove faiss database (#10178)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7f9f551</div>
-                                        <div class="message">feat(CodeTools): enhance OpenAI Codex integration with configurable parameters (#10180)
-
-* feat(CodeTools): enhance OpenAI Codex integration with configurable parameters
-
-- Added support for custom OpenAI model provider and model configuration in CodeToolsService.
-- Updated CodeToolsPage to filter providers based on the selected CLI tool, including OpenAI Codex.
-- Introduced OPENAI_CODEX_SUPPORTED_PROVIDERS constant for better provider management.
-- Refactored environment variable generation to include OpenAI-specific settings.
-
-* fix(CodeTools): correct environment variable generation for OpenAI Codex integration
-
-- Added a break statement in the environment generation logic for OpenAI Codex to ensure proper handling of API key and base URL.
-- Moved the import of codeTools to maintain consistency in the CodeToolsPage component.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#d5487ba</div>
-                                        <div class="message">fix(error): improve error response body parsing and message handling (#10181)
-
-* fix(error): improve error response body parsing and message handling
-
-Handle JSON parsing of error response bodies and extract internal messages when available. Combine messages when both top-level and internal messages exist.
-
-* refactor(error): simplify response body assignment in serializeError
-
-Remove redundant conditional logic and directly assign error.responseBody to serializedError.responseBody
-
-* fix(serializeError): handle responseBody assignment consistently
-
-Ensure responseBody is always assigned from error.responseBody when available, otherwise stringify the body. This prevents potential undefined behavior when error.responseBody exists but body is not available.</div>
+                                        <div class="sha">#87d9c7b</div>
+                                        <div class="message">feat: add client ID generation and update user agent headers in AppUpdater
+
+- Introduced a new method in ConfigManager to generate and retrieve a unique client ID.
+- Updated AppUpdater to include the client ID in the request headers alongside the user agent.</div>
                                     </div>
                                 </div>
                             </section>
@@ -690,49 +398,99 @@ Ensure responseBody is always assigned from error.responseBody when available, o
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 7 commits in
-                                        <span class="repo">Pleasurecruise/note-gen</span>
+                                        Pushed 20 commits in
+                                        <span class="repo">Pleasurecruise/cdk</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">dev</span></div>
+                                    <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#6d93881</div>
-                                        <div class="message">feat: iOS 图标</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#712c2cf</div>
-                                        <div class="message">release: v0.21.1</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#4ed12d1</div>
-                                        <div class="message">feat: 增加限时公益模型，可以免费体验更强的模型</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#5706d52</div>
-                                        <div class="message">docs: Thanks netlify</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#98d9a5d</div>
-                                        <div class="message">docs: skywork.ai</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#4e906fd</div>
-                                        <div class="message">docs: Thanks 胜算云、Gitee AI</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#b3b1cec</div>
-                                        <div class="message">feat(#648): 支持自定义仓库名称 (#649)
+                                        <div class="sha">#fc9a524</div>
+                                        <div class="message">Merge pull request #128 from linux-do/receiver
 
-* feat: 自定义仓库名称配置
+feat: add get receivers</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#875d6d4</div>
+                                        <div class="message">version: update v 1.1.0</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#5d41820</div>
+                                        <div class="message">feat: change display list</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#eb960b3</div>
+                                        <div class="message">feat: change display list</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#9fdfee5</div>
+                                        <div class="message">feat: add get receivers</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#93f5cbe</div>
+                                        <div class="message">Merge pull request #127 from yyg-max/dev
 
-* feat: 各项同步功能适配自定义仓库名称
+feat: 创建人可查询对应key的领取人、管理端新增查询所有用户接口。</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#e419310</div>
+                                        <div class="message">Merge branch 'linux-do:master' into dev</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#e3e32f1</div>
+                                        <div class="message">Merge pull request #126 from linux-do/crossover
 
-* feat: 改为手动创建仓库
+feat: 新增抽奖联动；移除广场页面</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#156b58a</div>
+                                        <div class="message">feat: new dashboard</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#7f7333e</div>
+                                        <div class="message">feat: add log out icon</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#8a4b4d0</div>
+                                        <div class="message">feat: 新增抽奖联动；移除广场页面</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#5dbbb70</div>
+                                        <div class="message">Merge pull request #124 from yyg-max/master
 
-* feat: 改为手动检测仓库状态
-
-* feat: 手动创建图床仓库和检测</div>
+feat(后端): 处理L站抽奖功能</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#6c4b1da</div>
+                                        <div class="message">feat: 创建人可查询对应key的领取人、管理端新增查询所有用户接口。</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#8b511a1</div>
+                                        <div class="message">feat(linuxDo): update configuration to use api_key and enhance request function with headers</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#841285c</div>
+                                        <div class="message">fix(project): remove unnecessary condition in CreateItemsWithFilter method</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#600e29c</div>
+                                        <div class="message">Merge remote-tracking branch 'origin/master'</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d0dd448</div>
+                                        <div class="message">feat: add linuxDo configuration and update request handling with cookies</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#530f60a</div>
+                                        <div class="message">Merge branch 'linux-do:master' into master</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#7f73568</div>
+                                        <div class="message">chore(http_client): add MIT license header to http_client.go</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#48bb5e6</div>
+                                        <div class="message">feat(project): implement project creation rate limiting and lottery distribution logic</div>
                                     </div>
                                 </div>
                             </section>
@@ -741,16 +499,79 @@ Ensure responseBody is always assigned from error.responseBody when available, o
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Opened
-                                        <span class="issue">#10295 refactor(button): migrate button from antd to heroui</span>
+                                        Pushed 10 commits in
+                                        <span class="repo">Pleasurecruise/note-gen</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div> in <span class="repo">CherryHQ/cherry-studio</span></div>
-                                    <div>31 files changed <span class="code">++111 --304</span></div>
+                                    <div>on branch <span class="code">dev</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#de8e0ad</div>
+                                        <div class="message">fix(#637): Android 无法正常使用内置模型，支持 HTTPS</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#a01de7f</div>
+                                        <div class="message">release: v0.21.2</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#3956e5c</div>
+                                        <div class="message">feat: 移动端文件管理器增加交互按钮，无需长按呼出菜单</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#efe1278</div>
+                                        <div class="message">fix: 默认模型初始化时未正确配置</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#13aeef0</div>
+                                        <div class="message">fix: 修复移动端关联文件展示异常</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#828b68f</div>
+                                        <div class="message">style: 移动端完善对话工具栏与桌面端一致</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#adcf54e</div>
+                                        <div class="message">fix(#664): 修复目录或文件名包含特殊字符‘&amp;’时，笔记同步功能失效问题</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#f5740a3</div>
+                                        <div class="message">fix: 隐藏默认模型配置</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#f91047b</div>
+                                        <div class="message">feat: 模型配置支持同一供应商下多模型管理 (#666)
+
+* feat: 模型配置单增加多选模型配置
+
+* feat: 优化创建配置本地存储机制
+
+* feat: 新建模型
+
+* feat: AI 对话选择模型增加分组展示
+
+* feat: AI 对话模型使用多选模型
+
+* fix: 默认模型配置
+
+* feat: 修改免费模型配置
+
+* feat: 供应商模板简化配置项
+
+* feat: 合并设置界面中的 model-select
+
+* fix: RAG 模型调用
+
+* feat: 语音模型选择
+
+* fix: placeholder 和描述生成错误</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#26610a1</div>
+                                        <div class="message">docs: 📝 update README.md</div>
+                                    </div>
                                 </div>
                             </section>
                         </div>
