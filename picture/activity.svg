@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1516" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1130" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}#metrics-end,.fill-width{width:100%}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details&gt;*,.row section{flex:1 1 0}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .user{font-weight:600}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.project .items{padding-left:11px}.field.license.details{display:flex;justify-content:space-between}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}.token.string{color:#2777aa}.blue{color:#58a6ff}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex;flex-wrap:wrap}#metrics-end,.fill-width{width:100%}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details&gt;*,.row section{flex:1 1 0}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}.token.regex{color:#2777aa}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -29,7 +29,7 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#cee53ff</div>
+                                        <div class="sha">#a6f7948</div>
                                         <div class="message">Merge branch 'docmost:main' into main</div>
                                     </div>
                                 </div>
@@ -42,140 +42,114 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 25 commits in
+                                        Pushed 28 commits in
                                         <span class="repo">Pleasurecruise/blinko</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#422051e</div>
-                                        <div class="message">✨feat: add image copy to clipboard functionality
-
-- Add CopyIcon component with PNG format clipboard support
-- Position copy button next to download button on hover
-- Include fallback to copy image URL if clipboard API fails
-- Support both direct image copy and URL fallback for better compatibility</div>
+                                        <div class="sha">#be3c20a</div>
+                                        <div class="message">Merge branches 'main' and 'main' of https://github.com/blinkospace/blinko</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#7ebb6ab</div>
-                                        <div class="message">📝docs: add docker pulls badge and reorder badges in readme files
-
-Add Docker Hub pulls statistics badge in red color and position it first for better visibility in both English and Chinese README files.</div>
+                                        <div class="sha">#ca41afd</div>
+                                        <div class="message">chore: update yml</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#fe5f51f</div>
-                                        <div class="message">🐛fix: update AI feature visibility conditions in right-click menu
-
-Replace deprecated isUseAI config check with mainModelId for more accurate detection of available AI features in context menus.</div>
+                                        <div class="sha">#551c053</div>
+                                        <div class="message">[ci skip] Update version to 1.6.3</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#4c3abe4</div>
+                                        <div class="sha">#0981288</div>
+                                        <div class="message">chore: update cuda path in yml</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#b8bdc81</div>
                                         <div class="message">Merge branch 'main' of https://github.com/blinkospace/blinko</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#b9c3d1f</div>
-                                        <div class="message">chore: update workflows</div>
+                                        <div class="sha">#ec19b6a</div>
+                                        <div class="message">chore: update windows-test-release</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#e6a0910</div>
-                                        <div class="message">[ci skip] Update version to 1.6.1</div>
+                                        <div class="sha">#ac74ef9</div>
+                                        <div class="message">[ci skip] Update version to main</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#2b2a929</div>
-                                        <div class="message">chore: Update version to 1.5.1</div>
+                                        <div class="sha">#86cd357</div>
+                                        <div class="message">chore: add windows-test-release</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#a2a59ca</div>
-                                        <div class="message">💄style: add version information explanation to AboutSetting</div>
+                                        <div class="sha">#1f20a66</div>
+                                        <div class="message">fix: build</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#14fc4ee</div>
-                                        <div class="message">chore: update package.json</div>
+                                        <div class="sha">#5ce5587</div>
+                                        <div class="message">fix: build</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#29d56c6</div>
-                                        <div class="message">chore: Update version to 1.5.0</div>
+                                        <div class="sha">#b6ebcef</div>
+                                        <div class="message">fix: build</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#5769ecb</div>
-                                        <div class="message">[ci skip] Update version to 1.6.0</div>
+                                        <div class="sha">#04451ca</div>
+                                        <div class="message">fix: build error</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#1ca0c7e</div>
-                                        <div class="message">Merge pull request #900 from blinkospace/refactor-ai-setting
+                                        <div class="sha">#f17044e</div>
+                                        <div class="message">[ci skip] Update version to 1.6.3</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#48563c7</div>
+                                        <div class="message">Merge pull request #916 from blinkospace/stream-audio-local
 
-Refactor ai setting</div>
+Stream audio local</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#f6ee475</div>
-                                        <div class="message">chore: cleanup some icon files</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7e58493</div>
-                                        <div class="message">🐛fix: resolve android startup blue flash issue with theme persistence</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#d38f5a7</div>
-                                        <div class="message">💄style: enhance tool call UI with flat design and dialog details
+                                        <div class="sha">#a6fb2d4</div>
+                                        <div class="message">✨feat: add local voice recognition with Whisper support
 
-- Add Cherry Studio-style tool call bubbles with compact design
-- Implement flat design: remove borders, shadows, increase border radius
-- Add click-to-view details in dialog with JSON syntax highlighting
-- Support real-time tool execution status with animated indicators
-- Display tools in single-line layout instead of inline
-- Add internationalization support for dialog content
-- Improve tool icon mapping and display name formatting</div>
+- Add complete voice recognition system using Whisper models
+- Support customizable hotkeys (F1-F12, Alt, Ctrl, Space, etc.)
+- Implement press-and-hold recording with minimum duration
+- Add CUDA GPU acceleration support for Windows builds
+- Create voice settings UI with flat design and user-friendly configuration
+- Fix event listener cleanup issues in Tauri hooks
+- Remove whisper example directory and update CI for CUDA support
+- Add comprehensive language support and auto-detection
+- Include voice status display and initialization controls</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#e5b3a81</div>
-                                        <div class="message">♻️refactor: implement robust embedding rebuild with auto-resume functionality
+                                        <div class="sha">#29027bb</div>
+                                        <div class="message">Merge branch 'main' into stream-audio-local</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#f501189</div>
+                                        <div class="message">🐛fix: prevent duplicate /api paths in ollama baseURL</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#eb0340c</div>
+                                        <div class="message">✨feat: add AI model configuration endpoint
 
-- Add resumable rebuild mechanism with note ID tracking
-- Implement incremental update strategy to skip processed notes
-- Add retry mechanism with exponential backoff for failed embeddings
-- Enable automatic resume detection on backend startup
-- Add database status check before starting new rebuild tasks
-- Improve progress tracking with detailed state persistence
-- Update UI to handle interrupted tasks gracefully
-- Remove manual resume buttons in favor of automatic detection</div>
+- Add new /v1/config/ai endpoint to retrieve AI model configurations by type
+- Support mainModel, embeddingModel, voiceModel, rerankModel, imageModel, audioModel types
+- Return model details including title, modelKey, capabilities and provider info
+- Extract reusable getAiModelConfig function for backend use
+- Remove model ID and provider config from response for cleaner API</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#3a4f100</div>
-                                        <div class="message">♻️refactor: simplify MCP integration and AI tool parameters
+                                        <div class="sha">#3e79307</div>
+                                        <div class="message">🔧chore: update deployment configuration and add whisper example
 
-- Replace globalUser with globalToken in MCP route for cleaner token-based auth
-- Simplify updateBlinko tool to accept single note instead of array for better AI comprehension
-- Remove nested note wrapper from updateBlinko parameters
-- Add comprehensive MCP integration UI with endpoint, token, and configuration examples</div>
+- Update Docker Compose to use host network driver
+- Configure external PostgreSQL database connection
+- Add target directory to gitignore
+- Include whisper_mic_example for audio processing development</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#0b6b3ce</div>
-                                        <div class="message">✨feat: enhance AI model testing with capability-based validation
-
-- Add dynamic model testing based on capabilities (inference, embedding, audio)
-- Implement provider-specific test connection API with detailed feedback
-- Create reusable formatTestResults utility for consistent UI responses
-- Update ModelDialogContent and ProviderCard with enhanced test functionality
-- Support comprehensive audio metadata pipeline for voice recordings
-- Refactor AI settings architecture with dedicated AiSettingStore
-- Improve model capability inference from DEFAULT_MODEL_TEMPLATES</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7aacaa4</div>
-                                        <div class="message">♻️refactor: restructure AI provider architecture with new base classes
-
-- Replace individual provider files with abstract base classes
-- Add BaseProvider, LLMProvider, EmbeddingProvider, AudioProvider
-- Refactor AI settings UI with new provider configuration
-- Update database schema for provider configuration
-- Add new AI settings components and internationalization
-- Remove legacy provider implementations
-- Update AI factory and store management</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#926e74b</div>
-                                        <div class="message">chore: update doc</div>
+                                        <div class="sha">#80f14ee</div>
+                                        <div class="message">fix: pc window flash white</div>
                                     </div>
                                 </div>
                             </section>
@@ -187,206 +161,284 @@ Refactor ai setting</div>
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 47 commits in
+                                        Pushed 16 commits in
                                         <span class="repo">Pleasurecruise/cherry-studio</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#0f8cbee</div>
-                                        <div class="message">fix(translate): remove unused effect for clearing translation contenton mount (#10349)
-
-* fix(translate): remove unused effect for clearing translation content on mount
-
-* format code</div>
+                                        <div class="sha">#fcf53f0</div>
+                                        <div class="message">fix(models vision) (#10530)</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#2ed99c0</div>
-                                        <div class="message">ci(workflow): only trigger PR CI on non-draft PRs (#10338)
+                                        <div class="sha">#2048f21</div>
+                                        <div class="message">feat(CodeEditor): add a prop to enable the readOnly extension (#10516)
 
-ci(workflow): only trigger PR CI on non-draft PRs and specific events
+* feat(CodeEditor): add a prop to enable the readOnly extension
 
-Add trigger conditions for PR CI workflow to run on non-draft PRs and specific event types</div>
+* feat: enable keymap for TextFilePreview</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#0a149e3</div>
-                                        <div class="message">chore: release v1.6.0</div>
+                                        <div class="sha">#78eaccc</div>
+                                        <div class="message">chore(build): Upgrade electron (#10525)
+
+- 将 electron 从 37.4.0 升级到 37.6.0
+- 解决旧版本导致macOS 26卡顿问题</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#a3a26c6</div>
-                                        <div class="message">fix: seed think (#10322)
+                                        <div class="sha">#a436ab1</div>
+                                        <div class="message">fix(TextFilePreview): make editor read-only but can be copied (#10499)
 
-* fix: 添加 seedThink 标签以支持新的模型识别
+* fix(TextFilePreview): make editor read-only but can be copied
 
-* Enable reasoning for SEED-OSS models
+* feat: add table auto-wrap feature for notes
 
-- Add SEED-OSS model ID check to reasoning exclusion logic
-- Include SEED-OSS models in reasoning model detection
+* Revert "feat: add table auto-wrap feature for notes"
 
-* fix: 更新 reasoning-end 事件处理以使用最终推理内容</div>
+This reverts commit 7785f480b1f585a27e08f6fbf1829a30cad97a4a.</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#2bafc53</div>
-                                        <div class="message">Show loading icon when chat is in streaming (#10319)
+                                        <div class="sha">#2aedbf5</div>
+                                        <div class="message">fix(reasoning): support deepseek v3.2, claude 4.5, glm 4.6 (#10475)
 
-* support chat stream loading rendering
+* fix(reasoning): update deepseek model id regex pattern to match more variants
 
-* support chat stream loading rendering
+The previous regex pattern was too restrictive and didn't account for all possible deepseek model id formats. This change expands the pattern to support more variants while maintaining the same functionality.
 
-* update loading icon to dots
+* fix(reasoning): update deepseek model id regex pattern to match more variants
 
-* fix format
+* fix(reasoning): improve regex pattern for deepseek model matching
+
+Update the regex pattern to be more precise in matching deepseek model versions.
+Add detailed comments explaining the pattern and note future improvements.
+
+* feat(models): add GLM-4.6 model to supported list
+
+Update model configuration to include new GLM-4.6 model and add it to the supported models for thinking token functionality
+
+* feat(models): add claude sonnet 4.5 model to anthropic provider</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#b7e7174</div>
+                                        <div class="message">feat: add middle-click tab closing (#10498)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#e7e5c04</div>
+                                        <div class="message">feat: allowing notes to be renamed using LLM (#10487)
+
+* feat: implement auto-renaming feature for notes
+
+* feat: motion effects for auto renaming in notes
+
+* feat: add i18n for zh-tw for auto renaming in notes
+
+* chore: lint</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#53e38ed</div>
+                                        <div class="message">feat(models): update Gemini regex (#10463)
+
+* feat(models): update Gemini regex
+
+* fix: lint
+
+* fix format</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#f91e7da</div>
+                                        <div class="message">feat: add notes export (#10488)
+
+* feat: add notes export
+
+* chore: fix lint error
+
+* feat: unified export interface for notes
+
+* fix: hide export reasoning when exporting notes
+
+* chore: fix lint error
+
+* chore: remove debug log</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#74db4c4</div>
+                                        <div class="message">ci(deps): bump actions/github-script from 7 to 8 (#10480)
+
+Bumps [actions/github-script](https://github.com/actions/github-script) from 7 to 8.
+- [Release notes](https://github.com/actions/github-script/releases)
+- [Commits](https://github.com/actions/github-script/compare/v7...v8)
+
+---
+updated-dependencies:
+- dependency-name: actions/github-script
+  dependency-version: '8'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#1e4902b</div>
+                                        <div class="message">ci(deps): bump actions/checkout from 4 to 5 (#10479)
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4 to 5.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4...v5)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-version: '5'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#932b1d5</div>
+                                        <div class="message">ci(deps): bump actions/setup-node from 4 to 5 (#10478)
+
+Bumps [actions/setup-node](https://github.com/actions/setup-node) from 4 to 5.
+- [Release notes](https://github.com/actions/setup-node/releases)
+- [Commits](https://github.com/actions/setup-node/compare/v4...v5)
+
+---
+updated-dependencies:
+- dependency-name: actions/setup-node
+  dependency-version: '5'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#38ac42a</div>
+                                        <div class="message">feat: add GitHub Copilot CLI integration to coding tools (#10403)
+
+* feat: add GitHub Copilot CLI integration to coding tools
+
+- Add githubCopilotCli to codeTools enum
+- Support @github/copilot package installation
+- Add 'copilot' executable command mapping
+- Update Redux store to include GitHub Copilot CLI state
+- Add GitHub Copilot CLI option to UI with proper provider mapping
+- Implement environment variable handling for GitHub authentication
+- Fix model selection logic to disable model choice for GitHub Copilot CLI
+- Update launch validation to not require model selection for GitHub Copilot CLI
+- Fix prepareLaunchEnvironment and executeLaunch to handle no-model scenario
+
+This enables users to launch GitHub Copilot CLI directly from Cherry Studio's
+code tools interface without needing to select a model, as GitHub Copilot CLI
+uses GitHub's built-in models and authentication.
+
+Signed-off-by: LeaderOnePro &lt;leaderonepro@outlook.com&gt;
+
+* style: apply code formatting for GitHub Copilot CLI integration
+
+Auto-fix code style inconsistencies using project's Biome formatter.
+Resolves semicolon, comma, and quote style issues to match project standards.
+
+Signed-off-by: LeaderOnePro &lt;leaderonepro@outlook.com&gt;
+
+* feat: conditionally render model selector for GitHub Copilot CLI
+
+- Hide model selector component when GitHub Copilot CLI is selected
+- Maintain validation logic to allow GitHub Copilot CLI without model selection
+- Improve UX by removing empty model dropdown for GitHub Copilot CLI
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;
 
 ---------
 
-Co-authored-by: suyao &lt;sy20010504@gmail.com&gt;</div>
+Signed-off-by: LeaderOnePro &lt;leaderonepro@outlook.com&gt;
+Co-authored-by: Claude &lt;noreply@anthropic.com&gt;</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#09e9b95</div>
-                                        <div class="message">fix(reasoning): thinking control for ds v3.1 of tencent platform (#10333)
+                                        <div class="sha">#d11a2cd</div>
+                                        <div class="message">chore: update dependencies and versioning across packages (#10471)
 
-* feat(reasoning): add Hunyuan and Tencent TI thinking config
-
-* fix: style
-
-* fix(reasoning): merge same type providers</div>
+- Bumped versions for several @ai-sdk packages in package.json and yarn.lock to their latest releases, including @ai-sdk/amazon-bedrock, @ai-sdk/google-vertex, @ai-sdk/mistral, and @ai-sdk/perplexity.
+- Updated ai package version from 5.0.44 to 5.0.59.
+- Updated aiCore package version from 1.0.0-alpha.18 to 1.0.1 and adjusted dependencies accordingly.
+- Ensured compatibility with the latest zod version in multiple packages.</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#bf2ffb7</div>
-                                        <div class="message">chore: bump version to v1.6.0-rc.5 and update release notes</div>
+                                        <div class="sha">#23f61b0</div>
+                                        <div class="message">feat: support gpt-5-codex (#10448)
+
+* feat(models): add gpt5_codex model support
+
+Add support for gpt5_codex model type in model configuration and type definitions. Update getThinkModelType to handle codex variant of gpt5 models.
+
+* feat(models): add gpt-5-codex model logo and update logo mapping
+
+Add new GPT-5-Codex model logo image and include it in the logo mapping configuration</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#287c96e</div>
-                                        <div class="message">feat: implement isNewApiProvider utility for provider identification
+                                        <div class="sha">#961ee22</div>
+                                        <div class="message">feat: add new provider intel OVMS(openvino model server) (#9853)
 
-- Added isNewApiProvider function to streamline checks for 'new-api' and 'cherryin' providers.
-- Updated ApiClientFactory, providerConfig, and various components to utilize isNewApiProvider for improved readability and maintainability.
-- Refactored conditional checks across multiple files to replace direct string comparisons with the new utility function.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#adacb8c</div>
-                                        <div class="message">style: update padding and width in various components for improved layout
+* add new provider: OVMS(openvino model server)
 
-- Adjusted padding in TabsBar and Navbar components to enhance spacing.
-- Updated ItemRenderer and Sortable components to accept itemStyle prop for custom styling.
-- Changed NotesSidebar scroll behavior from 'smooth' to 'instant'.
-- Modified MCP server card width to 100% for better responsiveness.
-- Set wrapperStyle and itemStyle to 100% width in McpServersList for consistent item display.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7a3d086</div>
-                                        <div class="message">feat: add workflow to delete merged branch (#10314)
+Signed-off-by: Ma, Kejiang &lt;kj.ma@intel.com&gt;
 
-* Create delete-branch.yml
+* remove useless comments
 
-* Update delete-branch.yml
+* add note: support windows only
 
-* Update delete-branch.yml</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ec4d106</div>
-                                        <div class="message">fix(minapps): openMinApp function doesn't work properly (#10308)
+* fix eslint error; add migrate for ovms provider
 
-* feat(minapps): support temporary minapps
+Signed-off-by: Ma, Kejiang &lt;kj.ma@intel.com&gt;
 
-* feat(settings): use openSmartMinApp with app logo to open docs sites
+* fix ci error after rebase
 
-* refactor(icons): replace styled img with tailwind
+Signed-off-by: Ma, Kejiang &lt;kj.ma@intel.com&gt;
 
-* feat(tab): tighten types
+* modifications base on reviewers' comments
 
-* feat(tab): use minapps cache and log missing entries
+Signed-off-by: Ma, Kejiang &lt;kj.ma@intel.com&gt;
 
-* test(icons): update MinAppIcon snapshot to reflect class and attrs</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#fe0c0fa</div>
-                                        <div class="message">fix(assistant): enforce id requirement when updating assistant (#10321)
+* show intel-ovms provider only on windows and intel cpu
 
-* fix(assistant): enforce id requirement when updating assistant
+Signed-off-by: Ma, Kejiang &lt;kj.ma@intel.com&gt;
 
-Ensure assistant id is always provided when updating assistant properties by making it a required field in the update payload. This prevents potential bugs where updates might be applied to wrong assistants.
+* complete i18n for intel ovms
 
-* refactor(useAssistant): simplify updateAssistant callback by removing redundant id
+Signed-off-by: Ma, Kejiang &lt;kj.ma@intel.com&gt;
 
-Update InputbarTools to use simplified callback signature</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#4a4a168</div>
-                                        <div class="message">chore: bump version to 1.6.0-rc.4
+* update ovms 2025.3; apply patch for model qwen3-8b on local
 
-- Update version in package.json
-- Update release notes in electron-builder.yml</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#37218ee</div>
-                                        <div class="message">feat: enable cherryin provider</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#3b34efd</div>
-                                        <div class="message">feat(settings): update MCP server card layout and styling
+Signed-off-by: Ma, Kejiang &lt;kj.ma@intel.com&gt;
 
-- Adjusted the width of the CardContainer to dynamically calculate based on viewport width.
-- Changed the layout of the McpServersList from grid to list, with a vertical orientation and updated styling for list items.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#cc650b5</div>
-                                        <div class="message">feat(privacy): add English and Chinese privacy policy pages and popup component
+* fix lint issues
 
-- Introduced new HTML files for the privacy policy in English and Chinese.
-- Implemented a PrivacyPopup component to display the privacy policy within the application.
-- The popup dynamically loads the appropriate language based on user settings and includes options to accept or decline the policy.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#183b46b</div>
-                                        <div class="message">feat(ipc): add App_Quit channel and update related handlers
+Signed-off-by: Ma, Kejiang &lt;kj.ma@intel.com&gt;
 
-- Introduced a new IPC channel for quitting the application.
-- Updated ipc.ts to handle the App_Quit channel, allowing the app to quit when invoked.
-- Added corresponding quit method in the preload API for client-side access.
-- Fixed a minor URL check in WindowService to ensure proper navigation handling.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#a847b74</div>
-                                        <div class="message">feat: add new provider aionly (#10179)
+* fix issues for format, type checking
 
-* feat: add new provider aionly
+Signed-off-by: Ma, Kejiang &lt;kj.ma@intel.com&gt;
 
-* fix(store): update migration to properly add 'aionly' provider in v156
+* remove test code
 
-Move 'aionly' provider addition from v155 to v156 migration to ensure proper state initialization
+Signed-off-by: Ma, Kejiang &lt;kj.ma@intel.com&gt;
+
+* fix issues after rebase
+
+Signed-off-by: Ma, Kejiang &lt;kj.ma@intel.com&gt;
 
 ---------
 
-Co-authored-by: fengjunhao &lt;765838796@qq.com&gt;
-Co-authored-by: Phantom &lt;59059173+EurFelux@users.noreply.github.com&gt;
-Co-authored-by: icarus &lt;eurfelux@gmail.com&gt;
-Co-authored-by: 亢奋猫 &lt;kangfenmao@qq.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#25c5d67</div>
-                                        <div class="message">fix(assistant): update translate assistant content handling for QwenMT model (#10306)
-
-* fix(assistant): update translate assistant content handling for QwenMT model
-
-- Adjusted content assignment in getDefaultTranslateAssistant to use store settings only when the model is not a QwenMT model, ensuring correct translation behavior.
-
-* lint err
-
-* refactor(assistant): encapsulate content handling logic for translation
-
-- Introduced a new function, getTranslateContent, to streamline content assignment in getDefaultTranslateAssistant.
-- This change improves readability and maintains correct translation behavior for QwenMT models.
-
-* format code</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#87d9c7b</div>
-                                        <div class="message">feat: add client ID generation and update user agent headers in AppUpdater
-
-- Introduced a new method in ConfigManager to generate and retrieve a unique client ID.
-- Updated AppUpdater to include the client ID in the request headers alongside the user agent.</div>
+Signed-off-by: Ma, Kejiang &lt;kj.ma@intel.com&gt;</div>
                                     </div>
                                 </div>
                             </section>
@@ -398,99 +450,39 @@ Co-authored-by: 亢奋猫 &lt;kangfenmao@qq.com&gt;</div>
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 20 commits in
+                                        Pushed 6 commits in
                                         <span class="repo">Pleasurecruise/cdk</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#fc9a524</div>
-                                        <div class="message">Merge pull request #128 from linux-do/receiver
+                                        <div class="sha">#a5ad2ac</div>
+                                        <div class="message">Merge pull request #130 from yyg-max/master
 
-feat: add get receivers</div>
+refactor: 减少镜像内存</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#875d6d4</div>
-                                        <div class="message">version: update v 1.1.0</div>
+                                        <div class="sha">#ee76cd3</div>
+                                        <div class="message">refactor: 减少镜像内存</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#5d41820</div>
-                                        <div class="message">feat: change display list</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#eb960b3</div>
-                                        <div class="message">feat: change display list</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#9fdfee5</div>
-                                        <div class="message">feat: add get receivers</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#93f5cbe</div>
-                                        <div class="message">Merge pull request #127 from yyg-max/dev
+                                        <div class="sha">#2f7a4fe</div>
+                                        <div class="message">Merge pull request #129 from yyg-max/master
 
-feat: 创建人可查询对应key的领取人、管理端新增查询所有用户接口。</div>
+fix: 修复-特殊符号和处理中奖人重复中奖问题</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#e419310</div>
-                                        <div class="message">Merge branch 'linux-do:master' into dev</div>
+                                        <div class="sha">#3404e6d</div>
+                                        <div class="message">feat: 添加换行字符</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#e3e32f1</div>
-                                        <div class="message">Merge pull request #126 from linux-do/crossover
-
-feat: 新增抽奖联动；移除广场页面</div>
+                                        <div class="sha">#6207615</div>
+                                        <div class="message">fix(.gitignore): exclude all IDEA files except icon.png</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#156b58a</div>
-                                        <div class="message">feat: new dashboard</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7f7333e</div>
-                                        <div class="message">feat: add log out icon</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#8a4b4d0</div>
-                                        <div class="message">feat: 新增抽奖联动；移除广场页面</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#5dbbb70</div>
-                                        <div class="message">Merge pull request #124 from yyg-max/master
-
-feat(后端): 处理L站抽奖功能</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#6c4b1da</div>
-                                        <div class="message">feat: 创建人可查询对应key的领取人、管理端新增查询所有用户接口。</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#8b511a1</div>
-                                        <div class="message">feat(linuxDo): update configuration to use api_key and enhance request function with headers</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#841285c</div>
-                                        <div class="message">fix(project): remove unnecessary condition in CreateItemsWithFilter method</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#600e29c</div>
-                                        <div class="message">Merge remote-tracking branch 'origin/master'</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#d0dd448</div>
-                                        <div class="message">feat: add linuxDo configuration and update request handling with cookies</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#530f60a</div>
-                                        <div class="message">Merge branch 'linux-do:master' into master</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7f73568</div>
-                                        <div class="message">chore(http_client): add MIT license header to http_client.go</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#48bb5e6</div>
-                                        <div class="message">feat(project): implement project creation rate limiting and lottery distribution logic</div>
+                                        <div class="sha">#d3c603f</div>
+                                        <div class="message">fix: 修复-特殊符号和处理中奖人重复中奖问题</div>
                                     </div>
                                 </div>
                             </section>
@@ -502,75 +494,35 @@ feat(后端): 处理L站抽奖功能</div>
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 10 commits in
+                                        Pushed 6 commits in
                                         <span class="repo">Pleasurecruise/note-gen</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">dev</span></div>
                                     <div class="commit">
-                                        <div class="sha">#de8e0ad</div>
-                                        <div class="message">fix(#637): Android 无法正常使用内置模型，支持 HTTPS</div>
+                                        <div class="sha">#85ddd7a</div>
+                                        <div class="message">release: v0.21.3</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#a01de7f</div>
-                                        <div class="message">release: v0.21.2</div>
+                                        <div class="sha">#ef66891</div>
+                                        <div class="message">feat: RAG 增加展示引用的文件</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#3956e5c</div>
-                                        <div class="message">feat: 移动端文件管理器增加交互按钮，无需长按呼出菜单</div>
+                                        <div class="sha">#e8e05ce</div>
+                                        <div class="message">feat(#527): 文件记录展示文件名</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#efe1278</div>
-                                        <div class="message">fix: 默认模型初始化时未正确配置</div>
+                                        <div class="sha">#629a890</div>
+                                        <div class="message">fix: clear both timer and interval when canceling vector calculation</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#13aeef0</div>
-                                        <div class="message">fix: 修复移动端关联文件展示异常</div>
+                                        <div class="sha">#831f498</div>
+                                        <div class="message">feat(#527): 增加向量计算 5s 防抖，增加计算向量状态展示按钮</div>
                                     </div>
                                     <div class="commit">
-                                        <div class="sha">#828b68f</div>
-                                        <div class="message">style: 移动端完善对话工具栏与桌面端一致</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#adcf54e</div>
-                                        <div class="message">fix(#664): 修复目录或文件名包含特殊字符‘&amp;’时，笔记同步功能失效问题</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f5740a3</div>
-                                        <div class="message">fix: 隐藏默认模型配置</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f91047b</div>
-                                        <div class="message">feat: 模型配置支持同一供应商下多模型管理 (#666)
-
-* feat: 模型配置单增加多选模型配置
-
-* feat: 优化创建配置本地存储机制
-
-* feat: 新建模型
-
-* feat: AI 对话选择模型增加分组展示
-
-* feat: AI 对话模型使用多选模型
-
-* fix: 默认模型配置
-
-* feat: 修改免费模型配置
-
-* feat: 供应商模板简化配置项
-
-* feat: 合并设置界面中的 model-select
-
-* fix: RAG 模型调用
-
-* feat: 语音模型选择
-
-* fix: placeholder 和描述生成错误</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#26610a1</div>
-                                        <div class="message">docs: 📝 update README.md</div>
+                                        <div class="sha">#fe93cce</div>
+                                        <div class="message">feat(#600): 增加导入 Markdown 和图片功能，支持子文件夹导入</div>
                                     </div>
                                 </div>
                             </section>
