@@ -38,3 +38,7 @@ jobs:
       - name: Sync repo6
         run: |
           gh repo sync Pleasurecruise/docmost --source https://github.com/docmost/docmost --branch main --force          
+
+      - name: Sync repo7
+        run: |
+          gh repo sync Pleasurecruise/new-api --source https://github.com/QuantumNous/new-api --branch main --force          
