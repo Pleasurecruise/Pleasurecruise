@@ -47,3 +47,7 @@ jobs:
       - name: Sync repo8
         run: |
           gh repo sync Pleasurecruise/dify --source https://github.com/langgenius/dify --branch main --force          
+
+      - name: Sync repo9
+        run: |
+          gh repo sync Pleasurecruise/lobe-chat --source https://github.com/lobehub/lobe-chat --branch next --force          
