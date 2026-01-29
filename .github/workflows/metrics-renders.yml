@@ -52,61 +52,6 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
       
-      - name: Recently played games
-        uses: lowlighter/metrics@latest
-        with:
-          filename: picture/steam.svg
-          token: NOT_NEEDED
-          output_action: none
-          base: ""
-          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
-          plugin_steam: yes
-          plugin_steam_user: "0"
-          plugin_steam_sections: recently-played
-          plugin_steam_achievements_limit: 0
-
-      - name: Compact display
-        uses: lowlighter/metrics@latest
-        with:
-          filename: picture/achievements.svg
-          token: ${{ secrets.PAT_TOKEN }}
-          output_action: none
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_only: >-
-            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
-            scripter, packager, explorer, infographile, manager
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: X
-
-      - name: Activity
-        uses: lowlighter/metrics@latest
-        with:
-          filename: picture/activity.svg
-          token: ${{ secrets.PAT_TOKEN }}
-          output_action: none
-          user: Pleasurecruise
-          template: classic
-          base: ""
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
-
-      - name: Mildly interesting facts
-        uses: lowlighter/metrics@latest
-        with:
-          filename: picture/facts.svg
-          token: ${{ secrets.PAT_TOKEN }}
-          output_action: none
-          base: ""
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          config_timezone: Asia/Shanghai
-
       - name: Opened
         uses: lowlighter/metrics@latest
         with:
@@ -126,17 +71,6 @@ jobs:
           output_action: none
           base: ""
           plugin_calendar: yes
-
-      - name: RSS
-        uses: lowlighter/metrics@latest
-        with:
-          filename: picture/rss.svg
-          token: NOT_NEEDED
-          output_action: none
-          base: ""
-          plugin_rss: yes
-          plugin_rss_source: https://blog.yiming1234.cn/index.php/feed
-          plugin_rss_limit: 4
 
       - name: WakaTime
         uses: lowlighter/metrics@latest
