@@ -1,0 +1,40 @@
+name: Build and Deploy Resume
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build English Resume
+        uses: yamlresume/action@v0.2.2
+        with:
+          resumes: resume/resume-en.yml
+
+      - name: Build Chinese Resume
+        uses: yamlresume/action@v0.2.2
+        with:
+          resumes: resume/resume-cn.yml
+
+      - name: Rename and commit generated files
+        run: |
+          mv resume/resume-en.html resume/en.html
+          mv resume/resume-en.pdf  resume/en.pdf
+          mv resume/resume-cn.html resume/cn.html
+          mv resume/resume-cn.pdf  resume/cn.pdf
+          echo "resume.yiming1234.cn" > resume/CNAME
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add resume/en.html resume/en.pdf resume/cn.html resume/cn.pdf resume/CNAME
+          git commit -m "chore: update generated resume files"
+          git push

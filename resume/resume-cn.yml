@@ -1,0 +1,212 @@
+content:
+  basics:
+    name: 王逸鸣
+    headline: 计算机科学与人工智能理学学士
+    email: pleasure9876@qq.com
+    url: https://yiming1234.cn
+    summary: |
+      注重实际影响的计算机科学学生，专注于人工智能和全栈开发，将研究严谨性与产品交付相结合。
+      熟悉 TypeScript 等现代框架，拥有实习经历和开源项目领导经验，展现端到端的项目掌控能力。
+
+  location:
+    city: 诺丁汉
+    country: United Kingdom
+
+  profiles:
+    - network: GitHub
+      url: https://github.com/Pleasurecruise
+      username: Pleasurecruise
+    - network: Twitter
+      url: https://twitter.com/Pleasure9876
+      username: "@Pleasure9876"
+
+  education:
+    - institution: 诺丁汉大学
+      degree: Bachelor
+      area: 计算机科学与人工智能
+      startDate: Sep 1, 2025
+
+    - institution: 诺丁汉大学宁波校区
+      degree: Bachelor
+      area: 计算机科学与技术
+      score: "3.85"
+      startDate: Sep 1, 2023
+      endDate: Jun 30, 2025
+      summary: 预科 GPA 3.8/4.0，一年级 GPA 3.85/4.0，约专业前 20%
+
+  work:
+    - name: 浙大宁波科创中心
+      position: 研究实习生
+      startDate: Jun 1, 2025
+      endDate: Aug 31, 2025
+      summary: |
+        - 重新实现 Mamba-TasNet 语音分离流程，使其与已发表的中英文数据集研究基准保持一致
+        - 自动化数据预处理和混合精度训练工作流程，提升中心计算集群的迭代速度
+        - 每周向研究小组汇报实验进展，为即将进行的试点项目提供部署计划信息
+
+    - name: 上海火溶信息技术有限公司
+      position: 前端工程师实习生
+      startDate: Apr 1, 2025
+      endDate: May 31, 2025
+      summary: |
+        - 在六周实习期内，从需求发现到生产发布完成植物大战僵尸2 UGC平台的交付
+        - 开发了包含可重用组件和本地化钩子的 Vue 组件库，简化与设计团队的协作
+        - 集成分析仪表板，使运营团队能够实时监控提交趋势和审核队列
+
+  projects:
+    - name: Cherry Studio
+      url: https://github.com/CherryHQ/cherry-studio
+      description: 跨平台 AI 桌面客户端
+      startDate: Feb 1, 2025
+      summary: |
+        核心贡献者 · GitHub 40k+ Stars
+        - 完善多 LLM Provider 配置逻辑，实现动态校验与容错机制（API Key 验证、Endpoint 动态路由）
+        - 设计并实现对话历史导入模块，稳定处理异构数据格式，优化数据一致性
+        - 修复多项界面竞态与状态管理问题（笔记排序、标签导航、拖拽排序等）
+        - 添加国际化支持并编写双语 API 文档，降低社区新贡献者的上手门槛
+      keywords:
+        - Electron
+        - React
+        - TypeScript
+
+    - name: Cherry Studio App
+      url: https://github.com/CherryHQ/cherry-studio-app
+      description: 跨平台移动端 AI 客户端
+      startDate: Feb 1, 2025
+      summary: |
+        核心贡献者 · GitHub 2k+ Stars
+        - 使用 Redux Toolkit 设计全局状态架构，通过异步中间件保障状态一致性
+        - 开发核心页面组件（对话列表、消息详情、模型切换面板），实现暗/亮主题自适应
+        - 集成 Drizzle ORM 构建本地轻量数据层，支持离线查看历史会话与配置缓存
+      keywords:
+        - React Native
+        - Expo
+        - TypeScript
+
+    - name: NottinghamWall
+      url: https://github.com/CompPsyUnion/NottinghamWall
+      description: 校园墙微信小程序
+      startDate: Jun 1, 2024
+      endDate: Dec 31, 2024
+      summary: |
+        - 采用 Spring Boot + MyBatis 构建后端 API，Vue3 + Element Plus 开发管理后台，UniApp 实现小程序端
+        - 实现基于 JWT 的 RBAC 权限系统，集成微信敏感词检测与阿里云 OSS 图片审核
+        - 虚拟列表优化滚动性能；GitHub 290+ Stars，累计用户 150+
+      keywords:
+        - Spring Boot
+        - Vue3
+        - UniApp
+
+    - name: 基于深度学习的医学图像分析
+      description: 研究项目 — 诺丁汉大学
+      startDate: Jun 1, 2025
+      endDate: Aug 15, 2025
+      summary: |
+        - 使用 Python + TensorFlow/PyTorch 实现 CNN 和 Vision Transformer，用于 X 光、MRI、CT 影像分类
+        - 完成图像预处理、数据增强和模型评估流程，提升诊断效率
+      keywords:
+        - Python
+        - PyTorch
+        - TensorFlow
+
+    - name: hacknotts-cli
+      url: https://github.com/Pleasurecruise/hacknotts-cli
+      description: AI 驱动交互式 CLI 工具 — HackNotts 2025
+      startDate: Oct 1, 2025
+      endDate: Oct 31, 2025
+      summary: |
+        - TypeScript + Node.js + React (Ink) 构建终端界面，集成 OpenAI、Anthropic、Google、xAI 等提供商
+        - 设计插件系统与 MCP 扩展架构，内置命令管理和历史导出功能
+      keywords:
+        - TypeScript
+        - Node.js
+        - CLI
+
+    - name: Digital Pet
+      url: https://github.com/Pleasurecruise/leedshack-digitalpet
+      description: AI 交互式桌宠应用 — LeedsHack 2026
+      startDate: Feb 1, 2026
+      endDate: Feb 28, 2026
+      summary: |
+        - TypeScript + Vue + Tauri2 构建跨平台桌宠，结合 AI 模型增强交互行为
+      keywords:
+        - TypeScript
+        - Vue
+        - Tauri
+
+    - name: My Monorepo
+      url: https://github.com/Pleasurecruise/my-monorepo
+      description: 前端 Monorepo 基础模板
+      startDate: Jan 1, 2026
+      summary: |
+        - 基于 TurboRepo + pnpm Workspaces 构建，统一管理多模块依赖与任务编排
+        - 使用 TypeScript、Rollup 搭建现代化构建与测试体系
+      keywords:
+        - TurboRepo
+        - pnpm
+        - TypeScript
+
+  skills:
+    - name: 编程语言
+      level: Expert
+      keywords:
+        - TypeScript（熟悉）
+        - Java（一般）
+        - Python
+        - Go
+        - C++
+        - JavaScript
+        - HTML / CSS
+
+    - name: 框架
+      level: Advanced
+      keywords:
+        - React
+        - Next.js
+        - Node.js
+        - Vue
+        - UniApp
+        - Electron
+        - Tauri
+        - Spring Boot
+
+    - name: 数据与工具
+      level: Advanced
+      keywords:
+        - Docker
+        - PostgreSQL
+        - MongoDB
+        - MySQL
+        - Nginx
+        - Git / GitHub
+
+  languages:
+    - language: Chinese
+      fluency: Native or Bilingual Proficiency
+    - language: English
+      fluency: Full Professional Proficiency
+
+  awards:
+    - title: HackNotts 2025 参与者
+      awarder: 诺丁汉大学
+      date: Oct 1, 2025
+    - title: LeedsHack 2026 参与者
+      awarder: 利兹大学
+      date: Feb 1, 2026
+
+  interests:
+    - name: 开源贡献
+      keywords:
+        - "文档翻译（React、Flutter、MDN Web Docs）"
+        - "贡献 docmost、blinko、Hello Github 等"
+        - 创立 CompPsyUnion GitHub 组织
+        - 曾担任宁波诺丁汉大学 CPU 技术部副部长
+
+locale:
+  language: zh-hans
+
+layouts:
+  - engine: latex
+    template: moderncv-banking
+  - engine: html
+    template: calm
