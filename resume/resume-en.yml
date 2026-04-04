@@ -20,7 +20,7 @@ content:
       username: Pleasurecruise
     - network: Twitter
       url: https://twitter.com/Pleasure9876
-      username: "@Pleasure9876"
+      username: "Pleasure9876"
 
   education:
     - institution: University of Nottingham
@@ -187,10 +187,10 @@ content:
   interests:
     - name: Open Source
       keywords:
-        - "Documentation Translation: React, Flutter, MDN Web Docs"
-        - "Contributor: docmost, blinko, Hello Github, MirrorChyan"
-        - Founded CompPsyUnion GitHub organisation
-        - Deputy Director of Technology, CPU Club (UNNC)
+        - "Translation: React/Flutter/MDN"
+        - "OSS: docmost, blinko, lobehub, etc."
+        - Founded CompPsyUnion GitHub org
+        - Deputy Director, CPU Club UNNC
 
 locale:
   language: en
