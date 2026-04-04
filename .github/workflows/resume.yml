@@ -37,9 +37,11 @@ jobs:
           mv resume/resume-en.pdf  resume/en.pdf
           mv resume/resume-cn.html resume/cn.html
           mv resume/resume-cn.pdf  resume/cn.pdf
+          sed -i '/<footer class="resume-footer">/,/<\/footer>/d' resume/en.html
+          sed -i '/<footer class="resume-footer">/,/<\/footer>/d' resume/cn.html
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add resume/en.html resume/en.pdf resume/cn.html resume/cn.pdf resume/CNAME
+          git add resume/en.html resume/en.pdf resume/cn.html resume/cn.pdf
           git commit -m "chore: update generated resume files"
           git push
 

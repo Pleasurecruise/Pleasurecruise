@@ -5,12 +5,9 @@ content:
     email: pleasure9876@qq.com
     url: https://yiming1234.cn
     summary: |
-      注重实际影响的计算机科学学生，专注于人工智能和全栈开发，将研究严谨性与产品交付相结合。
-      熟悉 TypeScript 等现代框架，拥有实习经历和开源项目领导经验，展现端到端的项目掌控能力。
-
-  location:
-    city: 诺丁汉
-    country: United Kingdom
+      注重实际影响的计算机科学学生，专注于人工智能与全栈开发，将研究严谨性与产品交付相结合。
+      熟悉 TypeScript、Vue、React 等现代框架，具备前端实习经历与大型开源项目核心贡献经验，
+      希望参与从需求分析到部署运维的全流程开发，在实战中持续深化工程化思维。
 
   profiles:
     - network: GitHub
@@ -35,35 +32,37 @@ content:
       summary: 预科 GPA 3.8/4.0，一年级 GPA 3.85/4.0，约专业前 20%
 
   work:
-    - name: 浙大宁波科创中心
-      position: 研究实习生
-      startDate: Jun 1, 2025
-      endDate: Aug 31, 2025
-      summary: |
-        - 重新实现 Mamba-TasNet 语音分离流程，使其与已发表的中英文数据集研究基准保持一致
-        - 自动化数据预处理和混合精度训练工作流程，提升中心计算集群的迭代速度
-        - 每周向研究小组汇报实验进展，为即将进行的试点项目提供部署计划信息
-
     - name: 上海火溶信息技术有限公司
       position: 前端工程师实习生
       startDate: Apr 1, 2025
       endDate: May 31, 2025
       summary: |
-        - 在六周实习期内，从需求发现到生产发布完成植物大战僵尸2 UGC平台的交付
-        - 开发了包含可重用组件和本地化钩子的 Vue 组件库，简化与设计团队的协作
-        - 集成分析仪表板，使运营团队能够实时监控提交趋势和审核队列
+        参与"植物大战僵尸2 UGC上传系统"项目的需求分析、系统设计与编码实现，主导前端开发：
+        - 使用 shadcn-vue 组件库与 lucide-vue-next 图标库，采用 Tailwind CSS 完成高还原度 UI 开发
+        - 使用 Vue Router 实现页面导航，封装 Axios 拦截器统一处理请求转发与鉴权逻辑
+        - 负责部署前后端测试环境，验证接口与接口文档一致性，解决跨域通信与联调调试问题
+        - 与测试团队协作完成单元测试与 Bug 修复，持续优化系统性能与稳定性
+
+    - name: 浙大宁波科创中心
+      position: 研究实习生
+      startDate: Jun 1, 2025
+      endDate: Aug 15, 2025
+      summary: |
+        - 重新实现 Mamba-TasNet 语音分离流程，使其与已发表的中英文数据集研究基准保持一致
+        - 自动化数据预处理和混合精度训练工作流程，提升中心计算集群的迭代速度
+        - 每周向研究小组汇报实验进展，为即将进行的试点项目提供部署计划信息
 
   projects:
     - name: Cherry Studio
       url: https://github.com/CherryHQ/cherry-studio
-      description: 跨平台 AI 桌面客户端
+      description: 跨平台 AI 桌面客户端 · 核心贡献者
       startDate: Feb 1, 2025
       summary: |
-        核心贡献者 · GitHub 40k+ Stars
-        - 完善多 LLM Provider 配置逻辑，实现动态校验与容错机制（API Key 验证、Endpoint 动态路由）
-        - 设计并实现对话历史导入模块，稳定处理异构数据格式，优化数据一致性
-        - 修复多项界面竞态与状态管理问题（笔记排序、标签导航、拖拽排序等）
-        - 添加国际化支持并编写双语 API 文档，降低社区新贡献者的上手门槛
+        开源社区贡献 · GitHub 40k+ Stars · Electron + TypeScript
+        - LLM Provider 配置完善：设计动态校验与容错逻辑，处理 API Key 验证、Endpoint 动态路由，优化网络错误/未授权等场景的报错提示与补救建议
+        - 对话导入与数据迁移：实现对话历史导入模块，稳定处理异构数据格式，优化本地存储与 UI 展示的数据一致性
+        - UI/UX 稳定性提升：修复笔记排序与过滤、标签导航、拖拽排序等多项竞态和状态管理问题
+        - 国际化与社区协作：为核心界面添加 i18n 支持，编写双语 API 文档与贡献指南，降低新贡献者上手门槛
       keywords:
         - Electron
         - React
@@ -71,13 +70,13 @@ content:
 
     - name: Cherry Studio App
       url: https://github.com/CherryHQ/cherry-studio-app
-      description: 跨平台移动端 AI 客户端
+      description: 跨平台移动端 AI 客户端 · 核心贡献者
       startDate: Feb 1, 2025
       summary: |
-        核心贡献者 · GitHub 2k+ Stars
-        - 使用 Redux Toolkit 设计全局状态架构，通过异步中间件保障状态一致性
-        - 开发核心页面组件（对话列表、消息详情、模型切换面板），实现暗/亮主题自适应
-        - 集成 Drizzle ORM 构建本地轻量数据层，支持离线查看历史会话与配置缓存
+        开源社区贡献 · GitHub 2k+ Stars · Expo + React Native
+        - 状态管理架构：使用 Redux Toolkit 设计全局状态（对话历史、模型状态、用户配置），通过异步中间件保障一致性，减少界面卡顿
+        - UI 组件开发：开发对话列表、消息详情、模型切换面板等核心页面组件，实现暗/亮主题自适应
+        - 本地存储优化：集成 Drizzle ORM 构建轻量本地数据层，支持无网络下查看历史会话与配置缓存，优化高并发读写性能
       keywords:
         - React Native
         - Expo
@@ -89,62 +88,70 @@ content:
       startDate: Jun 1, 2024
       endDate: Dec 31, 2024
       summary: |
-        - 采用 Spring Boot + MyBatis 构建后端 API，Vue3 + Element Plus 开发管理后台，UniApp 实现小程序端
-        - 实现基于 JWT 的 RBAC 权限系统，集成微信敏感词检测与阿里云 OSS 图片审核
-        - 虚拟列表优化滚动性能；GitHub 290+ Stars，累计用户 150+
+        为解决校内技术交流平台缺失问题，设计开发多端开源论坛系统
+        - 架构设计：Spring Boot + MyBatis 构建后端 RESTful API，Vue3 + Element Plus 开发管理后台，UniApp 实现微信小程序端
+        - 权限系统：基于 JWT 的 RBAC 三级权限体系（管理员/普通用户/游客）
+        - 性能优化：虚拟列表技术实现话题流流畅滚动；集成微信敏感词检测与阿里云 OSS 图片违规审核
+        - 运营数据：GitHub 290+ Stars，累计用户 150+
       keywords:
         - Spring Boot
         - Vue3
         - UniApp
 
-    - name: 基于深度学习的医学图像分析
-      description: 研究项目 — 诺丁汉大学
-      startDate: Jun 1, 2025
-      endDate: Aug 15, 2025
-      summary: |
-        - 使用 Python + TensorFlow/PyTorch 实现 CNN 和 Vision Transformer，用于 X 光、MRI、CT 影像分类
-        - 完成图像预处理、数据增强和模型评估流程，提升诊断效率
-      keywords:
-        - Python
-        - PyTorch
-        - TensorFlow
-
     - name: hacknotts-cli
       url: https://github.com/Pleasurecruise/hacknotts-cli
       description: AI 驱动交互式 CLI 工具 — HackNotts 2025
-      startDate: Oct 1, 2025
-      endDate: Oct 31, 2025
+      startDate: Oct 25, 2025
+      endDate: Oct 26, 2025
       summary: |
-        - TypeScript + Node.js + React (Ink) 构建终端界面，集成 OpenAI、Anthropic、Google、xAI 等提供商
-        - 设计插件系统与 MCP 扩展架构，内置命令管理和历史导出功能
+        HackNotts 2025 黑客松参赛项目
+        - 使用 TypeScript + Node.js + React (Ink) 构建优雅的终端交互界面
+        - 集成 OpenAI、Anthropic、Google、xAI 等多家 AI 提供商，支持实时切换与流式响应
+        - 内置插件系统与 MCP（Model Context Protocol）扩展架构，提供命令管理、历史导出（JSON/Markdown）等功能
       keywords:
         - TypeScript
         - Node.js
-        - CLI
+        - MCP
 
     - name: Digital Pet
       url: https://github.com/Pleasurecruise/leedshack-digitalpet
       description: AI 交互式桌宠应用 — LeedsHack 2026
-      startDate: Feb 1, 2026
-      endDate: Feb 28, 2026
+      startDate: Feb 7, 2026
+      endDate: Feb 8, 2026
       summary: |
-        - TypeScript + Vue + Tauri2 构建跨平台桌宠，结合 AI 模型增强交互行为
+        LeedsHack 2026 黑客松参赛项目
+        - 参考 BongoCat 实现交互式桌宠逻辑，使用 TypeScript + Vue + Tauri2 构建跨平台桌面应用
+        - 结合 AI 模型增强桌宠行为（文本/状态生成），模块化结构便于扩展新互动特性
       keywords:
         - TypeScript
         - Vue
-        - Tauri
+        - Tauri2
 
     - name: My Monorepo
       url: https://github.com/Pleasurecruise/my-monorepo
       description: 前端 Monorepo 基础模板
       startDate: Jan 1, 2026
       summary: |
-        - 基于 TurboRepo + pnpm Workspaces 构建，统一管理多模块依赖与任务编排
-        - 使用 TypeScript、Rollup 搭建现代化构建与测试体系
+        参考 midday、create-t3-turbo 构建的个人 Monorepo 基础模板
+        - TurboRepo + pnpm Workspaces 实现高效依赖管理与任务编排（build/test/run）
+        - 技术栈：TypeScript、Vite、Vitest、Rollup；配置 oxfmt 格式化与 oxlint 代码规范
       keywords:
         - TurboRepo
         - pnpm
         - TypeScript
+
+    - name: 基于深度学习的医学图像分析
+      description: 研究项目 — 诺丁汉大学
+      startDate: Jun 2, 2025
+      endDate: Aug 15, 2025
+      summary: |
+        - 使用 Python + TensorFlow/PyTorch 设计并实现 CNN 和 Vision Transformer，用于 X 光、MRI、CT 影像疾病检测与异常分类
+        - 完成图像预处理、数据增强和模型评估，提升诊断效率并减少人工标注工作量
+        - 每周向课题组汇报进展，在限定时间内交付可行性成果
+      keywords:
+        - Python
+        - PyTorch
+        - TensorFlow
 
   skills:
     - name: 编程语言
