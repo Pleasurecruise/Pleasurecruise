@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="YAMLResume (https://yamlresume.dev)">
+
+
+  <title>Yiming Wang Resume</title>
+  <style>
+    :root {
+      --text-font-size: 16px;
+      --text-font-family: var(--text-default-font-family);
+      --line-height: 1.5;
+    }
+
+    /* Modified from: https://www.joshwcomeau.com/css/custom-css-reset/ */
+
+    /* 1. Use a more-intuitive box-sizing model */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    /* 2. Remove default margin */
+    *:not(dialog) {
+      margin: 0;
+    }
+
+    body {
+      /* 3. Improve text rendering */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    :root {
+      --border-color: #d0d0d0;
+
+      /* text colors */
+      --text-color-primary: #000000;
+      --text-color-secondary: #333333;
+
+      /* spacing */
+      --spacing-xss: 2px;
+      --spacing-xs: 4px;
+      --spacing-sm: 8px;
+      --spacing-md: 12px;
+      --spacing-lg: 16px;
+      --spacing-xl: 24px;
+      --spacing-xxl: 40px;
+      --spacing-xxxl: 80px;
+
+      /* font sizes */
+      --font-size-xs: 0.8rem;
+      --font-size-sm: 0.9rem;
+      --font-size-md: 1rem;
+      --font-size-lg: 1.1rem;
+      --font-size-xl: 1.25rem;
+      --font-size-xxl: 2.5rem;
+
+      /* layout */
+      --page-max-width: 900px;
+
+      /* typography */
+      --text-default-font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+        Cantarell, sans-serif;
+    }
+
+    html {
+      font-size: var(--text-font-size);
+    }
+
+    body {
+      /* font & text */
+      color: var(--text-color-primary);
+      font-family: var(--text-font-family);
+      /* this variable is defined by `typography.fontSize` in resume html layout */
+      text-autospace: normal;
+
+      /* layout */
+      line-height: var(--line-height);
+      max-width: var(--page-max-width);
+      margin: 0 auto;
+      padding: var(--spacing-xxxl) var(--spacing-xxl) var(--spacing-xxl);
+    }
+
+    /* header */
+    .resume-header {
+      margin-bottom: var(--spacing-xxl);
+      text-align: center;
+    }
+
+    .resume-name {
+      font-size: var(--font-size-xxl);
+      font-weight: 600;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .resume-headline {
+      font-size: var(--font-size-lg);
+      margin-bottom: var(--spacing-md);
+    }
+
+    /* contact info */
+    .resume-contact-info {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: var(--spacing-lg);
+      row-gap: var(--spacing-xs);
+      margin-top: var(--spacing-sm);
+    }
+
+    .resume-contact-icon,
+    .resume-contact-label {
+      margin-right: var(--spacing-sm);
+      vertical-align: middle;
+    }
+
+    /* links: modern typographic style */
+    a {
+      color: var(--text-color-primary);
+      text-decoration: underline;
+      text-decoration-color: var(--border-color);
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+      text-decoration-skip-ink: auto;
+      transition: text-decoration-color 0.2s;
+    }
+
+    a:hover {
+      text-decoration-color: var(--text-color-primary);
+    }
+
+    /* sections */
+    .resume-section {
+      margin-bottom: var(--spacing-xl);
+    }
+
+    .resume-section-title {
+      font-size: var(--font-size-xl);
+      font-weight: 500;
+      margin-bottom: var(--spacing-md);
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: var(--spacing-xs);
+    }
+
+    /* entries */
+    .resume-entry {
+      margin-bottom: var(--spacing-lg);
+    }
+
+    .resume-entry:last-child {
+      margin-bottom: 0;
+    }
+
+    .resume-entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .resume-entry-title {
+      font-weight: 500;
+      margin-bottom: var(--spacing-xss);
+    }
+
+    .resume-entry-summary p,
+    .resume-summary-content p {
+      margin-bottom: var(--spacing-xs);
+    }
+
+    /* lists */
+    .resume-entry-summary ul,
+    .resume-entry-summary ol,
+    .resume-summary-content ul,
+    .resume-summary-content ol {
+      padding-left: var(--spacing-lg);
+      list-style-type: circle;
+    }
+
+    /* labeled lists (courses, keywords, etc.) */
+    .resume-labeled-list span {
+      font-weight: 500;
+    }
+
+    /* skills grid */
+    .resume-skill-item,
+    .resume-language-item {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .resume-skill-name,
+    .resume-language-name {
+      font-weight: 500;
+    }
+
+    .resume-skill-level,
+    .resume-language-fluency {
+      font-weight: 400;
+    }
+
+    /* mobile */
+    @media (max-width: 768px) {
+      body {
+        padding: var(--spacing-xl);
+      }
+
+      .resume-header {
+        margin-bottom: var(--spacing-xl);
+      }
+
+      .resume-contact-info {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .resume-entry-header {
+        flex-wrap: wrap;
+      }
+
+      .resume-skill-item,
+      .resume-language-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    /* footer */
+    .resume-footer {
+      margin-top: var(--spacing-xxl);
+      padding-top: var(--spacing-xl);
+      border-top: 1px solid var(--border-color);
+      font-size: var(--font-size-sm);
+      color: var(--text-color-secondary);
+    }
+
+    @media print {
+      .resume-footer {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="resume-header">
+    <h1 class="resume-name">Yiming Wang</h1>
+    <p class="resume-headline">BSc Computer Science with Artificial Intelligence</p>
+    <div class="resume-contact-info">
+      <span class="resume-contact-item"><span class="resume-contact-icon">📧</span><a href="mailto:pleasure9876@qq.com" class="resume-contact-link">pleasure9876@qq.com</a></span>
+      <span class="resume-contact-item"><span class="resume-contact-icon">🔗</span><a href="https://yiming1234.cn" class="resume-contact-link">https://yiming1234.cn</a></span>
+    </div>
+
+    <div class="resume-contact-info resume-profiles-info">
+      <span class="resume-contact-item"><span class="resume-contact-label">GitHub</span>: <a href="https://github.com/Pleasurecruise" class="resume-contact-link">@Pleasurecruise</a></span>
+      <span class="resume-contact-item"><span class="resume-contact-label">Twitter</span>: <a href="https://twitter.com/Pleasure9876" class="resume-contact-link">@Pleasure9876</a></span>
+    </div>
+  </header>
+  <section class="resume-section" data-section="summary">
+    <h2 class="resume-section-title">Basics</h2>
+    <div class="resume-section-content">
+      <div class="resume-summary-content">
+        <p>Impact-driven Computer Science student specialising in AI and full-stack development,
+          blending research rigour with production delivery. Experienced in TypeScript, Vue, and React
+          with front-end internship experience and core contributions to large-scale open-source projects.
+          Seeking end-to-end ownership from requirements through deployment.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="education">
+    <h2 class="resume-section-title">Education</h2>
+    <div class="resume-section-content">
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">University of Nottingham</div>
+            <div class="resume-entry-organization">Bachelor, Computer Science with Artificial Intelligence</div>
+          </div>
+          <div class="resume-entry-date">Sep 2025–Present</div>
+        </div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">University of Nottingham Ningbo China</div>
+            <div class="resume-entry-organization">Bachelor, Computer Science, Score: 3.85</div>
+          </div>
+          <div class="resume-entry-date">Sep 2023–Jun 2025</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>Foundation Year GPA 3.8/4.0, First Year GPA 3.85/4.0, Top 20% of cohort</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="work">
+    <h2 class="resume-section-title">Work</h2>
+    <div class="resume-section-content">
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">Shanghai HRG Information Technology Co.</div>
+            <div class="resume-entry-organization">Front-end Engineer Intern</div>
+          </div>
+          <div class="resume-entry-date">Apr 2025–May 2025</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>Led front-end development of the Plants vs. Zombies 2 UGC upload platform end-to-end:</p>
+          <ul>
+            <li>
+              <p>Built high-fidelity UI using shadcn-vue, lucide-vue-next, and Tailwind CSS</p>
+            </li>
+            <li>
+              <p>Implemented multi-page navigation with Vue Router; unified Axios interceptors for request handling and auth</p>
+            </li>
+            <li>
+              <p>Deployed test environments for front and back end; resolved cross-origin issues and validated API contracts</p>
+            </li>
+            <li>
+              <p>Collaborated with QA on unit testing and bug fixes to improve system stability</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">Ningbo Global Innovation Center, Zhejiang University</div>
+            <div class="resume-entry-organization">Research Intern</div>
+          </div>
+          <div class="resume-entry-date">Jun 2025–Aug 2025</div>
+        </div>
+        <div class="resume-entry-summary">
+          <ul>
+            <li>
+              <p>Reimplemented the Mamba-TasNet speech separation pipeline to align with published benchmarks across Mandarin and English datasets</p>
+            </li>
+            <li>
+              <p>Automated data preprocessing and mixed-precision training workflows, improving iteration speed on the centre&#39;s compute cluster</p>
+            </li>
+            <li>
+              <p>Delivered weekly experiment updates to the research group to inform deployment plans for forthcoming pilots</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="languages">
+    <h2 class="resume-section-title">Languages</h2>
+    <div class="resume-section-content">
+      <div class="resume-languages-list">
+        <div class="resume-language-item">
+          <div class="resume-language-name">Chinese<span class="resume-language-fluency">: Native or Bilingual Proficiency</span></div>
+        </div>
+        <div class="resume-language-item">
+          <div class="resume-language-name">English<span class="resume-language-fluency">: Full Professional Proficiency</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="skills">
+    <h2 class="resume-section-title">Skills</h2>
+    <div class="resume-section-content">
+      <div class="resume-skill-item">
+        <div class="resume-skill-name">Programming Languages<span class="resume-skill-level">: Expert</span></div>
+        <div>
+          <div class="resume-labeled-list"><span>Keywords</span>: TypeScript (Expert), Java (Advanced), Python, Go, C++, JavaScript, HTML / CSS</div>
+        </div>
+      </div>
+      <div class="resume-skill-item">
+        <div class="resume-skill-name">Frameworks<span class="resume-skill-level">: Advanced</span></div>
+        <div>
+          <div class="resume-labeled-list"><span>Keywords</span>: React, Next.js, Node.js, Vue3, UniApp, Electron, Tauri, Spring Boot</div>
+        </div>
+      </div>
+      <div class="resume-skill-item">
+        <div class="resume-skill-name">Data &amp; Tooling<span class="resume-skill-level">: Advanced</span></div>
+        <div>
+          <div class="resume-labeled-list"><span>Keywords</span>: Docker, PostgreSQL, MongoDB, MySQL, Nginx, Git / GitHub</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="awards">
+    <h2 class="resume-section-title">Awards</h2>
+    <div class="resume-section-content">
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">HackNotts 2025 Participant</div>
+            <div class="resume-entry-organization">University of Nottingham</div>
+          </div>
+          <div class="resume-entry-date">Oct 2025</div>
+        </div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">LeedsHack 2026 Participant</div>
+            <div class="resume-entry-organization">University of Leeds</div>
+          </div>
+          <div class="resume-entry-date">Feb 2026</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="projects">
+    <h2 class="resume-section-title">Projects</h2>
+    <div class="resume-section-content">
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title"><a href="https://github.com/CherryHQ/cherry-studio">Cherry Studio</a></div>
+            <div class="resume-entry-description">Cross-platform AI Desktop Client · Core Maintainer</div>
+          </div>
+          <div class="resume-entry-date">Feb 2025–Present</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>Open-source · 40k+ GitHub Stars · Electron + TypeScript</p>
+          <ul>
+            <li>
+              <p>Provider config: designed dynamic validation and fault-tolerance for API Key verification and Endpoint routing; improved error feedback with actionable recovery suggestions</p>
+            </li>
+            <li>
+              <p>Conversation import: built history import module handling heterogeneous data formats; optimised local storage and UI consistency</p>
+            </li>
+            <li>
+              <p>UI stability: fixed race conditions and state bugs in note sorting, tab navigation, and drag-and-drop ordering</p>
+            </li>
+            <li>
+              <p>i18n &amp; docs: added internationalisation for core views; wrote bilingual API docs and contribution guide to lower onboarding friction</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Keywords</span>: Electron, React, TypeScript</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title"><a href="https://github.com/CherryHQ/cherry-studio-app">Cherry Studio App</a></div>
+            <div class="resume-entry-description">Cross-platform Mobile AI Client · Core Developer</div>
+          </div>
+          <div class="resume-entry-date">Feb 2025–Present</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>Open-source · 2k+ GitHub Stars · Expo + React Native</p>
+          <ul>
+            <li>
+              <p>State management: designed global state architecture with Redux Toolkit (conversation history, model state, user config); async middleware ensures consistency and reduces UI jank</p>
+            </li>
+            <li>
+              <p>UI components: built conversation list, message detail, and model switcher; implemented dark/light theme adaptation</p>
+            </li>
+            <li>
+              <p>Local storage: integrated Drizzle ORM for offline session viewing and config caching; optimised high-concurrency read/write performance</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Keywords</span>: React Native, Expo, TypeScript</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title"><a href="https://github.com/CompPsyUnion/NottinghamWall">NottinghamWall</a></div>
+            <div class="resume-entry-description">Campus WeChat Mini-program</div>
+          </div>
+          <div class="resume-entry-date">Jun 2024–Dec 2024</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>Full-stack campus forum built to fill the gap in student tech community tooling</p>
+          <ul>
+            <li>
+              <p>Stack: Spring Boot + MyBatis RESTful API, Vue3 + Element Plus admin panel, UniApp WeChat Mini-program</p>
+            </li>
+            <li>
+              <p>Auth: JWT-based RBAC system with three permission tiers (admin / user / guest)</p>
+            </li>
+            <li>
+              <p>Performance: virtual list for smooth topic feed scrolling; WeChat sensitive-word filter and Alibaba Cloud OSS image moderation</p>
+            </li>
+            <li>
+              <p>Traction: 290+ GitHub Stars, 150+ cumulative users</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Keywords</span>: Spring Boot, Vue3, UniApp</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title"><a href="https://github.com/Pleasurecruise/hacknotts-cli">hacknotts-cli</a></div>
+            <div class="resume-entry-description">AI-powered Interactive CLI — HackNotts 2025</div>
+          </div>
+          <div class="resume-entry-date">Oct 2025–Oct 2025</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>HackNotts 2025 hackathon project</p>
+          <ul>
+            <li>
+              <p>Built elegant terminal UI with TypeScript + Node.js + React (Ink)</p>
+            </li>
+            <li>
+              <p>Integrated OpenAI, Anthropic, Google, xAI providers with real-time switching and streaming responses</p>
+            </li>
+            <li>
+              <p>Designed plugin system and MCP (Model Context Protocol) extension architecture; built-in command management and history export (JSON/Markdown)</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Keywords</span>: TypeScript, Node.js, MCP</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title"><a href="https://github.com/Pleasurecruise/leedshack-digitalpet">Digital Pet</a></div>
+            <div class="resume-entry-description">AI Interactive Desktop Pet — LeedsHack 2026</div>
+          </div>
+          <div class="resume-entry-date">Feb 2026–Feb 2026</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>LeedsHack 2026 hackathon project</p>
+          <ul>
+            <li>
+              <p>Implemented interactive desktop pet logic inspired by BongoCat using TypeScript + Vue + Tauri2</p>
+            </li>
+            <li>
+              <p>Integrated AI model to enhance pet behaviour (text/state generation); modular architecture for extending new interactions</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Keywords</span>: TypeScript, Vue, Tauri2</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title"><a href="https://github.com/Pleasurecruise/my-monorepo">My Monorepo</a></div>
+            <div class="resume-entry-description">Front-end Monorepo Starter Template</div>
+          </div>
+          <div class="resume-entry-date">Jan 2026–Present</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>Personal Monorepo base template inspired by midday and create-t3-turbo</p>
+          <ul>
+            <li>
+              <p>TurboRepo + pnpm Workspaces for efficient dependency management and task orchestration (build/test/run)</p>
+            </li>
+            <li>
+              <p>Stack: TypeScript, Vite, Vitest, Rollup; configured oxfmt formatting and oxlint code style enforcement</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Keywords</span>: TurboRepo, pnpm, TypeScript</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">Medical Image Analysis with Deep Learning</div>
+            <div class="resume-entry-description">Research Project — University of Nottingham</div>
+          </div>
+          <div class="resume-entry-date">Jun 2025–Aug 2025</div>
+        </div>
+        <div class="resume-entry-summary">
+          <ul>
+            <li>
+              <p>Designed CNN and Vision Transformer architectures for disease detection and abnormality classification from X-rays, MRIs, and CT scans</p>
+            </li>
+            <li>
+              <p>Completed image preprocessing, data augmentation, and model evaluation to improve diagnostic efficiency and reduce annotation workload</p>
+            </li>
+            <li>
+              <p>Delivered weekly progress reports with actionable outcomes within a fixed research timeline</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Keywords</span>: Python, PyTorch, TensorFlow</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="interests">
+    <h2 class="resume-section-title">Interests</h2>
+    <div class="resume-section-content">
+      <div class="resume-interest-item"><span class="resume-interest-name">Open Source</span>: Translation: React/Flutter/MDN, OSS: docmost, blinko, lobehub, etc., Founded CompPsyUnion GitHub org, Deputy Director, CPU Club UNNC</div>
+    </div>
+  </section>

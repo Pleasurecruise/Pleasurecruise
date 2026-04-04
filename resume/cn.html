@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="YAMLResume (https://yamlresume.dev)">
+
+
+  <title>王逸鸣 Resume</title>
+  <style>
+    :root {
+      --text-font-size: 16px;
+      --text-font-family: var(--text-default-font-family);
+      --line-height: 1.5;
+    }
+
+    /* Modified from: https://www.joshwcomeau.com/css/custom-css-reset/ */
+
+    /* 1. Use a more-intuitive box-sizing model */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    /* 2. Remove default margin */
+    *:not(dialog) {
+      margin: 0;
+    }
+
+    body {
+      /* 3. Improve text rendering */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    :root {
+      --border-color: #d0d0d0;
+
+      /* text colors */
+      --text-color-primary: #000000;
+      --text-color-secondary: #333333;
+
+      /* spacing */
+      --spacing-xss: 2px;
+      --spacing-xs: 4px;
+      --spacing-sm: 8px;
+      --spacing-md: 12px;
+      --spacing-lg: 16px;
+      --spacing-xl: 24px;
+      --spacing-xxl: 40px;
+      --spacing-xxxl: 80px;
+
+      /* font sizes */
+      --font-size-xs: 0.8rem;
+      --font-size-sm: 0.9rem;
+      --font-size-md: 1rem;
+      --font-size-lg: 1.1rem;
+      --font-size-xl: 1.25rem;
+      --font-size-xxl: 2.5rem;
+
+      /* layout */
+      --page-max-width: 900px;
+
+      /* typography */
+      --text-default-font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+        Cantarell, sans-serif;
+    }
+
+    html {
+      font-size: var(--text-font-size);
+    }
+
+    body {
+      /* font & text */
+      color: var(--text-color-primary);
+      font-family: var(--text-font-family);
+      /* this variable is defined by `typography.fontSize` in resume html layout */
+      text-autospace: normal;
+
+      /* layout */
+      line-height: var(--line-height);
+      max-width: var(--page-max-width);
+      margin: 0 auto;
+      padding: var(--spacing-xxxl) var(--spacing-xxl) var(--spacing-xxl);
+    }
+
+    /* header */
+    .resume-header {
+      margin-bottom: var(--spacing-xxl);
+      text-align: center;
+    }
+
+    .resume-name {
+      font-size: var(--font-size-xxl);
+      font-weight: 600;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .resume-headline {
+      font-size: var(--font-size-lg);
+      margin-bottom: var(--spacing-md);
+    }
+
+    /* contact info */
+    .resume-contact-info {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: var(--spacing-lg);
+      row-gap: var(--spacing-xs);
+      margin-top: var(--spacing-sm);
+    }
+
+    .resume-contact-icon,
+    .resume-contact-label {
+      margin-right: var(--spacing-sm);
+      vertical-align: middle;
+    }
+
+    /* links: modern typographic style */
+    a {
+      color: var(--text-color-primary);
+      text-decoration: underline;
+      text-decoration-color: var(--border-color);
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+      text-decoration-skip-ink: auto;
+      transition: text-decoration-color 0.2s;
+    }
+
+    a:hover {
+      text-decoration-color: var(--text-color-primary);
+    }
+
+    /* sections */
+    .resume-section {
+      margin-bottom: var(--spacing-xl);
+    }
+
+    .resume-section-title {
+      font-size: var(--font-size-xl);
+      font-weight: 500;
+      margin-bottom: var(--spacing-md);
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: var(--spacing-xs);
+    }
+
+    /* entries */
+    .resume-entry {
+      margin-bottom: var(--spacing-lg);
+    }
+
+    .resume-entry:last-child {
+      margin-bottom: 0;
+    }
+
+    .resume-entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .resume-entry-title {
+      font-weight: 500;
+      margin-bottom: var(--spacing-xss);
+    }
+
+    .resume-entry-summary p,
+    .resume-summary-content p {
+      margin-bottom: var(--spacing-xs);
+    }
+
+    /* lists */
+    .resume-entry-summary ul,
+    .resume-entry-summary ol,
+    .resume-summary-content ul,
+    .resume-summary-content ol {
+      padding-left: var(--spacing-lg);
+      list-style-type: circle;
+    }
+
+    /* labeled lists (courses, keywords, etc.) */
+    .resume-labeled-list span {
+      font-weight: 500;
+    }
+
+    /* skills grid */
+    .resume-skill-item,
+    .resume-language-item {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .resume-skill-name,
+    .resume-language-name {
+      font-weight: 500;
+    }
+
+    .resume-skill-level,
+    .resume-language-fluency {
+      font-weight: 400;
+    }
+
+    /* mobile */
+    @media (max-width: 768px) {
+      body {
+        padding: var(--spacing-xl);
+      }
+
+      .resume-header {
+        margin-bottom: var(--spacing-xl);
+      }
+
+      .resume-contact-info {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .resume-entry-header {
+        flex-wrap: wrap;
+      }
+
+      .resume-skill-item,
+      .resume-language-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    /* footer */
+    .resume-footer {
+      margin-top: var(--spacing-xxl);
+      padding-top: var(--spacing-xl);
+      border-top: 1px solid var(--border-color);
+      font-size: var(--font-size-sm);
+      color: var(--text-color-secondary);
+    }
+
+    @media print {
+      .resume-footer {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="resume-header">
+    <h1 class="resume-name">王逸鸣</h1>
+    <p class="resume-headline">计算机科学与人工智能理学学士</p>
+    <div class="resume-contact-info">
+      <span class="resume-contact-item"><span class="resume-contact-icon">📧</span><a href="mailto:pleasure9876@qq.com" class="resume-contact-link">pleasure9876@qq.com</a></span>
+      <span class="resume-contact-item"><span class="resume-contact-icon">🔗</span><a href="https://yiming1234.cn" class="resume-contact-link">https://yiming1234.cn</a></span>
+    </div>
+
+    <div class="resume-contact-info resume-profiles-info">
+      <span class="resume-contact-item"><span class="resume-contact-label">GitHub</span>: <a href="https://github.com/Pleasurecruise" class="resume-contact-link">@Pleasurecruise</a></span>
+      <span class="resume-contact-item"><span class="resume-contact-label">Twitter</span>: <a href="https://twitter.com/Pleasure9876" class="resume-contact-link">@Pleasure9876</a></span>
+    </div>
+  </header>
+  <section class="resume-section" data-section="summary">
+    <h2 class="resume-section-title">简介</h2>
+    <div class="resume-section-content">
+      <div class="resume-summary-content">
+        <p>注重实际影响的计算机科学学生，专注于人工智能与全栈开发，将研究严谨性与产品交付相结合。
+          熟悉 TypeScript、Vue、React 等现代框架，具备前端实习经历与大型开源项目核心贡献经验，
+          希望参与从需求分析到部署运维的全流程开发，在实战中持续深化工程化思维。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="education">
+    <h2 class="resume-section-title">教育背景</h2>
+    <div class="resume-section-content">
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">诺丁汉大学</div>
+            <div class="resume-entry-organization">学士，计算机科学与人工智能</div>
+          </div>
+          <div class="resume-entry-date">2025年9月至今</div>
+        </div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">诺丁汉大学宁波校区</div>
+            <div class="resume-entry-organization">学士，计算机科学与技术，成绩：3.85</div>
+          </div>
+          <div class="resume-entry-date">2023年9月–2025年6月</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>预科 GPA 3.8/4.0，一年级 GPA 3.85/4.0，约专业前 20%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="work">
+    <h2 class="resume-section-title">工作经历</h2>
+    <div class="resume-section-content">
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">上海火溶信息技术有限公司</div>
+            <div class="resume-entry-organization">前端工程师实习生</div>
+          </div>
+          <div class="resume-entry-date">2025年4月–2025年5月</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>参与&quot;植物大战僵尸2 UGC上传系统&quot;项目的需求分析、系统设计与编码实现，主导前端开发：</p>
+          <ul>
+            <li>
+              <p>使用 shadcn-vue 组件库与 lucide-vue-next 图标库，采用 Tailwind CSS 完成高还原度 UI 开发</p>
+            </li>
+            <li>
+              <p>使用 Vue Router 实现页面导航，封装 Axios 拦截器统一处理请求转发与鉴权逻辑</p>
+            </li>
+            <li>
+              <p>负责部署前后端测试环境，验证接口与接口文档一致性，解决跨域通信与联调调试问题</p>
+            </li>
+            <li>
+              <p>与测试团队协作完成单元测试与 Bug 修复，持续优化系统性能与稳定性</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">浙大宁波科创中心</div>
+            <div class="resume-entry-organization">研究实习生</div>
+          </div>
+          <div class="resume-entry-date">2025年6月–2025年8月</div>
+        </div>
+        <div class="resume-entry-summary">
+          <ul>
+            <li>
+              <p>重新实现 Mamba-TasNet 语音分离流程，使其与已发表的中英文数据集研究基准保持一致</p>
+            </li>
+            <li>
+              <p>自动化数据预处理和混合精度训练工作流程，提升中心计算集群的迭代速度</p>
+            </li>
+            <li>
+              <p>每周向研究小组汇报实验进展，为即将进行的试点项目提供部署计划信息</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="languages">
+    <h2 class="resume-section-title">语言</h2>
+    <div class="resume-section-content">
+      <div class="resume-languages-list">
+        <div class="resume-language-item">
+          <div class="resume-language-name">中文<span class="resume-language-fluency">：母语或双语水平</span></div>
+        </div>
+        <div class="resume-language-item">
+          <div class="resume-language-name">英语<span class="resume-language-fluency">：完全专业水平</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="skills">
+    <h2 class="resume-section-title">专业技能</h2>
+    <div class="resume-section-content">
+      <div class="resume-skill-item">
+        <div class="resume-skill-name">编程语言<span class="resume-skill-level">：专家</span></div>
+        <div>
+          <div class="resume-labeled-list"><span>关键字</span>：TypeScript（熟悉）、Java（一般）、Python、Go、C++、JavaScript、HTML / CSS</div>
+        </div>
+      </div>
+      <div class="resume-skill-item">
+        <div class="resume-skill-name">框架<span class="resume-skill-level">：高级</span></div>
+        <div>
+          <div class="resume-labeled-list"><span>关键字</span>：React、Next.js、Node.js、Vue、UniApp、Electron、Tauri、Spring Boot</div>
+        </div>
+      </div>
+      <div class="resume-skill-item">
+        <div class="resume-skill-name">数据与工具<span class="resume-skill-level">：高级</span></div>
+        <div>
+          <div class="resume-labeled-list"><span>关键字</span>：Docker、PostgreSQL、MongoDB、MySQL、Nginx、Git / GitHub</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="awards">
+    <h2 class="resume-section-title">荣誉</h2>
+    <div class="resume-section-content">
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">HackNotts 2025 参与者</div>
+            <div class="resume-entry-organization">诺丁汉大学</div>
+          </div>
+          <div class="resume-entry-date">2025年10月</div>
+        </div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">LeedsHack 2026 参与者</div>
+            <div class="resume-entry-organization">利兹大学</div>
+          </div>
+          <div class="resume-entry-date">2026年2月</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="projects">
+    <h2 class="resume-section-title">项目</h2>
+    <div class="resume-section-content">
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title"><a href="https://github.com/CherryHQ/cherry-studio">Cherry Studio</a></div>
+            <div class="resume-entry-description">跨平台 AI 桌面客户端 · 核心贡献者</div>
+          </div>
+          <div class="resume-entry-date">2025年2月至今</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>开源社区贡献 · GitHub 40k+ Stars · Electron + TypeScript</p>
+          <ul>
+            <li>
+              <p>LLM Provider 配置完善：设计动态校验与容错逻辑，处理 API Key 验证、Endpoint 动态路由，优化网络错误/未授权等场景的报错提示与补救建议</p>
+            </li>
+            <li>
+              <p>对话导入与数据迁移：实现对话历史导入模块，稳定处理异构数据格式，优化本地存储与 UI 展示的数据一致性</p>
+            </li>
+            <li>
+              <p>UI/UX 稳定性提升：修复笔记排序与过滤、标签导航、拖拽排序等多项竞态和状态管理问题</p>
+            </li>
+            <li>
+              <p>国际化与社区协作：为核心界面添加 i18n 支持，编写双语 API 文档与贡献指南，降低新贡献者上手门槛</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>关键字</span>： Electron、React、TypeScript</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title"><a href="https://github.com/CherryHQ/cherry-studio-app">Cherry Studio App</a></div>
+            <div class="resume-entry-description">跨平台移动端 AI 客户端 · 核心贡献者</div>
+          </div>
+          <div class="resume-entry-date">2025年2月至今</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>开源社区贡献 · GitHub 2k+ Stars · Expo + React Native</p>
+          <ul>
+            <li>
+              <p>状态管理架构：使用 Redux Toolkit 设计全局状态（对话历史、模型状态、用户配置），通过异步中间件保障一致性，减少界面卡顿</p>
+            </li>
+            <li>
+              <p>UI 组件开发：开发对话列表、消息详情、模型切换面板等核心页面组件，实现暗/亮主题自适应</p>
+            </li>
+            <li>
+              <p>本地存储优化：集成 Drizzle ORM 构建轻量本地数据层，支持无网络下查看历史会话与配置缓存，优化高并发读写性能</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>关键字</span>： React Native、Expo、TypeScript</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title"><a href="https://github.com/CompPsyUnion/NottinghamWall">NottinghamWall</a></div>
+            <div class="resume-entry-description">校园墙微信小程序</div>
+          </div>
+          <div class="resume-entry-date">2024年6月–2024年12月</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>为解决校内技术交流平台缺失问题，设计开发多端开源论坛系统</p>
+          <ul>
+            <li>
+              <p>架构设计：Spring Boot + MyBatis 构建后端 RESTful API，Vue3 + Element Plus 开发管理后台，UniApp 实现微信小程序端</p>
+            </li>
+            <li>
+              <p>权限系统：基于 JWT 的 RBAC 三级权限体系（管理员/普通用户/游客）</p>
+            </li>
+            <li>
+              <p>性能优化：虚拟列表技术实现话题流流畅滚动；集成微信敏感词检测与阿里云 OSS 图片违规审核</p>
+            </li>
+            <li>
+              <p>运营数据：GitHub 290+ Stars，累计用户 150+</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>关键字</span>： Spring Boot、Vue3、UniApp</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title"><a href="https://github.com/Pleasurecruise/hacknotts-cli">hacknotts-cli</a></div>
+            <div class="resume-entry-description">AI 驱动交互式 CLI 工具 — HackNotts 2025</div>
+          </div>
+          <div class="resume-entry-date">2025年10月–2025年10月</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>HackNotts 2025 黑客松参赛项目</p>
+          <ul>
+            <li>
+              <p>使用 TypeScript + Node.js + React (Ink) 构建优雅的终端交互界面</p>
+            </li>
+            <li>
+              <p>集成 OpenAI、Anthropic、Google、xAI 等多家 AI 提供商，支持实时切换与流式响应</p>
+            </li>
+            <li>
+              <p>内置插件系统与 MCP（Model Context Protocol）扩展架构，提供命令管理、历史导出（JSON/Markdown）等功能</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>关键字</span>： TypeScript、Node.js、MCP</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title"><a href="https://github.com/Pleasurecruise/leedshack-digitalpet">Digital Pet</a></div>
+            <div class="resume-entry-description">AI 交互式桌宠应用 — LeedsHack 2026</div>
+          </div>
+          <div class="resume-entry-date">2026年2月–2026年2月</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>LeedsHack 2026 黑客松参赛项目</p>
+          <ul>
+            <li>
+              <p>参考 BongoCat 实现交互式桌宠逻辑，使用 TypeScript + Vue + Tauri2 构建跨平台桌面应用</p>
+            </li>
+            <li>
+              <p>结合 AI 模型增强桌宠行为（文本/状态生成），模块化结构便于扩展新互动特性</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>关键字</span>： TypeScript、Vue、Tauri2</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title"><a href="https://github.com/Pleasurecruise/my-monorepo">My Monorepo</a></div>
+            <div class="resume-entry-description">前端 Monorepo 基础模板</div>
+          </div>
+          <div class="resume-entry-date">2026年1月至今</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>参考 midday、create-t3-turbo 构建的个人 Monorepo 基础模板</p>
+          <ul>
+            <li>
+              <p>TurboRepo + pnpm Workspaces 实现高效依赖管理与任务编排（build/test/run）</p>
+            </li>
+            <li>
+              <p>技术栈：TypeScript、Vite、Vitest、Rollup；配置 oxfmt 格式化与 oxlint 代码规范</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>关键字</span>： TurboRepo、pnpm、TypeScript</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">基于深度学习的医学图像分析</div>
+            <div class="resume-entry-description">研究项目 — 诺丁汉大学</div>
+          </div>
+          <div class="resume-entry-date">2025年6月–2025年8月</div>
+        </div>
+        <div class="resume-entry-summary">
+          <ul>
+            <li>
+              <p>使用 Python + TensorFlow/PyTorch 设计并实现 CNN 和 Vision Transformer，用于 X 光、MRI、CT 影像疾病检测与异常分类</p>
+            </li>
+            <li>
+              <p>完成图像预处理、数据增强和模型评估，提升诊断效率并减少人工标注工作量</p>
+            </li>
+            <li>
+              <p>每周向课题组汇报进展，在限定时间内交付可行性成果</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>关键字</span>： Python、PyTorch、TensorFlow</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="interests">
+    <h2 class="resume-section-title">兴趣爱好</h2>
+    <div class="resume-section-content">
+      <div class="resume-interest-item"><span class="resume-interest-name">开源贡献</span>：文档翻译（React、Flutter、MDN Web Docs）、贡献 docmost、blinko、Hello Github 等、创立 CompPsyUnion GitHub 组织、曾担任宁波诺丁汉大学 CPU 技术部副部长</div>
+    </div>
+  </section>
