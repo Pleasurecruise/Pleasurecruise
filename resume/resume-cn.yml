@@ -207,6 +207,6 @@ locale:
 
 layouts:
   - engine: latex
-    template: moderncv-banking
+    template: jake
   - engine: html
     template: calm
