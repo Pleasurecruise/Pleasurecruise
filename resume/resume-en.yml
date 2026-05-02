@@ -218,3 +218,5 @@ layouts:
     template: jake
   - engine: html
     template: calm
+    advanced:
+      footer: ''
