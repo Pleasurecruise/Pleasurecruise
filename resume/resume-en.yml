@@ -1,14 +1,14 @@
 content:
   basics:
     name: Yiming Wang
-    headline: BSc Computer Science with Artificial Intelligence
+    headline: Computer Science with AI Undergraduate | AI Agents & Full-stack Engineering
     email: pleasure9876@qq.com
     url: https://yiming1234.cn
     summary: |
-      Impact-driven Computer Science student specialising in AI and full-stack development,
-      blending research rigour with production delivery. Experienced in TypeScript, Vue, and React
-      with front-end internship experience and core contributions to large-scale open-source projects.
-      Seeking end-to-end ownership from requirements through deployment.
+      Computer Science student focused on AI agents and full-stack product engineering, with experience
+      spanning research experiments, production implementation, and end-to-end delivery. Core contributor
+      to the 50k+ star Cherry Studio ecosystem, third-prize winner in the AdventureX 2026 PandaAI
+      quantitative trading track, and independent builder of multiple cloud-native products.
 
   profiles:
     - network: GitHub
@@ -22,7 +22,10 @@ content:
     - institution: University of Nottingham
       degree: Bachelor
       area: Computer Science with Artificial Intelligence
+      score: "3.85"
       startDate: Sep 1, 2025
+      endDate: Jun 30, 2027
+      summary: Year 2 GPA 3.85/4.0, Top 20% of cohort
 
     - institution: University of Nottingham Ningbo China
       degree: Bachelor
@@ -33,16 +36,14 @@ content:
       summary: Foundation Year GPA 3.8/4.0, First Year GPA 3.85/4.0, Top 20% of cohort
 
   work:
-    - name: Shanghai HRG Information Technology Co.
-      position: Front-end Engineer Intern
-      startDate: Apr 1, 2025
-      endDate: May 31, 2025
+    - name: Shanghai Qianhui Technology Co., Ltd.
+      position: Open-source Software Engineer Intern (Cherry Studio)
+      startDate: Jun 1, 2026
       summary: |
-        Led front-end development of the Plants vs. Zombies 2 UGC upload platform end-to-end:
-        - Built high-fidelity UI using shadcn-vue, lucide-vue-next, and Tailwind CSS
-        - Implemented multi-page navigation with Vue Router; unified Axios interceptors for request handling and auth
-        - Deployed test environments for front and back end; resolved cross-origin issues and validated API contracts
-        - Collaborated with QA on unit testing and bug fixes to improve system stability
+        Maintain the 50k+ star cross-platform Cherry Studio AI desktop client within the startup behind the project
+        - Deliver features and fixes across Agent Runtime, models and providers, Code CLI integrations, data migration, and desktop interaction layers
+        - Landed 42 commits in the main repository during summer 2026, including system skill discovery, an image-generation agent tool, provider-aware speed controls, and interactive QR authentication
+        - Expanded native integrations for Kimi Code, Qoder, Claude Code, and OpenClaw while addressing user-data migration, dependency security, and API key protection
 
     - name: Ningbo Global Innovation Center, Zhejiang University
       position: Research Intern
@@ -53,140 +54,191 @@ content:
         - Automated data preprocessing and mixed-precision training workflows, improving iteration speed on the centre's compute cluster
         - Delivered weekly experiment updates to the research group to inform deployment plans for forthcoming pilots
 
+    - name: Department of Computer Science, University of Nottingham Ningbo China
+      position: FoSE Undergraduate Research Practice Intern
+      startDate: Jun 2, 2025
+      endDate: Aug 15, 2025
+      summary: |
+        Faculty of Science and Engineering Student Extra-Curriculum Programme 2024–2025 · Undergraduate Research Practice (In-semester Round) · Supervisor: Chin Poo Lee
+        - Integrated U-Net's encoder-decoder design with Mamba selective state-space modelling in an nnU-Net-based BTCV multi-organ segmentation pipeline
+        - Improved Dice from 82.33 to 83.94 and reduced 95HD from 6.92 to 5.68 versus nnU-Net, while cutting parameters from 88M to 60M
+        - Reproduced models, conducted quantitative and qualitative evaluation, and delivered the final research poster across CNN, Vision Mamba, Vision Transformer, and U-Net methods
+
+    - name: Shanghai Huorong Information Technology Co., Ltd.
+      position: Front-end Engineer Intern
+      startDate: Apr 1, 2025
+      endDate: May 15, 2025
+      summary: |
+        Led front-end development of the Plants vs. Zombies 2 UGC upload platform end-to-end:
+        - Built high-fidelity UI using shadcn-vue, lucide-vue-next, and Tailwind CSS
+        - Implemented navigation with Vue Router and unified Axios interceptors for request forwarding and authentication
+        - Deployed front-end and back-end test environments, validated request/response models against API documentation, and resolved cross-origin integration issues
+        - Collaborated with QA on unit testing, bug fixes, and performance improvements
+
+    - name: Jiangsu Itcast Education Technology Co., Ltd.
+      position: Java Development Engineer Intern
+      startDate: Apr 1, 2024
+      endDate: May 12, 2024
+      summary: |
+        - Applied Java knowledge to production-oriented development tasks within the Product Development Department and delivered assigned work on schedule
+        - Collaborated with supervisors and colleagues on requirements, problem-solving, and day-to-day engineering delivery
+
   projects:
     - name: Cherry Studio
       url: https://github.com/CherryHQ/cherry-studio
-      description: Cross-platform AI Desktop Client · Core Maintainer
+      description: Cross-platform AI Desktop Client · Core Contributor
       startDate: Feb 1, 2025
       summary: |
-        Open-source · 40k+ GitHub Stars · Electron + TypeScript
-        - Provider config: designed dynamic validation and fault-tolerance for API Key verification and Endpoint routing; improved error feedback with actionable recovery suggestions
-        - Conversation import: built history import module handling heterogeneous data formats; optimised local storage and UI consistency
-        - UI stability: fixed race conditions and state bugs in note sorting, tab navigation, and drag-and-drop ordering
-        - i18n & docs: added internationalisation for core views; wrote bilingual API docs and contribution guide to lower onboarding friction
+        Large-scale open-source project · 50k+ GitHub Stars · Electron + React + TypeScript
+        - Agent capabilities: implemented system skill discovery, an image-generation Agent/Chat tool, interactive QR authentication for channels, and endpoint routing for mixed-provider models
+        - CLI ecosystem: evolved Kimi Code, Qoder, Claude Code, and OpenClaw integrations with native configuration persistence and feature parity
+        - Data and architecture: completed pre-boot user-data relocation, migrated ImportService from Redux to DataApi, and protected user-default models during reconciliation
+        - Reliability and security: fixed editor, message-selection, conversation-tab, and provider-setting issues while resolving critical dependency vulnerabilities and hardening API key handling
       keywords:
         - Electron
         - React
         - TypeScript
 
+    - name: Assay
+      url: https://github.com/Pleasurecruise/assay
+      description: Strategy Credibility Audit Agent · Third Prize, AdventureX 2026 PandaAI Trading Track
+      startDate: Jul 22, 2026
+      endDate: Jul 26, 2026
+      summary: |
+        Built an independent quality-assurance layer for AI trading ecosystems that validates alpha claims without recommending securities, predicting markets, or promising returns
+        - Designed five isolated checks running in parallel across parameter robustness, data availability, transaction-cost stress, market-regime dependency, and signal homogeneity/decay
+        - Introduced Moiré cross-validation to resolve conflicting findings through discriminating follow-up experiments, followed by deterministic five-level verdicts and reproducible evidence
+        - Implemented natural-language intake, deterministic StrategySpec validation and freezing, a structured backtester, and versioned JSON/Markdown Artifacts
+        - Packaged the system as an A2A Remote Agent with task-state streaming and protocol-level cancellation for multi-agent trading workflows
+      keywords:
+        - A2A
+        - TypeScript
+        - React
+        - Python
+        - Bun
+
     - name: Cherry Studio App
       url: https://github.com/CherryHQ/cherry-studio-app
-      description: Cross-platform Mobile AI Client · Core Developer
+      description: Cross-platform Mobile AI Client · Core Contributor
       startDate: Feb 1, 2025
       summary: |
-        Open-source · 2k+ GitHub Stars · Expo + React Native
-        - State management: designed global state architecture with Redux Toolkit (conversation history, model state, user config); async middleware ensures consistency and reduces UI jank
-        - UI components: built conversation list, message detail, and model switcher; implemented dark/light theme adaptation
-        - Local storage: integrated Drizzle ORM for offline session viewing and config caching; optimised high-concurrency read/write performance
+        Open-source · 3k+ GitHub Stars · Expo + React Native
+        - Designed global state for conversation history, model state, and user preferences with Redux Toolkit and asynchronous middleware
+        - Built core conversation-list, message-detail, and model-switching components with adaptive dark and light themes
+        - Integrated Drizzle ORM as a lightweight local data layer for offline history access and configuration caching
       keywords:
         - React Native
         - Expo
         - TypeScript
 
+    - name: my-memos
+      url: https://github.com/Pleasurecruise/my-memos
+      description: Cloud-native Personal Knowledge App with AI and MCP
+      startDate: May 11, 2026
+      summary: |
+        Independently designed and deployed a personal knowledge product at memos.you-find.me
+        - Built a full-stack SvelteKit application on Cloudflare Workers, using D1 for indexes and searchable mirrors, R2 for canonical Markdown, and KV for disposable caches
+        - Integrated Better Auth with Google OAuth, single-user allowlisting, and server-side boundary validation for private data
+        - Added context-aware AI chat through Cloudflare AI Gateway with tools for searching, creating, updating, and deleting memos
+        - Exposed an API-key-protected Streamable HTTP MCP service and covered MCP, authorisation, message streaming, and storage services with unit tests
+      keywords:
+        - SvelteKit
+        - Cloudflare Workers
+        - MCP
+        - Drizzle ORM
+
+    - name: my-moment
+      url: https://github.com/Pleasurecruise/my-moment
+      description: Cloud-native Personal Space for Photos, Journeys, and Collections
+      startDate: Jun 6, 2026
+      summary: |
+        Independently designed and deployed a multi-module personal product at moment.you-find.me
+        - Built gallery, journey map, guestbook, and collection/wishlist modules with SolidJS, Hono, and Cloudflare Workers
+        - Implemented browser-side HEIC/HEIF conversion, batch uploads, and masonry/list views, with R2, D1, and KV separating media, business data, and caches
+        - Integrated Mapbox travel footprints, Better Auth, and a threaded infinite-scroll guestbook, backed by database migrations, CI, and service-level tests
+      keywords:
+        - SolidJS
+        - Hono
+        - Cloudflare Workers
+        - Mapbox
+
     - name: NottinghamWall
       url: https://github.com/CompPsyUnion/NottinghamWall
-      description: Campus WeChat Mini-program
+      description: Campus WeChat Mini-program · Founder and Lead Developer
       startDate: Jun 1, 2024
       endDate: Dec 31, 2024
       summary: |
-        Full-stack campus forum built to fill the gap in student tech community tooling
-        - Stack: Spring Boot + MyBatis RESTful API, Vue3 + Element Plus admin panel, UniApp WeChat Mini-program
-        - Auth: JWT-based RBAC system with three permission tiers (admin / user / guest)
-        - Performance: virtual list for smooth topic feed scrolling; WeChat sensitive-word filter and Alibaba Cloud OSS image moderation
-        - Traction: 290+ GitHub Stars, 150+ cumulative users
+        Designed and delivered a multi-client open-source campus forum, reaching 150+ users and 250+ GitHub Stars
+        - Built the RESTful API with Spring Boot and MyBatis, the administration console with Vue 3 and Element Plus, and the WeChat client with UniApp
+        - Designed a three-tier JWT-based RBAC system and integrated WeChat sensitive-word detection with Alibaba Cloud OSS image moderation
+        - Optimised topic-feed scrolling with virtual lists and owned the product lifecycle from system design and deployment through early operations
       keywords:
         - Spring Boot
-        - Vue3
+        - Vue 3
         - UniApp
-
-    - name: hacknotts-cli
-      url: https://github.com/Pleasurecruise/hacknotts-cli
-      description: AI-powered Interactive CLI — HackNotts 2025
-      startDate: Oct 25, 2025
-      endDate: Oct 26, 2025
-      summary: |
-        HackNotts 2025 hackathon project
-        - Built elegant terminal UI with TypeScript + Node.js + React (Ink)
-        - Integrated OpenAI, Anthropic, Google, xAI providers with real-time switching and streaming responses
-        - Designed plugin system and MCP (Model Context Protocol) extension architecture; built-in command management and history export (JSON/Markdown)
-      keywords:
-        - TypeScript
-        - Node.js
-        - MCP
-
-    - name: Digital Pet
-      url: https://github.com/Pleasurecruise/leedshack-digitalpet
-      description: AI Interactive Desktop Pet — LeedsHack 2026
-      startDate: Feb 7, 2026
-      endDate: Feb 8, 2026
-      summary: |
-        LeedsHack 2026 hackathon project
-        - Implemented interactive desktop pet logic inspired by BongoCat using TypeScript + Vue + Tauri2
-        - Integrated AI model to enhance pet behaviour (text/state generation); modular architecture for extending new interactions
-      keywords:
-        - TypeScript
-        - Vue
-        - Tauri2
-
-    - name: My Monorepo
-      url: https://github.com/Pleasurecruise/my-monorepo
-      description: Front-end Monorepo Starter Template
-      startDate: Jan 1, 2026
-      summary: |
-        Personal Monorepo base template inspired by midday and create-t3-turbo
-        - TurboRepo + pnpm Workspaces for efficient dependency management and task orchestration (build/test/run)
-        - Stack: TypeScript, Vite, Vitest, Rollup; configured oxfmt formatting and oxlint code style enforcement
-      keywords:
-        - TurboRepo
-        - pnpm
-        - TypeScript
-
-    - name: Medical Image Analysis with Deep Learning
-      description: Research Project — University of Nottingham
-      startDate: Jun 2, 2025
-      endDate: Aug 15, 2025
-      summary: |
-        - Designed CNN and Vision Transformer architectures for disease detection and abnormality classification from X-rays, MRIs, and CT scans
-        - Completed image preprocessing, data augmentation, and model evaluation to improve diagnostic efficiency and reduce annotation workload
-        - Delivered weekly progress reports with actionable outcomes within a fixed research timeline
-      keywords:
-        - Python
-        - PyTorch
-        - TensorFlow
 
   skills:
     - name: Programming Languages
-      level: Expert
+      level: Advanced
       keywords:
-        - TypeScript (Expert)
-        - Java (Advanced)
+        - TypeScript
+        - Java
         - Python
         - Go
         - C++
         - JavaScript
-        - HTML / CSS
 
-    - name: Frameworks
+    - name: Front-end & Cross-platform
       level: Advanced
       keywords:
         - React
+        - React Native
         - Next.js
-        - Node.js
-        - Vue3
+        - Vue 3
+        - SvelteKit
+        - SolidJS
         - UniApp
         - Electron
-        - Tauri
-        - Spring Boot
+        - Expo
+        - HTML / CSS
+        - Tailwind CSS
 
-    - name: Data & Tooling
+    - name: Back-end & Databases
+      level: Advanced
+      keywords:
+        - Node.js
+        - Hono
+        - Spring Boot
+        - MyBatis
+        - PostgreSQL
+        - MySQL
+        - MongoDB
+        - SQLite
+        - Cloudflare D1
+        - Drizzle ORM
+
+    - name: AI & Agent Engineering
+      level: Advanced
+      keywords:
+        - LLM API Integration
+        - A2A Protocol
+        - MCP
+        - Multi-agent Orchestration
+        - Structured Tool Calling
+        - PyTorch / Deep Learning
+
+    - name: Engineering & Cloud
       level: Advanced
       keywords:
         - Docker
-        - PostgreSQL
-        - MongoDB
-        - MySQL
         - Nginx
+        - Cloudflare Workers
+        - Cloudflare R2 / KV
+        - Bun
+        - pnpm
         - Git / GitHub
+        - Vitest
+        - CI/CD
 
   languages:
     - language: Chinese
@@ -195,12 +247,9 @@ content:
       fluency: Full Professional Proficiency
 
   awards:
-    - title: HackNotts 2025 Participant
-      awarder: University of Nottingham
-      date: Oct 1, 2025
-    - title: LeedsHack 2026 Participant
-      awarder: University of Leeds
-      date: Feb 1, 2026
+    - title: Third Prize, AdventureX 2026 PandaAI "Trading the Future" Quantitative Trading Track
+      awarder: AdventureX / PandaAI
+      date: Jul 26, 2026
 
   interests:
     - name: Open Source
@@ -209,6 +258,10 @@ content:
         - "OSS: docmost, blinko, lobehub, etc."
         - Founded CompPsyUnion GitHub org
         - Deputy Director, CPU Club UNNC
+    - name: Hackathons
+      keywords:
+        - Third Prize, AdventureX 2026 PandaAI Quantitative Trading Track
+        - Participant, HackNotts 2025 and LeedsHack 2026
 
 locale:
   language: en
